@@ -1,0 +1,7 @@
+name: deployapps-landing-page
+region: us-east-1
+yamlVersion: 2
+frontend:
+  path: ./
+  subdomain: deployapps 
+  publish: ./public
