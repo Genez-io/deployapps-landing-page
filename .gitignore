@@ -137,5 +137,4 @@ public/
 .DS_Store
 
 .idea/
-.github/
 .hugo_build.lock
