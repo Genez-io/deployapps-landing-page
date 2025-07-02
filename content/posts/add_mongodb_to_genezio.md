@@ -9,7 +9,7 @@ thumbnail: /images/genezio_mongodb.webp
 
 preview: In this tutorial, I will show you the steps of integrating a Mongo database into your genezio project.
 # meta data start
-description: "Learn how to integrate MongoDB into your Genezio project. Follow our tutorial for setting up a MongoDB Atlas cluster and connecting it with Genezio."
+description: "Learn how to integrate MongoDB into your DeployApps project. Follow our tutorial for setting up a MongoDB Atlas cluster and connecting it with DeployApps."
 
 meta_og_url: "https://genezio.com/blog/how-to-add-a-mongodb-to-your-genezio-project"
 meta_og_image: "https://genezio.com/images/genezio_mongodb.webp"

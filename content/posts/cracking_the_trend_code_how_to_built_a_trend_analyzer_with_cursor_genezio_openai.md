@@ -1,5 +1,5 @@
 ---
-title: "Cracking the Trend Code: How to Built a Trend Analyzer with Cursor, Genezio & OpenAI"
+title: "Cracking the Trend Code: How to Built a Trend Analyzer with Cursor, DeployApps & OpenAI"
 date: 2025-02-12
 tags:
   - Tutorials
@@ -8,7 +8,7 @@ linkedIn: https://ro.linkedin.com/in/rares-istoc-9aa401123
 thumbnail: /images/trend-analyzer.webp
 preview: This year has started on a rollercoaster, tech included. Incredible news appear every second day, the AI industry is on fire and the benchmarks are constantly moving. Funny enough, the buzz is contained in the online world while the day to day has more predictable shifts.
 # meta data start
-description: Learn how MLVanguards built an AI-powered LinkedIn trend tracker using Genezio. Step-by-step guide on trend monitoring, AI integration, and cloud deployment.
+description: Learn how MLVanguards built an AI-powered LinkedIn trend tracker using DeployApps. Step-by-step guide on trend monitoring, AI integration, and cloud deployment.
 meta_og_url: "https://genezio.com/blog/ai-trend-tracker-genezio/"
 meta_og_image: "https://genezio.com/images/trend-analyzer.webp"
 # meta data end
@@ -30,7 +30,7 @@ They analysed the content on LinkedIn – arguably the place to be to chase tren
 
 - **And for active users** (i.e “influencers”): Are people still interested in this topic enough to interact with the post? Or is this post forgettable?
 
-They devised a solution to allow any type of user to create their own internal tool for trend monitoring – all deployed with the help of Genezio! Here’s how they did it:
+They devised a solution to allow any type of user to create their own internal tool for trend monitoring – all deployed with the help of DeployApps! Here’s how they did it:
 
 ## Architecture walk through
 
@@ -44,7 +44,7 @@ The techniques presented combine knowledge of machine learning and data analysis
 
 - **OpenAI Key**, or any other model preferred;
 
-- A **Genezio** account for their cloud capabilities.
+- A **DeployApps** account for their cloud capabilities.
 
 **Data Collection and Preprocessing**
 
@@ -63,7 +63,7 @@ A last step for those looking to deploy this project on their own domain. The co
 
 > In order to deploy the solution, use `make deploy` in the root folder.
 
-The easy way is to head over to the {{< external-link link="https://app.genez.io/auth/login?redirect=new-project" >}}Genezio Dashboard{{< /external-link >}} to create a new project based on a template, add a personal implemmentation in the backend folder, a pretty UI in the frontend folder, the use `genezio local` test locally, then `genezio deploy` to put it online. Monitoring is then possible via the Genezio dashboard linked above.
+The easy way is to head over to the {{< external-link link="https://app.genez.io/auth/login?redirect=new-project" >}}DeployApps Dashboard{{< /external-link >}} to create a new project based on a template, add a personal implemmentation in the backend folder, a pretty UI in the frontend folder, the use `genezio local` test locally, then `genezio deploy` to put it online. Monitoring is then possible via the DeployApps dashboard linked above.
 
 ## Preview
 

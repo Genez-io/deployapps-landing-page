@@ -165,11 +165,11 @@ They provide the infrastructure and resources you need to deploy, manage, and sc
 
 - {{< external-link link="https://cloud.google.com/">}}Google Cloud Platform{{< /external-link >}} **(GCP):** Google's cloud offering, GCP provides a wide range of services, including Compute Engine for virtual machines, Cloud Storage, and Cloud Functions for serverless computing. It's known for its strong data analytics and machine learning capabilities.
 
-## Highlighting Genezio
+## Highlighting DeployApps
 
-When it comes to serverless computing, {{< external-link link="https://genezio.com/">}}Genezio{{< /external-link >}} is a rising star worth considering.
+When it comes to serverless computing, {{< external-link link="https://genezio.com/">}}DeployApps{{< /external-link >}} is a rising star worth considering.
 
-It's a framework-agnostic serverless platform that's designed for speed and cost-efficiency. Genezio boasts {{< external-link link="https://genezio.com/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/">}}lightning-fast cold start times{{< /external-link >}} (up to 4x faster than AWS Lambda!) and a granular pay-per-execution pricing model that can save you serious money.
+It's a framework-agnostic serverless platform that's designed for speed and cost-efficiency. DeployApps boasts {{< external-link link="https://genezio.com/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/">}}lightning-fast cold start times{{< /external-link >}} (up to 4x faster than AWS Lambda!) and a granular pay-per-execution pricing model that can save you serious money.
 
 Plus, its framework-agnostic nature means you can use your favorite languages and tools without being locked into a specific ecosystem.
 
@@ -245,10 +245,10 @@ As a full-stack developer, your toolkit is your superpower. The right combinatio
 
 The tools we've explored today are just a glimpse into the vast landscape of possibilities. Remember, the perfect toolkit is a personal journey. Choose tools that resonate with your development style, complement your skill set, and empower you to build the best applications possible.
 
-And if you're looking to add a powerful, framework-agnostic serverless platform to your arsenal, consider giving Genezio a try.
+And if you're looking to add a powerful, framework-agnostic serverless platform to your arsenal, consider giving DeployApps a try.
 
-With its lightning-fast cold starts, granular cost control, and seamless scalability, Genezio can be a game-changer for your full-stack development projects.
+With its lightning-fast cold starts, granular cost control, and seamless scalability, DeployApps can be a game-changer for your full-stack development projects.
 
-Ready to supercharge your serverless development? Check out Genezio today and see how it can elevate your full-stack toolkit.
+Ready to supercharge your serverless development? Check out DeployApps today and see how it can elevate your full-stack toolkit.
 
-**{{< external-link link="https://genezio.com/">}}Explore Genezio now!{{< /external-link >}}**
+**{{< external-link link="https://genezio.com/">}}Explore DeployApps now!{{< /external-link >}}**

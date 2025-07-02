@@ -16,7 +16,7 @@ readTime: 30
 ---
 
 Welcome, automation enthusiasts! My name is Cristi, and in this tutorial, I'll guide you through the process of creating an automated WhatsApp ChatBot and implementing a simple interaction with ChatGPT-4o.
-We’re also going to use {{< external-link link="https://genezio.com/" >}}Genezio{{< /external-link >}} as the tool to manage and quickly deploy a customized API that can communicate with the WhatsApp API Cloud and OpenAI API without the need for the user to manage servers on their own. Before we dive into the tutorial, let’s discuss the type of WhatsApp bots and the potential ways you can use a bot for personal or business related tasks.
+We’re also going to use {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} as the tool to manage and quickly deploy a customized API that can communicate with the WhatsApp API Cloud and OpenAI API without the need for the user to manage servers on their own. Before we dive into the tutorial, let’s discuss the type of WhatsApp bots and the potential ways you can use a bot for personal or business related tasks.
 
 ## What is a WhatsApp bot?
 
@@ -66,7 +66,7 @@ In this tutorial, we’ll discuss the following:
 
 The first time, open your favourite IDE and a terminal.
 
-1. In your terminal install Genezio using npm:
+1. In your terminal install DeployApps using npm:
 
 ```bash
 npm install genezio -g
@@ -183,11 +183,11 @@ This structure defines the following components:
 
 `webhook:` This method serves as the endpoint for receiving all application requests.
 
-## Why do we use Genezio?
+## Why do we use DeployApps?
 
-{{< external-link link="https://genezio.com/" >}}Genezio{{< /external-link >}} plays a crucial role in this tutorial by managing and quickly deploying a customized API that communicates with the WhatsApp API Cloud and OpenAI API. Genezio's platform simplifies the process of creating and maintaining scalable backends, ensuring that developers can focus on building the core features of their applications without worrying about server management. Its type-safe interface makes it particularly effective at connecting APIs reliably.
+{{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} plays a crucial role in this tutorial by managing and quickly deploying a customized API that communicates with the WhatsApp API Cloud and OpenAI API. DeployApps's platform simplifies the process of creating and maintaining scalable backends, ensuring that developers can focus on building the core features of their applications without worrying about server management. Its type-safe interface makes it particularly effective at connecting APIs reliably.
 
-By using Genezio, you benefit from a streamlined, efficient setup, enabling robust and seamless interactions between your WhatsApp bot and various services. This tool is not only excellent for this specific use case but also versatile for event planning, daily reminders, and more, making it an essential addition to your development toolkit. To learn more about Genezio and how you can use it for your next project, check out our {{< external-link link="https://genezio.com/docs/getting-started/" >}}starter guide{{< /external-link >}}.
+By using DeployApps, you benefit from a streamlined, efficient setup, enabling robust and seamless interactions between your WhatsApp bot and various services. This tool is not only excellent for this specific use case but also versatile for event planning, daily reminders, and more, making it an essential addition to your development toolkit. To learn more about DeployApps and how you can use it for your next project, check out our {{< external-link link="https://genezio.com/docs/getting-started/" >}}starter guide{{< /external-link >}}.
 
 ## How the WhatsApp API Works
 
@@ -231,7 +231,7 @@ export class GptWorker {
 
 This structure defines the following components:
 
-- @GenezioDeploy() decorator is used to know which class is deployed on the server provided by Genezio for the production environment. This way, your code can be accessed at any time without having a local server running.
+- @GenezioDeploy() decorator is used to know which class is deployed on the server provided by DeployApps for the production environment. This way, your code can be accessed at any time without having a local server running.
 - `export class GptWorker` is the definition of the class that we will use in this tutorial.
   OPENAI_API_KEY`is the credential you need.
 - `generateResponse` is the method by which we will be able to chat with ChatGPT-4o and return the response.
@@ -409,4 +409,4 @@ I hope that you found this WhatsApp ChatBot tutorial helpful, and I encourage yo
 
 If you would like to train your bot on your own data, we’ve put together {{< external-link link="https://genezio.com/blog/langchain-genezio-project" >}}this tutorial{{< /external-link >}}, which has a detailed explanation of how you can set that up.
 
-If you have any questions about this tutorial or the {{< external-link link="https://genezio.com/" >}}Genezio{{< /external-link >}} platform, feel free to reach out to me on Discord or via my email (cristi@genezio.com). Good luck!
+If you have any questions about this tutorial or the {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} platform, feel free to reach out to me on Discord or via my email (cristi@genezio.com). Good luck!

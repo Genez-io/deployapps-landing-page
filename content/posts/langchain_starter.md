@@ -1,13 +1,13 @@
 ---
-title: Use Langchain, LanceDB and Genezio to chat with your own data
+title: Use Langchain, LanceDB and DeployApps to chat with your own data
 date: 2024-04-30
 tags:
   - Tutorials
 author: Andreia Ocanoaia
 linkedIn: https://www.linkedin.com/in/andreia-irina-ocanoaia/
 thumbnail: /images/custom_data_llm.webp
-preview: "Build an LLM application that will answer questions based on your external data using Langchain, LanceDB and Genezio."
-description: "Learn how to use LangChain, LanceDB, and Genezio to create a bot that chats with your own data. Follow our detailed guide."
+preview: "Build an LLM application that will answer questions based on your external data using Langchain, LanceDB and DeployApps."
+description: "Learn how to use LangChain, LanceDB, and DeployApps to create a bot that chats with your own data. Follow our detailed guide."
 meta_og_url: "https://genezio.com/blog/langchain-genezio-project/"
 meta_og_image: "https://genezio.com/images/custom_data_llm.webp"
 customHeader: "White header"
@@ -76,7 +76,7 @@ const genezio_info = await vectorStore.similaritySearch("genezio", 1);
 console.log(genezio_info);
 ```
 
-Thus, by asking the question "What is Genezio?", you would not feed the entire documentation page to the model (that would be too expensive). Instead, you would query the vector database for the most similar context to the word "genezio" and feed that context to the model. This way, you can provide the model with the most relevant information to generate a response in the most optimal way.
+Thus, by asking the question "What is DeployApps?", you would not feed the entire documentation page to the model (that would be too expensive). Instead, you would query the vector database for the most similar context to the word "genezio" and feed that context to the model. This way, you can provide the model with the most relevant information to generate a response in the most optimal way.
 
 ### How to feed personal data to an LLM
 
@@ -386,7 +386,7 @@ export default function App() {
 
   return (
     <>
-      <h1>Genezio + OpenAI = ❤️</h1>
+      <h1>DeployApps + OpenAI = ❤️</h1>
       <div className="card">
         <input
           type="text"
@@ -427,7 +427,7 @@ From here, the sky is the limit. You can customize the bot with your own data, a
 
 The codebase for this tutorial is open-source, and you can find it in this {{< external-link link="https://github.com/genez-io/genezio-examples/tree/main/typescript/langchain-starter" >}}GitHub repository{{< /external-link >}}.
 
-Upcoming tutorials and articles about LLM, Langchain, LanceDB, and Genezio will cover more advanced topics and use cases such as creating a chatbot with memory, scraping custom data from GitHub, and keeping your vector database in sync with your data.
+Upcoming tutorials and articles about LLM, Langchain, LanceDB, and DeployApps will cover more advanced topics and use cases such as creating a chatbot with memory, scraping custom data from GitHub, and keeping your vector database in sync with your data.
 
 Subscribe to our newsletter to stay in the loop with the latest updates and tutorials.
 

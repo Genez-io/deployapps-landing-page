@@ -6,9 +6,9 @@ tags:
 author: Cristi Miloiu
 linkedIn: https://www.linkedin.com/in/cristi-miloiu-3a174a267/
 thumbnail: /images/template-tutorials.webp
-preview: Hello, I’m Cristi Miloiu and I will show you the process of deploying your app using Genezio, a powerful platform designed to simplify app deployment.
+preview: Hello, I’m Cristi Miloiu and I will show you the process of deploying your app using DeployApps, a powerful platform designed to simplify app deployment.
 # meta data start
-description: Learn how to deploy your apps with Genezio in this step-by-step guide. Perfect for frameworks like Flask, Django, FastAPI, Next.js, React, Angular, Vue, and more!
+description: Learn how to deploy your apps with DeployApps in this step-by-step guide. Perfect for frameworks like Flask, Django, FastAPI, Next.js, React, Angular, Vue, and more!
 meta_og_url: "https://genezio.com/blog/how-to-deploy-my-app/"
 meta_og_image: "https://genezio.com/images/template-tutorials.webp"
 # meta data end
@@ -18,7 +18,7 @@ readTime: 10
 url: /blog/how-to-deploy-my-app/
 ---
 
-Hello, I’m Cristi Miloiu and I will show you the process of deploying your app using Genezio, a powerful platform designed to simplify app deployment.
+Hello, I’m Cristi Miloiu and I will show you the process of deploying your app using DeployApps, a powerful platform designed to simplify app deployment.
 
 Whether you’re working with frameworks like Flask, Django, FastAPI, Next.js, React, Angular, or Vue, this guide provides a step-by-step approach to getting your app live quickly and efficiently.
 
@@ -26,7 +26,7 @@ Discover advanced features like real-time logs, in-browser code editing, databas
 
 # Step-by-Step Guide
 
-## Create a New Project on Genezio
+## Create a New Project on DeployApps
 
 1.1. Visit the {{< external-link link="https://app.genez.io/new-project/">}}dashboard{{< /external-link >}}.
 
@@ -47,7 +47,7 @@ Discover advanced features like real-time logs, in-browser code editing, databas
 2.3. Grant permissions by clicking **"Install & Authorize"**.
 
 ![alt_text](/posts/geneziotutorial4.webp)
-This step ensures Genezio can access your repository securely.
+This step ensures DeployApps can access your repository securely.
 
 ## Select and Import Your Repository
 
@@ -59,7 +59,7 @@ This step ensures Genezio can access your repository securely.
 
 ## Configuration Detection
 
-After importing your repository, Genezio will automatically identify your app's configuration.
+After importing your repository, DeployApps will automatically identify your app's configuration.
 
 This process involves analyzing files like `requirements.txt` or `package.json` to determine the framework in use.
 
@@ -69,7 +69,7 @@ If needed, you can customize the detected settings to better suit your deploymen
 
 ## Deploy Your Application
 
-Click "Create" to initiate the deployment process. Genezio will set up your environment, install dependencies, and prepare your app for production.
+Click "Create" to initiate the deployment process. DeployApps will set up your environment, install dependencies, and prepare your app for production.
 
 ![alt_text](/posts/geneziotutorial7.webp)
 
@@ -91,7 +91,7 @@ Use the **Logs Tab** to monitor your app’s performance in real-time. This is i
 
 ## In-Browser Code Editing
 
-Genezio lets you edit your application directly from the browser. Any changes you make can be deployed instantly with a single click.
+DeployApps lets you edit your application directly from the browser. Any changes you make can be deployed instantly with a single click.
 ![alt_text](/posts/geneziotutorial11.webp)
 
 ## Deployment History
@@ -117,10 +117,10 @@ Test your endpoints and verify your app's functionality in a controlled environm
 
 # Pro Tips for a Smooth Deployment
 
-- **Prepare a Clean Repository:** Ensure your app runs locally before importing it into Genezio. If your app is built with Python, make sure you have a `requirements.txt` file for dependencies. For Node.js, ensure you have a `package.json` file.
+- **Prepare a Clean Repository:** Ensure your app runs locally before importing it into DeployApps. If your app is built with Python, make sure you have a `requirements.txt` file for dependencies. For Node.js, ensure you have a `package.json` file.
 - **Leverage Automatic Deployment:** Clone your project locally, and any changes pushed to your repository will trigger an automatic deployment.
-- **Utilize Community Support:** Join the {{< external-link link="https://discord.com/invite/uc9H5YKjXv">}}Genezio Discord Server{{< /external-link >}} for assistance, or email me at cristi@genezio.com for direct support.
+- **Utilize Community Support:** Join the {{< external-link link="https://discord.com/invite/uc9H5YKjXv">}}DeployApps Discord Server{{< /external-link >}} for assistance, or email me at cristi@genezio.com for direct support.
 
 # Conclusion
 
-With Genezio, deploying your app is hassle-free and efficient. From automatic configuration detection to seamless custom domain setup, it simplifies every step. Get your app live quickly and start focusing on what matters most—building amazing features!
+With DeployApps, deploying your app is hassle-free and efficient. From automatic configuration detection to seamless custom domain setup, it simplifies every step. Get your app live quickly and start focusing on what matters most—building amazing features!

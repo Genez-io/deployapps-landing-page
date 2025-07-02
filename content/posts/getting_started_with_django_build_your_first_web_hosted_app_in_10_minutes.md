@@ -136,7 +136,7 @@ Open a browser and navigate to `http://localhost:8000`. You should see "Hello, W
 
 ### Step 1: Configure Allowed Hosts
 
-Add the Genezio domain .genez.io to the ALLOWED_HOSTS list in your settings.py file:
+Add the DeployApps domain .genez.io to the ALLOWED_HOSTS list in your settings.py file:
 
 ```python
 ALLOWED_HOSTS = [
@@ -146,9 +146,9 @@ ALLOWED_HOSTS = [
 ]
 ```
 
-### Step 2: Install the Genezio CLI
+### Step 2: Install the DeployApps CLI
 
-Install Genezio for deployment:
+Install DeployApps for deployment:
 
 ```bash
 npm install -g genezio
@@ -166,7 +166,7 @@ You’ll be prompted to provide the project name and region.
 
 ### Step 4: Test Locally
 
-Test your app locally with Genezio:
+Test your app locally with DeployApps:
 
 ```bash
 genezio local
@@ -184,7 +184,7 @@ Your app will be live at a custom subdomain, such as `https://your-app-name.app.
 
 ## Known limitations​
 
-Genezio does not support SQLite databases, because SQLite is not suitable for serverless applications. You need to use a different database like PostgreSQL or MongoDB. You can create it at this {{< external-link link="https://app.genez.io/databases" >}}link{{< /external-link >}} in the Genezio dashboard.
+DeployApps does not support SQLite databases, because SQLite is not suitable for serverless applications. You need to use a different database like PostgreSQL or MongoDB. You can create it at this {{< external-link link="https://app.genez.io/databases" >}}link{{< /external-link >}} in the DeployApps dashboard.
 
 ## Conclusion
 

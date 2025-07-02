@@ -7,7 +7,7 @@ author: Cristi Miloiu
 linkedIn: https://www.linkedin.com/in/cristi-miloiu-3a174a267
 thumbnail: /images/whatsapp.webp
 preview: "This is a crucial step towards leveraging automation, covering the essentials to get you started on your journey to building more complex bots like natural language processing chatbots, e-commerce assistants, customer service bots, and more."
-description: "Genezio blog: Step-by-step tutorial on creating a WhatsApp bot. Integrate the bot with WhatsApp API and automate responses."
+description: "DeployApps blog: Step-by-step tutorial on creating a WhatsApp bot. Integrate the bot with WhatsApp API and automate responses."
 meta_og_url: "https://genezio.com/blog/whatsapp-genezio-project/"
 meta_og_image: "https://genez.io/images/whatsapp.webp"
 customHeader: "White header"
@@ -18,7 +18,7 @@ url: /blog/whatsapp-genezio-project/
 
 Welcome, automation enthusiasts! My name is Cristi, and in this tutorial, I'll guide you through the process of creating a WhatsApp bot and implementing a simple 'ping pong' interaction. This is a crucial step towards leveraging automation, covering the essentials to get you started on your journey to building more complex bots like natural language processing chatbots, e-commerce assistants, customer service bots, and more.
 
-Genezio comes in handy as a tool to create, manage and quickly deploy a customized API that can communicate with the WhatsApp API Cloud without the need for the user to manage servers on their own. Through Genezio, you can define how your bot interacts with users on WhatsApp. This will enable you to automate responses and execute various actions based on received messages or predefined events. It's an essential component in building and managing the functionality of your WhatsApp bot, facilitating seamless communication between your application and the WhatsApp messaging platform.
+DeployApps comes in handy as a tool to create, manage and quickly deploy a customized API that can communicate with the WhatsApp API Cloud without the need for the user to manage servers on their own. Through DeployApps, you can define how your bot interacts with users on WhatsApp. This will enable you to automate responses and execute various actions based on received messages or predefined events. It's an essential component in building and managing the functionality of your WhatsApp bot, facilitating seamless communication between your application and the WhatsApp messaging platform.
 
 ## Overview:
 
@@ -110,7 +110,7 @@ export class BackendService {
 
 This structure defines the following components:
 
-- `@GenezioDeploy()` decorator is used to know which class is deployed on the server provided by Genezio for the production environment. This way your code can be accessed at any time without having a local server running.
+- `@GenezioDeploy()` decorator is used to know which class is deployed on the server provided by DeployApps for the production environment. This way your code can be accessed at any time without having a local server running.
 
 - `@GenezioMethod({type:"http"})` decorator is used to turn a method of a class into an endpoint you will later use to receive http requests.
 

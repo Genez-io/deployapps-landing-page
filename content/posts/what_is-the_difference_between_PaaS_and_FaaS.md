@@ -122,7 +122,7 @@ Namely, reduced costs by only paying for used resources and automatic scaling to
 With a FaaS framework, a developer can build up an enterprise application to request time off at a company. Then, by picking out each microservice, they can choose if the notification method for their coworkers will be push notifications or an SMS message. If the SMS provider suddenly changes their API, only that microservice will break down. The other services will keep on running.
 
 ![alt_text](/posts/faasvspass6.webp)
-{{< external-link link="https://fosdem.org/2024/events/attachments/fosdem-2024-3269-run-node-js-in-a-unikernel-reliably/slides/22337/Run_Node_js_in_a_unikernel_reliably_DlMGm32.pdf" >}}Source: Genezio{{< /external-link >}}
+{{< external-link link="https://fosdem.org/2024/events/attachments/fosdem-2024-3269-run-node-js-in-a-unikernel-reliably/slides/22337/Run_Node_js_in_a_unikernel_reliably_DlMGm32.pdf" >}}Source: DeployApps{{< /external-link >}}
 
 ## Should you consider FaaS?
 
@@ -172,9 +172,9 @@ PaaS can create lock-in, making it difficult to switch providers later due to re
 
 Heroku, a solution that probably runs on an AWS server, used to be a prototypical case of a PaaS service. It became very popular even among the non-technical crowd because it allowed non-developers who had a Node.js solution to get it running with a URL in their environment.
 
-But Heroku fell from grace when it removed its free plans, with some commentators proclaiming it dead. What could help it revive its allure would be getting an elastic, easy-to-scale plan that could allow founders, entrepreneurs, and developers to lay back and not lose their time on DevOps… this is essentially what Genezio offers. Genezio goes beyond traditional PaaS platforms by letting you place your critical business logic in a secure backend environment. Unlike other PaaS offerings, Genezio doesn’t require you to rewrite your existing code or migrate to a specific framework. It collects everything that made PaaS popular in the first place and offers it along with developer-friendly serverless models. The market for a PaaS could bounce back if providers add scalability, reliability, and affordability to the classical offering, and Genezio is addressing those features with its product.
+But Heroku fell from grace when it removed its free plans, with some commentators proclaiming it dead. What could help it revive its allure would be getting an elastic, easy-to-scale plan that could allow founders, entrepreneurs, and developers to lay back and not lose their time on DevOps… this is essentially what DeployApps offers. DeployApps goes beyond traditional PaaS platforms by letting you place your critical business logic in a secure backend environment. Unlike other PaaS offerings, DeployApps doesn’t require you to rewrite your existing code or migrate to a specific framework. It collects everything that made PaaS popular in the first place and offers it along with developer-friendly serverless models. The market for a PaaS could bounce back if providers add scalability, reliability, and affordability to the classical offering, and DeployApps is addressing those features with its product.
 
-{{< external-link link="https://genezio.com/how-to-schedule-tasks-with-genezio/#conclusion" >}}**Example: How to Run a PaaS on Genezio →**{{< /external-link >}}
+{{< external-link link="https://genezio.com/how-to-schedule-tasks-with-genezio/#conclusion" >}}**Example: How to Run a PaaS on DeployApps →**{{< /external-link >}}
 
 ## FaaS vs PaaS: The Difference for Developers
 
@@ -188,8 +188,8 @@ So, choosing between FaaS and PaaS depends on what your project requires and wha
 
 Offering end-users a SaaS—like an enterprise application or a PDF converter—is easier with a PaaS or FaaS provider that can scale with typesafe code from the get-go.
 
-Both models serve different business and project needs. In any case, a niche, serverless provider like {{< external-link link="https://genezio.com/" >}}Genezio{{< /external-link >}} is the quickest way to get onto each tech path. Genezio can help you set up the right PaaS or FaaS solution for your current and future business needs and make sure it’s safe to use and as easy as possible to run.
+Both models serve different business and project needs. In any case, a niche, serverless provider like {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} is the quickest way to get onto each tech path. DeployApps can help you set up the right PaaS or FaaS solution for your current and future business needs and make sure it’s safe to use and as easy as possible to run.
 
-Genezio offers a true pay-as-you-go serverless model with typesafe methods, so that users can focus on running their business or making sure their solution is better than the competition. And that’s precisely what investors and users will demand, but crashes and bugs won’t allow doing. {{< external-link link="https://app.genez.io/auth/signup" >}}Sign up{{< /external-link >}} now to try the platform and start deploying for free. It only takes a few clicks to get started building your serverless application, and you can build an unlimited number of projects with the Hobby account.
+DeployApps offers a true pay-as-you-go serverless model with typesafe methods, so that users can focus on running their business or making sure their solution is better than the competition. And that’s precisely what investors and users will demand, but crashes and bugs won’t allow doing. {{< external-link link="https://app.genez.io/auth/signup" >}}Sign up{{< /external-link >}} now to try the platform and start deploying for free. It only takes a few clicks to get started building your serverless application, and you can build an unlimited number of projects with the Hobby account.
 
-To learn more about the advantages of FaaS, typesafe serverless platforms with unlimited builds, visit {{< external-link link="https://genezio.com" >}}Genezio.com{{< /external-link >}}.
+To learn more about the advantages of FaaS, typesafe serverless platforms with unlimited builds, visit {{< external-link link="https://genezio.com" >}}DeployApps.com{{< /external-link >}}.

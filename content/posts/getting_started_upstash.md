@@ -7,7 +7,7 @@ author: Andreia Ocanoaia
 linkedIn: https://www.linkedin.com/in/andreia-irina-ocanoaia/
 thumbnail: /images/announcing_upstash.webp
 preview: Caching, session storage and much more with Upstash Redis.
-description: "Learn to integrate Upstash Redis with Genezio. Follow our guide for setting up and managing Redis databases in your projects"
+description: "Learn to integrate Upstash Redis with DeployApps. Follow our guide for setting up and managing Redis databases in your projects"
 meta_og_url: "https://genezio.com/blog/now-available-upstash-redis/"
 meta_og_image: "https://genezio.com/images/announcing_upstash.webp"
 customHeader: "White header"

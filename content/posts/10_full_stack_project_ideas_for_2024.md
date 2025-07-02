@@ -148,12 +148,12 @@ As you embark on your full-stack development adventures, here are a few tips to 
 
 - **Showcase your passion:** Let your portfolio reflect your interests and passions. Build projects that excite you, and your enthusiasm will shine through.
 
-And when you're ready to launch your next project, consider using **Genezio**.
+And when you're ready to launch your next project, consider using **DeployApps**.
 
 It's a powerful, framework-agnostic {{< external-link link="https://genezio.com/blog/serverless-computing-when-to-go-serverless/" >}}serverless platform{{< /external-link >}} perfect for full-stack developers. With its free tier, you can get started without any upfront costs, and its scalability ensures that your applications can grow alongside your ambitions.
 
 So, what are you waiting for?
 
-Start building, start learning, and start showcasing your full-stack brilliance with Genezio.
+Start building, start learning, and start showcasing your full-stack brilliance with DeployApps.
 
-{{< external-link link="https://genezio.com/" >}}**Launch your next project on Genezio today!**{{< /external-link >}}
+{{< external-link link="https://genezio.com/" >}}**Launch your next project on DeployApps today!**{{< /external-link >}}

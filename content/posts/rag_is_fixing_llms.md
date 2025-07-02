@@ -226,4 +226,4 @@ For organizations seeking to deploy AI solutions that combine the creative capab
 
 As the field continues to evolve, the organizations that will gain the most value are those that implement RAG frameworks today while maintaining the flexibility to incorporate emerging technologies as they mature.
 
-**Ready to enhance your LLMs with retrieval-augmented generation?** [Sign up on Genezio](https://genezio.com) today and deploy your RAG-powered application with infrastructure designed specifically for high-performance AI systems.
+**Ready to enhance your LLMs with retrieval-augmented generation?** [Sign up on DeployApps](https://genezio.com) today and deploy your RAG-powered application with infrastructure designed specifically for high-performance AI systems.

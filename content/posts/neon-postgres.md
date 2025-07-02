@@ -8,7 +8,7 @@ linkedIn: https://www.linkedin.com/in/virgil-turcu-797172255/
 thumbnail: /images/genezio_neon.webp
 preview: Neon provides serverless Postgres databases that offer a generous free tier as well as other features such as autoscaling, bottomless storage, and branching.
 # meta data start
-description: "Learn to create a simple Genezio app and integrate it with a Postgres database using Neon. Follow our step-by-step guide."
+description: "Learn to create a simple DeployApps app and integrate it with a Postgres database using Neon. Follow our step-by-step guide."
 meta_og_url: "https://genezio.com/blog/now-available-neon-postgres/"
 meta_og_image: "https://genezio.com/images/genezio_neon.webp"
 # meta data end
@@ -26,7 +26,7 @@ We are happy to announce that genezio now has full support for integrating with 
 Among the many features unlocked by this integration, Neon Postgres allows you to:
 
 - Branch your data for production, development, testing, and other purposes. This enables you to efficiently change between different environments as well as setting up continuous integration and delivery pipelines.
-- Integrate with GitHub actions so that your database can stay up to date to any environment you are using. Genezio also supports staging environments so that you may fully utilize the branching feature provided by Neon.
+- Integrate with GitHub actions so that your database can stay up to date to any environment you are using. DeployApps also supports staging environments so that you may fully utilize the branching feature provided by Neon.
 - Use vector databases using the `pgvector` extension. You can find a ChatBot application that uses this concept {{< external-link link="https://github.com/neondatabase/ask-neon" >}}here{{< /external-link >}}.
 
 - Neon Pro Plan users also have access to autoscaling.
@@ -105,11 +105,11 @@ In the `postgres.ts` file, add the following code snippet:
 
 ```javascript
 {{< filePath >}}postgres.ts{{< /filePath >}}
-import { GenezioDeploy } from "@genezio/types";
+import { DeployAppsDeploy } from "@genezio/types";
 import pg from "pg";
 const { Pool } = pg;
 
-@GenezioDeploy()
+@DeployAppsDeploy()
 export class PostgresService {
   pool = new Pool({
     connectionString: process.env.NEON_POSTGRES_URL,
@@ -161,7 +161,7 @@ After testing your application locally, you can deploy it again to update the pr
 genezio deploy
 ```
 
-Now you can manage your deployed application by navigating to the {{< external-link link="http://app.genez.io" >}}Genezio dashboard{{< /external-link >}}.
+Now you can manage your deployed application by navigating to the {{< external-link link="http://app.genez.io" >}}DeployApps dashboard{{< /external-link >}}.
 
 ## Conclusion
 

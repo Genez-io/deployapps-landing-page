@@ -8,7 +8,7 @@ linkedIn: https://www.linkedin.com/in/costin-sin/
 thumbnail: /images/introducing_yaml_v2.webp
 preview: Check out why we decide to revamp our YAML configuration format and what changes you should expect.
 # meta data start
-description: "Genezio introduces an updated YAML configuration file format. Discover how to migrate and set up your projects with our detailed guide."
+description: "DeployApps introduces an updated YAML configuration file format. Discover how to migrate and set up your projects with our detailed guide."
 meta_og_url: "https://genezio.com/blog/updated-config-file/"
 meta_og_image: "https://genezio.com/images/introducing_yaml_v2.webp"
 # meta data end

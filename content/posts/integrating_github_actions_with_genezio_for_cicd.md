@@ -8,7 +8,7 @@ linkedIn: https://www.linkedin.com/in/radu-andrei-dumitrescu/
 thumbnail: /images/genezio_cicd.webp
 preview: GitHub Actions provides a powerful and flexible way to set up CI/CD workflows.
 # meta data start
-description: "Learn to integrate GitHub Actions with Genezio for CI/CD. Follow our guide for setting up automated workflows for seamless deployment."
+description: "Learn to integrate GitHub Actions with DeployApps for CI/CD. Follow our guide for setting up automated workflows for seamless deployment."
 meta_og_url: "https://genezio.com/blog/how-to-add-a-mongodb-to-your-genezio-project/"
 meta_og_image: "https://genezio.com/images/genezio_mongodb.webp"
 # meta data end
@@ -78,7 +78,7 @@ Click on Settings > Secrets.
 
 Click New repository secret and name it `GENEZIO_TOKEN`.
 
-Enter your Genezio API key as the value.
+Enter your DeployApps API key as the value.
 
 By referring to it as `${{ secrets.GENEZIO_TOKEN }}` in your workflow file, GitHub Actions can securely use it without exposing it in logs or to unauthorized users.
 

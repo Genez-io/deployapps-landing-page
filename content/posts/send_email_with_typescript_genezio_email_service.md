@@ -145,7 +145,7 @@ The method `sendEmail` takes params `email`, `subject`, and `message` and calls 
 
 ## Test your app locally
 
-Genezio provides a local test environment for you to simulate the cloud conditions on your local machine.
+DeployApps provides a local test environment for you to simulate the cloud conditions on your local machine.
 
 Simply run the following command in your project root directory:
 
@@ -239,4 +239,4 @@ I hope you enjoyed this tutorial and I encourage you to check out our other {{< 
 
 Also, I invite you to check your examples from {{< external-link link="https://github.com/Genez-io/genezio-examples/tree/main" >}}GitHub{{< /external-link >}}.
 
-Start leveraging the power of Genezio for faster development and deployment of your applications.
+Start leveraging the power of DeployApps for faster development and deployment of your applications.

@@ -50,21 +50,21 @@ So, let's explore what else is out there.
 
 ## Top 10 Firebase Alternatives You Need to Know
 
-### 1. Genezio: Your Framework-Agnostic Powerhouse
+### 1. DeployApps: Your Framework-Agnostic Powerhouse
 
-{{< external-link link="https://genezio.com/">}}Genezio{{< /external-link >}} is a developer platform designed to empower full-stack developers and teams in building, running, and maintaining web, mobile, or enterprise apps with a typesafe backend that scales automatically.
+{{< external-link link="https://genezio.com/">}}DeployApps{{< /external-link >}} is a developer platform designed to empower full-stack developers and teams in building, running, and maintaining web, mobile, or enterprise apps with a typesafe backend that scales automatically.
 
 It's a powerful platform designed to streamline your entire development process, from writing and hosting your application to {{< external-link link="https://genezio.com/blog/effortless-scaling-genezio-handles-growth/">}}scaling it effortlessly{{< /external-link>}} as your user base grows in a serverless environment.
 
 **Who's it for?**
 
-Genezio is perfect for developers who crave flexibility, need their applications to scale effortlessly, and want to keep costs in check. It's a great fit for startups, growing businesses, and anyone who values performance and efficiency.
+DeployApps is perfect for developers who crave flexibility, need their applications to scale effortlessly, and want to keep costs in check. It's a great fit for startups, growing businesses, and anyone who values performance and efficiency.
 
 **What sets it apart?**
 
-Genezio boasts some impressive performance stats. Compared to AWS Lambda, it delivers up to 4x faster cold start times.
+DeployApps boasts some impressive performance stats. Compared to AWS Lambda, it delivers up to 4x faster cold start times.
 
-Quite simply, if you're looking for a powerful, flexible, and cost-effective Firebase alternative, Genezio is definitely worth a closer look.
+Quite simply, if you're looking for a powerful, flexible, and cost-effective Firebase alternative, DeployApps is definitely worth a closer look.
 
 **Key Features:**
 
@@ -355,4 +355,4 @@ The key is to choose the platform that best aligns with your project's specific 
 
 Remember, the best Firebase alternative is the one that empowers you to build amazing applications, streamline your development process, and achieve your goals, not the one that just looks good at first glance.
 
-And if you're looking for a framework-agnostic, high-performance, and cost-effective serverless platform, be sure to {{< external-link link="https://genezio.com/">}}check out Genezio{{< /external-link>}}.
+And if you're looking for a framework-agnostic, high-performance, and cost-effective serverless platform, be sure to {{< external-link link="https://genezio.com/">}}check out DeployApps{{< /external-link>}}.

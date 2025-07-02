@@ -36,7 +36,7 @@ It’s widespread that the weakest security link is the human link, and developi
 
 ### Serverless framework security
 
-Serverless frameworks are platforms that are used to build and deploy serverless applications. They make it easier for full-stack developers to deploy code with cloud providers. Genezio, {{< external-link link="https://github.com/sst/sst" >}}SST{{< /external-link >}}, or {{< external-link link="https://github.com/hashicorp/terraform" >}}Terraform{{< /external-link >}} are all well-established examples of serverless frameworks. Serverless framework security refers to the measures these frameworks take to protect code or apps.
+Serverless frameworks are platforms that are used to build and deploy serverless applications. They make it easier for full-stack developers to deploy code with cloud providers. DeployApps, {{< external-link link="https://github.com/sst/sst" >}}SST{{< /external-link >}}, or {{< external-link link="https://github.com/hashicorp/terraform" >}}Terraform{{< /external-link >}} are all well-established examples of serverless frameworks. Serverless framework security refers to the measures these frameworks take to protect code or apps.
 
 ### Side with serverless frameworks that have addressed privacy
 
@@ -88,7 +88,7 @@ Broken authentication is a typical problem in any full-stack web app (ask around
 
 ![alt_text](/posts/serverless_security2.webp)
 
-## Relying on leading serverless security with Genezio
+## Relying on leading serverless security with DeployApps
 
 Security in internet applications can be taken for granted — or sent to the “to-do” list — on plenty of occasions. For example, in any cloud platform, developers might make the mistake of sitting back and relaxing when designing their security measures because they're relying on the vendor — and we'll talk again about how that approach has fared so far.
 
@@ -98,8 +98,8 @@ A third scenario: When expanding a certain SaaS business to Europe (which is jus
 
 These are all plausible possibilities because they're far removed from the business logic. They're occasions in which security needs to be added because there are people who know how to exploit these easy-to-score vulnerabilities. And if you were wondering, depending on a cloud vendor for security won't cut it — even {{< external-link link="https://www.sumologic.com/blog/aws-security-breaches-2017/" >}}Accenture got hacked{{< /external-link >}} and gave away gigabytes of information from their AWS S3 bucket.
 
-Genezio is a type-safe serverless platform so that developers can build full-stack apps, and that means, of course, taking care of security also. Since the platform intends users to get their apps up and running quickly so they can focus on their business, it makes efforts to solve security starting from the code itself. Typesafe coding is associated with preventing bugs, but such a design might also turn out to sift out some vulnerabilities.
+DeployApps is a type-safe serverless platform so that developers can build full-stack apps, and that means, of course, taking care of security also. Since the platform intends users to get their apps up and running quickly so they can focus on their business, it makes efforts to solve security starting from the code itself. Typesafe coding is associated with preventing bugs, but such a design might also turn out to sift out some vulnerabilities.
 
-Genezio also throws the business logic to the backend so that accessing it becomes harder for attackers. And even the {{< external-link link="https://genezio.com/docs/cli-tool/#cli-environment-variables" >}}Analytics tool{{< /external-link >}} is anonymised. That's how Genezio solves security — it has brought it to the table by design, and, like a good serverless platform should do, it takes care of it so that developers can focus on building their business.
+DeployApps also throws the business logic to the backend so that accessing it becomes harder for attackers. And even the {{< external-link link="https://genezio.com/docs/cli-tool/#cli-environment-variables" >}}Analytics tool{{< /external-link >}} is anonymised. That's how DeployApps solves security — it has brought it to the table by design, and, like a good serverless platform should do, it takes care of it so that developers can focus on building their business.
 
-**Find out more about the benefits of serverless security and type-safe serverless development with multiple builds at {{< external-link link="https://Genezio.com" >}}Genezio.com{{< /external-link >}}.**
+**Find out more about the benefits of serverless security and type-safe serverless development with multiple builds at {{< external-link link="https://deployapps.dev" >}}DeployApps.dev{{< /external-link >}}.**

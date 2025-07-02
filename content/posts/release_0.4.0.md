@@ -1,5 +1,5 @@
 ---
-title: Genezio New Release
+title: DeployApps New Release
 date: 2023-05-30
 tags:
   - News
@@ -8,7 +8,7 @@ linkedIn: https://www.linkedin.com/in/andra-pitis/
 thumbnail: /images/release.webp
 preview: Since our last release, we’ve added some new features, improved a couple of things and resolved a few bugs
 # meta data start
-description: "Explore the latest Genezio release: open-source availability, backend Dart support, custom domains, and more. Learn about new features and improvements."
+description: "Explore the latest DeployApps release: open-source availability, backend Dart support, custom domains, and more. Learn about new features and improvements."
 meta_og_url: "https://genezio.com/blog/genezio-new-release/"
 meta_og_image: "https://genezio.com/images/release.webp"
 # meta data end

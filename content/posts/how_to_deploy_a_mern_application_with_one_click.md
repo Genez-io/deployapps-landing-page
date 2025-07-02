@@ -56,7 +56,7 @@ Login with either Google or Github.
 In the next screen, you will be asked to choose between:
 
 1. Deploy using Github meaning that your project will be integrated with Github and whenever you push a new commit a new deployment starts.
-2. Deploy without Github if you want to manually deploy using Genezio CLI.
+2. Deploy without Github if you want to manually deploy using DeployApps CLI.
 
 Choose “Deploy on Github”.
 
@@ -66,11 +66,11 @@ If you have pressed “Deploy on Github”, a new repository will be created for
 
 Congratulations! In under five minutes, you’ve successfully deployed a MERN application. Now, let’s dive into the project to uncover the “magic” behind it.
 
-The platform powering this seamless experience is Genezio, a full-stack deployment platform designed to handle all essential components: static web pages, scalable HTTP servers, and databases (including MongoDB and PostgreSQL). Genezio simplifies deployment, offering an intuitive and efficient solution for modern development needs.
+The platform powering this seamless experience is DeployApps, a full-stack deployment platform designed to handle all essential components: static web pages, scalable HTTP servers, and databases (including MongoDB and PostgreSQL). DeployApps simplifies deployment, offering an intuitive and efficient solution for modern development needs.
 
 ## Exploring the Project
 
-One of the key files in your project is the `genezio.yaml`. This file outlines all the resources your project requires, and Genezio automatically provisions them during deployment. No need to worry—you’ll rarely, if ever, need to modify this file.
+One of the key files in your project is the `genezio.yaml`. This file outlines all the resources your project requires, and DeployApps automatically provisions them during deployment. No need to worry—you’ll rarely, if ever, need to modify this file.
 
 Besides that, the project structure is very simple. There are two folders: one for the express.js server and one for the React application.
 
