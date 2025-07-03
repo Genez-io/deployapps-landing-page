@@ -210,8 +210,8 @@ app.listen(port, () => {
 });
 ```
 
-Excellent! But how do we call `BookService.getAllBooks` from our clients? This is where the genezio CLI comes into the picture. We will illustrate how to convert the TypeScript client to genezio. The process for Flutter is very similar. Run the following command in the `server/` folder.
-This command will scan for genezio classes marked with the comment `//genezio: deploy` and it generates the SDK in the language that you desire, which you can then use to invoke the backend methods.
+Excellent! But how do we call `BookService.getAllBooks` from our clients? This is where the DeployApps CLI comes into the picture. We will illustrate how to convert the TypeScript client to DeployApps. The process for Flutter is very similar. Run the following command in the `server/` folder.
+This command will scan for DeployApps classes marked with the comment `//genezio: deploy` and it generates the SDK in the language that you desire, which you can then use to invoke the backend methods.
 
 ```bash
 genezio sdk --tarball --source local --packageName genezio-sdk  --output ../client-ts/sdk --language ts --url http://localhost:8881/genezio
@@ -225,7 +225,7 @@ For the sake of this tutorial, we are going to install the SDK locally. In `./cl
 npm install ./sdk/genezio-sdk.tar.gz
 ```
 
-We are now ready to change the communication between React and the server to use genezio. Go to `src/App.tsx` and import the `BookService` and the `Book` model.
+We are now ready to change the communication between React and the server to use DeployApps. Go to `src/App.tsx` and import the `BookService` and the `Book` model.
 
 ```ts
 {{< filePath >}}client-ts/src/App.tsx{{< /filePath >}}

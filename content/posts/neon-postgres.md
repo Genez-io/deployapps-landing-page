@@ -19,9 +19,9 @@ readTime: 15
 
 Neon provides serverless Postgres databases that offer a generous free tier as well as other features such as autoscaling, bottomless storage, and branching. As such, Neon is an excellent choice as a database provider for serverless applications.
 
-We are happy to announce that genezio now has full support for integrating with Neon Postgres. The integration allows you to easily create a Postgres database which you can manage directly from your genezio dashboard.
+We are happy to announce that DeployApps now has full support for integrating with Neon Postgres. The integration allows you to easily create a Postgres database which you can manage directly from your DeployApps dashboard.
 
-# Achieving more with Neon and genezio
+# Achieving more with Neon and DeployApps
 
 Among the many features unlocked by this integration, Neon Postgres allows you to:
 
@@ -35,17 +35,17 @@ All these features are optimized for applications that are based on a serverless
 
 # Connect your backend to Neon Postgres
 
-In this tutorial, you will learn how to create a simple genezio project and integrate it with a Postgres database using Neon.
+In this tutorial, you will learn how to create a simple DeployApps project and integrate it with a Postgres database using Neon.
 
 ## Prerequisites
 
 You need to have nodejs and npm installed. If you need any help with the installation, you can head over to their {{< external-link link="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" >}}documentation{{< /external-link >}} for more information.
 
-## Step 1: Create a new genezio project
+## Step 1: Create a new DeployApps project
 
-If you already have a genezio project deployed and you just want to integrate Neon with it, you can skip to [step 2: Initialize a Neon Postgres database](#step-2-initialize-a-neon-postgres-database).
+If you already have a DeployApps project deployed and you just want to integrate Neon with it, you can skip to [step 2: Initialize a Neon Postgres database](#step-2-initialize-a-neon-postgres-database).
 
-Install genezio by running the following command in your terminal:
+Install DeployApps by running the following command in your terminal:
 
 ```bash
 npm install genezio -g
@@ -133,7 +133,7 @@ With all that done, you now have a single method for inserting a user into a tab
 
 ## Step 4: Test your Postgres service
 
-To locally test your Postgres service, you have to copy the environment variable `NEON_POSTGRES_URL` in a `.env` file in the root directory of your project. You can find this variable in the `Integrations` tab of your project page in the {{< external-link link="https://app.genez.io" >}}genezio dashboard{{< /external-link >}}:
+To locally test your Postgres service, you have to copy the environment variable `NEON_POSTGRES_URL` in a `.env` file in the root directory of your project. You can find this variable in the `Integrations` tab of your project page in the {{< external-link link="https://app.genez.io" >}}DeployApps dashboard{{< /external-link >}}:
 
 ![alt_text](/posts/neon6.png)
 

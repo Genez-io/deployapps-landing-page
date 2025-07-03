@@ -110,7 +110,7 @@ Later on, `DeployApps` comes in handy to deploy and host your web applications i
 npm install -g genezio
 ```
 
-After installing `genezio`, you can create a new DeployApps application by running the following command:
+After installing `DeployApps`, you can create a new DeployApps application by running the following command:
 
 ```bash
 genezio create fullstack --backend=ts --frontend=react-ts  --name=my-online-store --region=us-east-1

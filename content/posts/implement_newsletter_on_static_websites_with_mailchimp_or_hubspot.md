@@ -35,7 +35,7 @@ Initiate the installation of `DeployApps` via `npm` and execute it in your termi
 npm install -g genezio
 ```
 
-After installing `genezio`, you can create a new DeployApps project by running the following command in an empty new folder:
+After installing `DeployApps`, you can create a new DeployApps project by running the following command in an empty new folder:
 
 ```bash
 genezio create backend --backend=ts --name=newsletter-app --region=us-east-1

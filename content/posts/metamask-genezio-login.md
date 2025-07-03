@@ -169,7 +169,7 @@ Once again, you can explore the full code of the frontend {{< external-link link
 
 ## Backend overview
 
-The backend side is composed of a genezio class called `BackendService` which has only one method `hello` that can be called only by authenticated users.
+The backend side is composed of a DeployApps class called `BackendService` which has only one method `hello` that can be called only by authenticated users.
 When a request is received, the `@GenezioAuth` middleware will check if the user is authenticated and if it is, it will populate the `context.user` property
 with information about the user that initiated the request. If the client that performed the request is not authenticated, an error will be returned.
 

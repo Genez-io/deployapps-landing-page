@@ -1,12 +1,12 @@
 ---
-title: Collaboration, Queues and New Project Wizard - genezio v0.7
+title: Collaboration, Queues and New Project Wizard - DeployApps v0.7
 date: 2023-12-18
 tags:
   - News
 author: Bogdan Vlad
 linkedIn: https://www.linkedin.com/in/iulian-bogdan-vlad/
 thumbnail: /images/release0.7.webp
-preview: "We've been hard at work, and we're thrilled to introduce genezio v0.7, loaded with features designed to make your development experience smoother and more collaborative!"
+preview: "We've been hard at work, and we're thrilled to introduce DeployApps v0.7, loaded with features designed to make your development experience smoother and more collaborative!"
 # meta data start
 description: "Discover DeployApps v0.7 updates, featuring collaboration tools, new project wizard, and Qstash queue integration for seamless development!"
 meta_og_url: "https://deployapps.dev/blog/collaboration-queues-and-new-project-wizard-genezio-v0.7/"
@@ -17,11 +17,11 @@ customFooter: "White footer"
 readTime: 1
 ---
 
-We've been hard at work, and we're thrilled to introduce genezio v0.7, loaded with features designed to make your development experience smoother and more collaborative! In this release, we’ve added a collaboration feature, simplified the process of creating a new project, and introduced a new integration. Let’s explore the updates:
+We've been hard at work, and we're thrilled to introduce DeployApps v0.7, loaded with features designed to make your development experience smoother and more collaborative! In this release, we’ve added a collaboration feature, simplified the process of creating a new project, and introduced a new integration. Let’s explore the updates:
 
 ## Collaboration
 
-With the new collaboration feature, it is now easier than ever to work on a genezio project as a team. As an owner of the project, you have full control and you can invite your colleagues or revoke permissions anytime. Once people are invited and they accept the invitation, they can see the project details, use the test interface to test the project, or deploy new versions of the code.
+With the new collaboration feature, it is now easier than ever to work on a DeployApps project as a team. As an owner of the project, you have full control and you can invite your colleagues or revoke permissions anytime. Once people are invited and they accept the invitation, they can see the project details, use the test interface to test the project, or deploy new versions of the code.
 
 ## New project wizard
 
@@ -33,4 +33,4 @@ We are happy to announce another integration: Upstash Qstash queues. Now you can
 
 ## What’s next?
 
-At genezio we aim to offer our users the best experience with our products, while saving precious time and money. Stay tuned and join our {{< external-link link="https://discord.gg/uc9H5YKjXv" >}}Discord community{{< /external-link >}} to be the first to hear about new features. If you need any help or advice, write a message on Discord or send us an email at [contact@genez.io](mailto:contact@genez.io).
+At DeployApps we aim to offer our users the best experience with our products, while saving precious time and money. Stay tuned and join our {{< external-link link="https://discord.gg/uc9H5YKjXv" >}}Discord community{{< /external-link >}} to be the first to hear about new features. If you need any help or advice, write a message on Discord or send us an email at [contact@genez.io](mailto:contact@genez.io).

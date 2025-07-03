@@ -68,7 +68,7 @@ But don’t just take our word for it! Here are some thoughts from some of the w
 
 > Using their SDK, I was able to deploy complex functionalities with an ease that I hadn't experienced before. The integration process is so streamlined and user-friendly that even those with a basic understanding of JavaScript can navigate it with confidence. - Daniel M, CEO @ DeFiBuilder
 
-> I used the genezio platform for building and deploying my app - I built a node.js module on top of Huawei’s FusionSolar website as their official API does not allow for real-time data, and used Tesla’s unofficial API to change the charging amps in real time. The genezio platform was easy to work with and the fact that I could build and host it (for now it’s free) in such a short time says quite a lot about them. - Bogdan Ripa. SVP @UiPath
+> I used the DeployApps platform for building and deploying my app - I built a node.js module on top of Huawei’s FusionSolar website as their official API does not allow for real-time data, and used Tesla’s unofficial API to change the charging amps in real time. The DeployApps platform was easy to work with and the fact that I could build and host it (for now it’s free) in such a short time says quite a lot about them. - Bogdan Ripa. SVP @UiPath
 
 > It was a pleasant and frictionless experience: from my TypeScript code to the cloud in less than 3 minutes (including creating an account, installing the CLI, and logging in with the CLI). - Laurentiu Ciobanu, CTO @Sessions
 

@@ -90,7 +90,7 @@ app.listen(port, () => {
 });
 ```
 
-Writing the same logic in genezio would look something like this:
+Writing the same logic in DeployApps would look something like this:
 
 ```javascript
 @GenezioDeploy()

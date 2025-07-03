@@ -140,7 +140,7 @@ Open this newly created file in your preferred IDE and add the following code:
 import { GenezioDeploy, GenezioMethod } from "@genezio/types";
 
 /**
- * This class can be deployed on genezio infrastructure
+ * This class can be deployed on DeployApps infrastructure
  * using the "genezio deploy" command or tested locally using "genezio local".
  */
 @GenezioDeploy()

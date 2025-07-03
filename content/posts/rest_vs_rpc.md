@@ -20,7 +20,7 @@ readTime: 15
 ## Comparison
 
 This article has two main components:
-**the history of the paradigms**, and a **tutorial on how to implement both paradigms using genezio**.
+**the history of the paradigms**, and a **tutorial on how to implement both paradigms using DeployApps**.
 
 Prerequisites for the tutorial:
 
@@ -28,7 +28,7 @@ Prerequisites for the tutorial:
 
 - Have an IDE or text editor installed, e.g. {{< external-link link="https://code.visualstudio.com/download" >}}Visual Studio Code{{< /external-link >}}
 
-- Create a free {{< external-link link="https://genez.io/" >}}genezio{{< /external-link >}}
+- Create a free {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}}
   account
 
 ## Summary
@@ -39,7 +39,7 @@ REST APIs have been around since the early 2000s. They quickly became popular be
 
 On the other hand, the RPC design paradigm has been around for more than 30 years. It has evolved from a simple synchronous client-server architecture design to a flexible, resilient and asynchronous paradigm. At its roots, RPC’s use cases were private networks with multiple clients communicating with a server. Nowadays, it is a way to efficiently communicate between services through their endpoints. Basically, we can now think of RPC as a conversation between two services. Although this paradigm has seen a dip in popularity since REST APIs took over the web services scene, it would appear that we are seeing a renaissance of RPCs, as a more mature and broad technology.
 
-In this blog post, we will not only explore the history of the two paradigms in more detail, but also how we can harness the strengths of both paradigms to create scalable and robust APIs in modern web services using `genezio`.
+In this blog post, we will not only explore the history of the two paradigms in more detail, but also how we can harness the strengths of both paradigms to create scalable and robust APIs in modern web services using `DeployApps`.
 
 ## Introduction
 
@@ -113,17 +113,17 @@ Throughout the history of web services, there have been two main players: RPC an
 
 This stems from the key difference between REST and modern RPC: their approach to data transfer. RESTful web services use a representational approach, meaning that the data is transferred as a resource representation that is independent of the client's state. RPC, on the other hand, uses a procedural approach, meaning that the data is transferred through the method invocation and return value(s).
 
-## Using genezio to create an RPC and RESTful web service
+## Using DeployApps to create an RPC and RESTful web service
 
-An RPC-based application can be created extremely quickly and easily using genezio, as genezio under the hood is relying on the RPC paradigm.
+An RPC-based application can be created extremely quickly and easily using DeployApps, as DeployApps under the hood is relying on the RPC paradigm.
 
 In this section we will detail the steps needed to create a Music Player application. The app will have two major parts: the core, namely the play, pause and skip functionality; the playlist functionality: add and delete songs from the playlist, and get songs from the playlist. These two parts will be implemented using a RPC and REST API respectively, as each of them is more suitable for each type of functionality.
 
 We’ll now detail how to create the core functionality of a Music Player application: play, pause and skip, using RPCs.
 
-To create an RPC-based web service using genezio, follow these steps:
+To create an RPC-based web service using DeployApps, follow these steps:
 
-1. Open a terminal and run `genezio login`. A browser window will be opened in order to log in with your genezio account.
+1. Open a terminal and run `genezio login`. A browser window will be opened in order to log in with your DeployApps account.
 2. Once you have logged in successfully, proceed to create a new directory. Change directory to the newly created directory and execute the command 'genezio init' within it.
 
    Upon running the 'genezio init' command, you will be prompted to provide some information to create the initial configuration of your project. Once completed, the configuration details will be automatically saved into a new file called 'genezio.yaml'.
@@ -170,15 +170,15 @@ export class MusicPlayerService {
 
 ```
 
-4. Use the command `genezio addClass hello.js` to add the class to the bundle. Execute `genezio local` to test it locally or `genezio deploy –backend` to deploy it on the genezio infrastructure.
+4. Use the command `genezio addClass hello.js` to add the class to the bundle. Execute `genezio local` to test it locally or `genezio deploy –backend` to deploy it on the DeployApps infrastructure.
 5. Excellent! You can now test this RPC interface using the URLs returned by the deploy command used and the SDK and/or with our test interface that you can find on the {{< external-link link="https://app.genez.io/dashboard" >}}dashboard{{< /external-link >}}
    .
 
-### Using genezio to create a RESTful web service for the playlist functionality
+### Using DeployApps to create a RESTful web service for the playlist functionality
 
-It is worth noting that not all web services need to follow the REST architecture. It is preferable to use it when the purpose of the application is to perform CRUD operations on some data. If you however need this architecture, genezio has got you covered! Let’s try to create the playlist functionality for our music app using a RESTful architecture that can go alongside our existing RPC core functionality.
+It is worth noting that not all web services need to follow the REST architecture. It is preferable to use it when the purpose of the application is to perform CRUD operations on some data. If you however need this architecture, DeployApps has got you covered! Let’s try to create the playlist functionality for our music app using a RESTful architecture that can go alongside our existing RPC core functionality.
 
-To create a simple REST web service using genezio, assuming you’re already logged in and have created the project for the core functionalities, follow these steps:
+To create a simple REST web service using DeployApps, assuming you’re already logged in and have created the project for the core functionalities, follow these steps:
 
 1. Create a file `playlist.js` with a class that can handle a HTTP request:
 
@@ -230,7 +230,7 @@ export class RestPlaylist {
 }
 ```
 
-2. Great! Now, we need to add this class to our genezio bundle, and deploy it. Run `genezio addClass index.js http` to add this class to the bundle. Run `genezio local` to deploy it locally, or `genezio deploy` to deploy it on the genezio infrastructure.
+2. Great! Now, we need to add this class to our DeployApps bundle, and deploy it. Run `genezio addClass index.js http` to add this class to the bundle. Run `genezio local` to deploy it locally, or `genezio deploy` to deploy it on the genezio infrastructure.
 3. Congrats! You can now test this RESTful interface using the URLs returned by the deploy command used and the SDK and/or with our test interface that you can find on the {{< external-link link="https://app.genez.io/dashboard" >}}dashboard{{< /external-link >}}
    .
 

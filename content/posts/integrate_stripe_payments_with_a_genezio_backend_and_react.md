@@ -63,7 +63,7 @@ After installing DeployApps, you can create a new DeployApps Node.js project by 
 genezio create fullstack --frontend=onboarding-react --backend=onboarding-ts --name=stripe-integration --region=us-east-1
 ```
 
-The genezio create command can be run as above or it can be run as a wizard through which you can configure your new project. More information can be found {{< external-link link="https://deployapps.dev/docs/cli-tool/cli-commands/genezio-create/" >}}here{{< /external-link >}}.
+The DeployApps create command can be run as above or it can be run as a wizard through which you can configure your new project. More information can be found {{< external-link link="https://deployapps.dev/docs/cli-tool/cli-commands/genezio-create/" >}}here{{< /external-link >}}.
 
 ## Install the Dependencies
 

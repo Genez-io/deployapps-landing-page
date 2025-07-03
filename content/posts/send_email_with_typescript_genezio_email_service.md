@@ -1,5 +1,5 @@
 ---
-title: "Send email with Typescript & genezio email service"
+title: "Send email with Typescript & DeployApps email service"
 date: 2024-03-12
 tags:
   - Tutorials
@@ -8,8 +8,8 @@ linkedIn: https://www.linkedin.com/in/radu-andrei-dumitrescu/
 
 thumbnail: /images/send_email_with_typescript_genezio_email_service.webp
 
-preview: In this blog, I'll take you through a practical solution for building a backend that calls the genezio email service using TypeScript.
-description: "In this blog, I'll take you through a practical solution for building a backend that calls the genezio email service using TypeScript."
+preview: In this blog, I'll take you through a practical solution for building a backend that calls the DeployApps email service using TypeScript.
+description: "In this blog, I'll take you through a practical solution for building a backend that calls the DeployApps email service using TypeScript."
 meta_og_url: "https://deployapps.dev/blog/send-emails-with-genezio/"
 url: "/blog/send-emails-with-genezio/"
 
@@ -21,7 +21,7 @@ customFooter: "White footer"
 readTime: 20
 ---
 
-In this blog, I'll take you through a practical solution for building a backend that calls the genezio email service using TypeScript.
+In this blog, I'll take you through a practical solution for building a backend that calls the DeployApps email service using TypeScript.
 
 Whether you're confirming user registrations or sending weekly newsletters, this guide will ensure you can implement a robust email solution with ease.
 
@@ -56,16 +56,16 @@ If you don’t already have them, you’ll need to install the following tools:
 
 First, you’ll need to create a new project.
 
-To get started with a template, install genezio CLI using npm.
-You will also need to login to the genezio cloud.
-Later on, genezio comes in handy to deploy and host your web applications in the cloud.
+To get started with a template, install DeployApps CLI using npm.
+You will also need to login to the DeployApps cloud.
+Later on, DeployApps comes in handy to deploy and host your web applications in the cloud.
 
 ```bash
 npm install -g genezio
 genezio login
 ```
 
-After installing genezio, you can create a new genezio Node.js project by running the following command:
+After installing DeployApps, you can create a new DeployApps Node.js project by running the following command:
 
 ```bash
 genezio create backend --backend=ts --name=email-sender --region=us-east-1
@@ -77,11 +77,11 @@ The create command will create a new dummy backend project with everything set u
 
 The `genezio create` command can be run as above or it can be run as a wizard through which you can configure your new project. More information can be found {{< external-link link="https://deployapps.dev/docs/cli-tool/cli-commands/genezio-create" >}}here{{< /external-link >}}.
 
-We deploy our project to the cloud using genezio, and then gain access to the email service.
+We deploy our project to the cloud using DeployApps, and then gain access to the email service.
 
 ## Set up the email service
 
-Navigate to the {{< external-link link="https://app.genez.io/" >}}genezio dashboard{{< /external-link >}}, locate your project, and open its project page. Then, head to the services section on the sidebar, look for `Email Service` and click on it.
+Navigate to the {{< external-link link="https://app.genez.io/" >}}DeployApps dashboard{{< /external-link >}}, locate your project, and open its project page. Then, head to the services section on the sidebar, look for `Email Service` and click on it.
 
 After you are redirected to the email service page, press the `Install` button.
 Now your page should look like this one:
@@ -137,9 +137,9 @@ export class EmailSender {
 }
 ```
 
-First, we import the `GenezioDeploy` decorator. It will be added to the `EmailSender` class to signal to genezio that the class needs to be deployed.
+First, we import the `GenezioDeploy` decorator. It will be added to the `EmailSender` class to signal to DeployApps that the class needs to be deployed.
 
-The method `sendEmail` takes params `email`, `subject`, and `message` and calls the `MailService.sendMail` method to send the email with the genezio email service.
+The method `sendEmail` takes params `email`, `subject`, and `message` and calls the `MailService.sendMail` method to send the email with the DeployApps email service.
 
 **Note:** For a complete API description of `MailService.sendMail`, check the types in your IDE.
 
@@ -153,15 +153,15 @@ Simply run the following command in your project root directory:
 genezio local
 ```
 
-Now you can test your method using the {{< external-link link="http://localhost:8083/explore" >}}genezio test interface{{< /external-link >}}.
+Now you can test your method using the {{< external-link link="http://localhost:8083/explore" >}}DeployApps test interface{{< /external-link >}}.
 
 ![Alt text](/posts/mail-in-ts-with-nodemailer3.webp)
 
-After everything goes well, you can deploy your app to the genezio cloud.
+After everything goes well, you can deploy your app to the DeployApps cloud.
 
 ## Deploy your application
 
-Now we have everything set up and it’s time to deploy the application to the genezio cloud with only one simple command.
+Now we have everything set up and it’s time to deploy the application to the DeployApps cloud with only one simple command.
 
 Run this command in the root folder on your project:
 
@@ -169,7 +169,7 @@ Run this command in the root folder on your project:
 genezio deploy
 ```
 
-This will deploy the project to the cloud and make it accessible on the internet. You can continue to manage, test, update and monitor your project from the {{< external-link link="https://app.genez.io/dashboard" >}}genezio dashboard{{< /external-link >}}.
+This will deploy the project to the cloud and make it accessible on the internet. You can continue to manage, test, update and monitor your project from the {{< external-link link="https://app.genez.io/dashboard" >}}DeployApps dashboard{{< /external-link >}}.
 
 ## Create more complex emails
 
@@ -233,7 +233,7 @@ A use case for this can be sending a newsletter to your customer at a specific t
 
 ## Conclusion
 
-In conclusion, after following the steps outlined in this guide to integrate the genezio Email Service into your web application, you will enhance your project's reliability and functionality, ensuring a smooth and efficient communication flow.
+In conclusion, after following the steps outlined in this guide to integrate the DeployApps Email Service into your web application, you will enhance your project's reliability and functionality, ensuring a smooth and efficient communication flow.
 
 I hope you enjoyed this tutorial and I encourage you to check out our other {{< external-link link="https://genez.io/tags/tutorials/" >}}tutorials{{< /external-link >}} for more tips and tricks on improving your software engineering skills. 🥷 💻
 
