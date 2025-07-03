@@ -8,8 +8,8 @@ linkedIn: https://www.linkedin.com/in/andreia-irina-ocanoaia/
 thumbnail: /images/announcing_upstash.webp
 preview: Caching, session storage and much more with Upstash Redis.
 description: "Learn to integrate Upstash Redis with DeployApps. Follow our guide for setting up and managing Redis databases in your projects"
-meta_og_url: "https://genezio.com/blog/now-available-upstash-redis/"
-meta_og_image: "https://genezio.com/images/announcing_upstash.webp"
+meta_og_url: "https://deployapps.dev/blog/now-available-upstash-redis/"
+meta_og_image: "https://deployapps.dev/images/announcing_upstash.webp"
 customHeader: "White header"
 customFooter: "White footer"
 readTime: 15
@@ -19,8 +19,8 @@ Upstash Redis simplifies data storage and access, making it a natural fit for se
 Its key-value store functionality allows for rapid data access, making it ideal for caching frequently accessed data and improving overall application performance.
 Redis also supports complex data structures such as lists, sets, and hashes, providing versatility in data modeling.
 
-Today, we are excited to announce the integration with Upstash Redis, a serverless Redis provider, into the genezio platform.
-The integration allows you to easily manage and connect Redis databases directly from the genezio dashboard.
+Today, we are excited to announce the integration with Upstash Redis, a serverless Redis provider, into the DeployApps platform.
+The integration allows you to easily manage and connect Redis databases directly from the DeployApps dashboard.
 
 # Use cases
 
@@ -102,19 +102,19 @@ Redis can be used to implement rate-limiting mechanisms. By tracking and control
 
 In this short guide, you will learn how to integrate a Redis database into your project.
 
-## Step 1: Create a new genezio project
+## Step 1: Create a new DeployApps project
 
-If you already have a genezio project deployed, you can skip to [Step 2: Initialize an Upstash Redis database](#step-2-initialize-an-upstash-redis-database).
+If you already have a DeployApps project deployed, you can skip to [Step 2: Initialize an Upstash Redis database](#step-2-initialize-an-upstash-redis-database).
 
 Otherwise, you can create a new genezio project by running the following steps.
 
-First, you have to install `genezio` from npmjs:
+First, you have to install `DeployApps` from npmjs:
 
 ```bash
 npm install genezio -g
 ```
 
-Then, you can create a new genezio project by simply running `genezio` in your terminal:
+Then, you can create a new DeployApps project by simply running `genezio` in your terminal:
 
 ```bash
 genezio create backend --backend=ts --name=getting-started-with-upstash --region=us-east-1
@@ -128,7 +128,7 @@ genezio deploy
 
 ## Step 2: Initialize an Upstash Redis database
 
-Once the deployment is complete, open your {{< external-link link="https://app.genez.io/dashboard" >}}genezio dashboard{{< /external-link >}} and pick the project you created earlier.
+Once the deployment is complete, open your {{< external-link link="https://app.genez.io/dashboard" >}}DeployApps dashboard{{< /external-link >}} and pick the project you created earlier.
 
 Go to the `Integrations` tab and select to install the Upstash Redis integration:
 
@@ -142,7 +142,7 @@ Create a Redis database or select an already existing database:
 
 ![Alt text](/posts/image-1.png)
 
-Hit the `Save` button to set the database credentials as environment variables in your genezio project:
+Hit the `Save` button to set the database credentials as environment variables in your DeployApps project:
 
 ![Alt text](/posts/image-2.png)
 
@@ -236,9 +236,9 @@ After you tested your application, you can deploy it by running the following co
 genezio deploy
 ```
 
-# Now available in the genezio dashboard
+# Now available in the DeployApps dashboard
 
-The integration with Upstash Redis is available today in the genezio dashboard.
+The integration with Upstash Redis is available today in the DeployApps dashboard.
 
 It might not be perfect yet, but we prefer bringing you new features sooner, rather than later.
 Your feedback in the early stages of feature development is essential to us as it helps improve the product to better suit your needs.

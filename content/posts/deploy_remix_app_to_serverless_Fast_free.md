@@ -12,9 +12,9 @@ Looking for the fastest and easiest way to deploy your Remix application?  Deplo
 # meta data start
 description: Deploy Remix apps seamlessly with DeployApps. Serverless, autoscaling, and optimized performance. Get started for free today!
 
-meta_og_url: "https://genezio.com/blog/deploy-remix-app-serverless/"
+meta_og_url: "https://deployapps.dev/blog/deploy-remix-app-serverless/"
 
-meta_og_image: "https://genezio.com/images/remix.webp"
+meta_og_image: "https://deployapps.dev/images/remix.webp"
 
 # meta data end
 customHeader: "White header"
@@ -25,7 +25,7 @@ url: /blog/deploy-remix-app-serverless/
 
 **Deploy Remix apps seamlessly with DeployApps. Serverless, autoscaling, and optimized performance. Get started for free today!**
 
-Looking for the fastest and easiest way to deploy your Remix application? {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} now offers comprehensive support for {{< external-link link="https://remix.run/" >}}Remix{{< /external-link >}}, allowing you to build and deploy high-performance, server-rendered applications with ease. This integration combines Remix's modern web capabilities with DeployApps's robust serverless infrastructure, providing the optimal environment for developing scalable and resilient web applications.
+Looking for the fastest and easiest way to deploy your Remix application? {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} now offers comprehensive support for {{< external-link link="https://remix.run/" >}}Remix{{< /external-link >}}, allowing you to build and deploy high-performance, server-rendered applications with ease. This integration combines Remix's modern web capabilities with DeployApps's robust serverless infrastructure, providing the optimal environment for developing scalable and resilient web applications.
 
 # What is Remix?
 
@@ -43,7 +43,7 @@ DeployApps offers two effortless ways to deploy your Remix application:
 
 ## Optimized Performance
 
-DeployApps significantly enhances the performance of your Remix applications by reducing cold start times by up to 4x compared to AWS Lambda. This optimization minimizes latency and ensures efficient resource management, resulting in a faster and more responsive user experience. For an in-depth analysis, check out our full article {{< external-link link="https://genezio.com/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/" >}}here{{< /external-link >}}.
+DeployApps significantly enhances the performance of your Remix applications by reducing cold start times by up to 4x compared to AWS Lambda. This optimization minimizes latency and ensures efficient resource management, resulting in a faster and more responsive user experience. For an in-depth analysis, check out our full article {{< external-link link="https://deployapps.dev/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/" >}}here{{< /external-link >}}.
 
 ## Automatic Scalability
 

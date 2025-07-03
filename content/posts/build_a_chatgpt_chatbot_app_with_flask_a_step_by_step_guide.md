@@ -11,9 +11,9 @@ thumbnail: /images/openai-flask.webp
 preview: Hi! I’m Cristi Miloiu, and in this article, I’ll walk you through building a ChatGPT-powered chat app using Flask, Python, and the OpenAI API. We’ll also cover deploying your app seamlessly with DeployApps, a powerful cloud deployment platform..
 # meta data start
 description: Learn how to create a ChatGPT-powered chat app with Flask. This guide covers setup, deployment with DeployApps, and tips for seamless integration.
-meta_og_url: "https://genezio.com/blog/build-chatgpt-chatbot-flask/"
+meta_og_url: "https://deployapps.dev/blog/build-chatgpt-chatbot-flask/"
 
-meta_og_image: "https://genezio.com/images/openai-flask.webp"
+meta_og_image: "https://deployapps.dev/images/openai-flask.webp"
 
 # meta data end
 customHeader: "White header"
@@ -240,7 +240,7 @@ OPENAI_API_KEY=<your_openai_key>
 
 This file ensures that sensitive data like API keys aren’t hardcoded in the application.
 
-## Step 6: Install genezio CLI
+## Step 6: Install DeployApps CLI
 
 Run the following command:
 
@@ -281,7 +281,7 @@ genezio deploy
 
 Your app will be live at a custom subdomain, such as
 `https://your-app-name.app.genez.io`.
-You can continue to manage, test, update and monitor your project from the genezio dashboard.
+You can continue to manage, test, update and monitor your project from the DeployApps dashboard.
 
 ## Why use DeployApps for deployment?
 

@@ -9,8 +9,8 @@ thumbnail: /images/genezioandautomation.webp
 preview: In the modern digital landscape, APIs (Application Programming Interfaces) and web services have become the backbone of many business operations, facilitating seamless communication between different software systems and enabling the delivery of business logic at scale.
 # meta data start
 description: "APIs and web services drive automation and seamless communication in modern business operations, enabling scalable delivery of business logic."
-meta_og_url: "https://genezio.com/blog/genezio-and-automation/"
-meta_og_image: "https://genezio.com/images/genezioandautomation.webp"
+meta_og_url: "https://deployapps.dev/blog/genezio-and-automation/"
+meta_og_image: "https://deployapps.dev/images/genezioandautomation.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"

@@ -8,8 +8,8 @@ linkedIn: https://www.linkedin.com/in/andreia-irina-ocanoaia/
 thumbnail: /images/boost_your_productivity.webp
 preview: "Discover how DeployApps's enhanced YAML configuration simplifies deployments with dynamic expressions and one-click resource creation."
 description: "DeployApps introduces powerful new features in YAML configuration, allowing developers to streamline their workflow with single-click deployments and dynamic resource management."
-meta_og_url: "https://genezio.com/blog/genezio-single-click-deployments/"
-meta_og_image: "https://genezio.com/images/boost_your_productivity.webp"
+meta_og_url: "https://deployapps.dev/blog/genezio-single-click-deployments/"
+meta_og_image: "https://deployapps.dev/images/boost_your_productivity.webp"
 customHeader: "White header"
 customFooter: "White footer"
 readTime: 10

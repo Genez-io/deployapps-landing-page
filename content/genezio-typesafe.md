@@ -8,7 +8,7 @@ callToAction: 'Learn more'
 leadButtonOneText: 'Start for Free'
 leadButtonOneLink: 'https://app.genez.io/auth/signup'
 leadButtonTwoText: 'Check our Demo/Docs'
-leadButtonTwoLink: 'https://genezio.com/docs/'
+leadButtonTwoLink: 'https://deployapps.dev/docs/'
 productTextP1: "Because you, just like us, are passionate about developing new apps, new features. You want to bring them to your users as fast as possible. You want to focus on your code, develop, debug, release and iterate fast."
 productTextP2: "Because you like writing elegant code. You don’t want to lose time 
 configuring backend servers, writing cumbersome GET URLs, 
@@ -18,7 +18,7 @@ productTextP3: "Because you care about the environment, just as we do.  We are p
 power consumption, and we are optimizing the way the code is run towards our goal of zero overhead, fastest cold start delay, best CPU and memory resource allocation."
 # meta data start
 description: "The type safe serverless platform for modern full-stack developers Everything you need to build apps that scale up to millions of users."
-meta_og_url: "https://genez.io"
+meta_og_url: "https://deployapps.dev"
 meta_og_image: "https://genez.io/images/og.jpg"
 # meta data end
 ---

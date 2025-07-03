@@ -9,8 +9,8 @@ thumbnail: /images/fosdem-2024.webp
 preview: "Check out our technical presentation at FOSDEM 2024 on running Node.js applications over unikernels"
 # meta data start
 description: "Read about DeployApps’s presentation at FOSDEM 2024 on Node.js in unikernels. Learn about technical challenges and the benefits of unikernel architecture."
-meta_og_url: "https://genezio.com/blog/fosdem-2024-highlights-running-node.js-in-unikernels"
-meta_og_image: "https://genezio.com/images/fosdem-2024.webp"
+meta_og_url: "https://deployapps.dev/blog/fosdem-2024-highlights-running-node.js-in-unikernels"
+meta_og_image: "https://deployapps.dev/images/fosdem-2024.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"

@@ -9,8 +9,8 @@ thumbnail: /images/flask.webp
 preview: Flask is one of the most popular Python web frameworks, known for its simplicity and flexibility. Whether you're a beginner or an experienced developer, Flask makes web development straightforward.
 # meta data start
 description: Learn how to build and deploy your first Flask web app in just 10 minutes. Follow this step-by-step tutorial for beginners and get your project online fast.
-meta_og_url: "https://genezio.com/blog/getting-started-flask-web-app/"
-meta_og_image: "https://genezio.com/images/flask.webp"
+meta_og_url: "https://deployapps.dev/blog/getting-started-flask-web-app/"
+meta_og_image: "https://deployapps.dev/images/flask.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -96,7 +96,7 @@ You should see "Hello, World!" displayed.
 
 ## Deployment Guide
 
-### Step 1: Install genezio CLI
+### Step 1: Install DeployApps CLI
 
 Run the following command:
 
@@ -138,7 +138,7 @@ genezio deploy
 Your app will be live at a custom subdomain, such as
 `https://your-app-name.app.genez.io`.
 
-You can continue to manage, test, update and monitor your project from the genezio dashboard.
+You can continue to manage, test, update and monitor your project from the DeployApps dashboard.
 
 ## Conclusion
 

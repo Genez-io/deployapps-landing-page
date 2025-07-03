@@ -5,7 +5,7 @@ location: "Remote (San Francisco)"
 
 ## About DeployApps
 
-At DeployApps (genezio.com), we’re transforming cloud deployment by building a developer-first platform that’s fast, intuitive, and powerful. We believe in empowering developers to achieve more, and we’re looking for a passionate Developer Advocate to join us in spreading the word about DeployApps to the developer community.
+At DeployApps (deployapps.dev), we’re transforming cloud deployment by building a developer-first platform that’s fast, intuitive, and powerful. We believe in empowering developers to achieve more, and we’re looking for a passionate Developer Advocate to join us in spreading the word about DeployApps to the developer community.
 
 ---
 

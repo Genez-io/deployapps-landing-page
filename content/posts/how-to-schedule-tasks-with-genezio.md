@@ -1,16 +1,16 @@
 ---
-title: How to Set Up Cron Jobs with genezio
+title: How to Set Up Cron Jobs with DeployApps
 date: 2023-12-12
 tags:
   - Tutorials
 author: Radu Dumitrescu
 linkedIn: https://www.linkedin.com/in/radu-andrei-dumitrescu/
 thumbnail: /images/scheduletasks.webp
-preview: This guide will walk you through the steps of building a scheduler with genezio.
+preview: This guide will walk you through the steps of building a scheduler with DeployApps.
 # meta data start
 description: "Learn how to set up cron jobs with DeployApps. Follow our guide to schedule tasks and automate processes in your projects."
-meta_og_url: "https://genezio.com/how-to-schedule-tasks-with-genezio/"
-meta_og_image: "https://genezio.com/images/scheduletasks.webp"
+meta_og_url: "https://deployapps.dev/how-to-schedule-tasks-with-genezio/"
+meta_og_image: "https://deployapps.dev/images/scheduletasks.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -18,7 +18,7 @@ readTime: 5
 url: how-to-schedule-tasks-with-genezio
 ---
 
-This guide will walk you through the steps of building a scheduler with genezio. Schedulers are automated systems designed to carry out tasks at set intervals or specific times. They play a crucial role in various applications and automation. Use cases include sending emails, conducting routine database cleanup and database backup, or undertaking data analysis and reporting activities.
+This guide will walk you through the steps of building a scheduler with DeployApps. Schedulers are automated systems designed to carry out tasks at set intervals or specific times. They play a crucial role in various applications and automation. Use cases include sending emails, conducting routine database cleanup and database backup, or undertaking data analysis and reporting activities.
 
 DeployApps makes things easier for you, so you don’t need any additional npm library like node-cron.
 
@@ -49,7 +49,7 @@ If you don’t already have them, you’ll need to install the following tools:
 
 First, you’ll need to create a new project.
 
-To get started with a template, install `genezio` using `npm` and run it in your terminal. Later on, genezio comes in handy to deploy and host your web applications in the cloud.
+To get started with a template, install `genezio` using `npm` and run it in your terminal. Later on, DeployApps comes in handy to deploy and host your web applications in the cloud.
 
 ```bash
 npm install -g genezio
@@ -165,13 +165,13 @@ The schedule string follows the format `* * * * *`, representing minutes, hours,
 
 ## Test your Scheduler
 
-With genezio you can test your scheduler locally by running a genezio local server with the following command:
+With DeployApps you can test your scheduler locally by running a DeployApps local server with the following command:
 
 ```bash
 genezio local
 ```
 
-The task will run every minute and will print the output in the console of your local genezio web server.
+The task will run every minute and will print the output in the console of your local DeployApps web server.
 
 ## Deploy your Scheduler
 
@@ -181,7 +181,7 @@ Next, the application is ready to be deployed to the cloud to be used in a produ
 genezio deploy
 ```
 
-This will deploy the whole project to the cloud and make it run the task every minute. You can continue to manage, test, update and monitor your project from the {{< external-link link="https://app.genez.io" >}}genezio dashboard{{< /external-link >}}.
+This will deploy the whole project to the cloud and make it run the task every minute. You can continue to manage, test, update and monitor your project from the {{< external-link link="https://app.genez.io" >}}DeployApps dashboard{{< /external-link >}}.
 
 **Note 1:** You can deploy your scheduler together with your API Node.js application.
 
@@ -227,7 +227,7 @@ public async every10MinuteTask() {
 
 Cron expression: `0 8 * * *`
 
-- Genezio Functions:
+- DeployApps Functions:
 
 ```javascript
 {{< filePath >}}scheduler.mjs{{< /filePath >}}

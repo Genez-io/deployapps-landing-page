@@ -9,8 +9,8 @@ thumbnail: /images/python-support.webp
 preview: We’re thrilled to announce that DeployApps now fully supports deploying Python popular frameworks like Django, Flask, FastAPI. With built-in WSGI and ASGI compatibility, DeployApps makes it effortless to develop Python applications across a variety of use cases, from web apps to real-time APIs and serverless solutions.
 # meta data start
 description: DeployApps now offers full Python support for Django, Flask, FastAPI, and Function-as-a-Service, streamlining deployments with WSGI and ASGI compatibility.
-meta_og_url: "https://genezio.com/blog/genezio-python-support/"
-meta_og_image: "https://genezio.com/images/python-support.webp"
+meta_og_url: "https://deployapps.dev/blog/genezio-python-support/"
+meta_og_image: "https://deployapps.dev/images/python-support.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -18,7 +18,7 @@ readTime: 10
 url: /blog/genezio-python-support/
 ---
 
-We’re thrilled to announce that {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} now fully supports deploying Python popular frameworks like **Django**, **Flask**, **FastAPI**. With built-in **WSGI** and **ASGI** compatibility, DeployApps makes it effortless to develop Python applications across a variety of use cases, from web apps to real-time APIs and serverless solutions.
+We’re thrilled to announce that {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} now fully supports deploying Python popular frameworks like **Django**, **Flask**, **FastAPI**. With built-in **WSGI** and **ASGI** compatibility, DeployApps makes it effortless to develop Python applications across a variety of use cases, from web apps to real-time APIs and serverless solutions.
 
 DeployApps is an easy-to-use, autoscalable, performance-oriented Function-as-a-Service (FaaS) platform designed to simplify cloud application development and deployment. By seamlessly managing scaling, performance optimization, and infrastructure overhead, DeployApps empowers developers to focus on building features and delivering value.
 
@@ -78,13 +78,13 @@ These advantages make DeployApps the preferred choice for Python developers seek
 
 Ready to deploy your Python app? DeployApps provides step-by-step guides tailored for every supported framework:
 
-- {{< external-link link="https://genezio.com/docs/frameworks/django/" >}}Django Deployment Guide{{< /external-link >}}: Follow this guide to deploy Django applications with DeployApps’s one-click setup, optimized for scalability and performance.
+- {{< external-link link="https://deployapps.dev/docs/frameworks/django/" >}}Django Deployment Guide{{< /external-link >}}: Follow this guide to deploy Django applications with DeployApps’s one-click setup, optimized for scalability and performance.
 
-- {{< external-link link="https://genezio.com/docs/frameworks/flask/" >}}Flask Deployment Guide{{< /external-link >}}: Flask developers can deploy their apps seamlessly using DeployApps, with instructions designed to simplify the entire process.
+- {{< external-link link="https://deployapps.dev/docs/frameworks/flask/" >}}Flask Deployment Guide{{< /external-link >}}: Flask developers can deploy their apps seamlessly using DeployApps, with instructions designed to simplify the entire process.
 
-- {{< external-link link="https://genezio.com/docs/frameworks/fastapi/" >}}FastAPI Deployment Guide{{< /external-link >}}: For modern, high-performance APIs, DeployApps now fully supports FastAPI, enabling effortless deployments that scale as your application grows.
+- {{< external-link link="https://deployapps.dev/docs/frameworks/fastapi/" >}}FastAPI Deployment Guide{{< /external-link >}}: For modern, high-performance APIs, DeployApps now fully supports FastAPI, enabling effortless deployments that scale as your application grows.
 
-- {{< external-link link="https://genezio.com/docs/tutorials/how-to-deploy-a-serverless-function/" >}}FaaS Guide{{< /external-link >}}: Deploy serverless Python functions easily with DeployApps’s FaaS option, ideal for microservices, event-driven functions, and more.
+- {{< external-link link="https://deployapps.dev/docs/tutorials/how-to-deploy-a-serverless-function/" >}}FaaS Guide{{< /external-link >}}: Deploy serverless Python functions easily with DeployApps’s FaaS option, ideal for microservices, event-driven functions, and more.
 
 With these resources, you’ll have your Python application live in minutes, with zero hassle.
 

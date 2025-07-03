@@ -9,8 +9,8 @@ thumbnail: /images/rag.webp
 preview: Whether you’re an ML engineer, a DevOps professional, or a Project Manager looking to improve collaboration with clients, this article will provide insights and a clear understanding of how DeployApps can transform your deployment workflow.
 # meta data start
 description: Whether you’re an ML engineer, a DevOps professional, or a Project Manager looking to improve collaboration with clients, this article will provide insights and a clear understanding of how DeployApps can transform your deployment workflow.
-meta_og_url: "https://genezio.com/blog//deploy-smarter-not-harder-how-genezio/"
-meta_og_image: "https://genezio.com/images/rag.webp"
+meta_og_url: "https://deployapps.dev/blog//deploy-smarter-not-harder-how-genezio/"
+meta_og_image: "https://deployapps.dev/images/rag.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -22,17 +22,17 @@ Whether you’re an **ML engineer**, a **DevOps professional**, or a **Project M
 
 ## What is DeployApps?
 
-{{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} is a serverless cloud platform that streamlines the deployment of applications and proofs-of-concept, offering a simpler alternative to traditional infrastructure management. It's built to help developers focus on creating innovative solutions without getting slowed down by complicated setups or infrastructure management.
+{{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} is a serverless cloud platform that streamlines the deployment of applications and proofs-of-concept, offering a simpler alternative to traditional infrastructure management. It's built to help developers focus on creating innovative solutions without getting slowed down by complicated setups or infrastructure management.
 
-With {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}}, you don’t need to be a DevOps expert. You can deploy your code quickly and easily, cutting down on setup time, speeding up your launch, and making scalability simple. Its user-friendly interface is perfect for smaller teams or machine learning groups that don’t have a cloud engineer on hand. Just deploy your functions and applications straight to the cloud—no headaches, no fuss.
+With {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}}, you don’t need to be a DevOps expert. You can deploy your code quickly and easily, cutting down on setup time, speeding up your launch, and making scalability simple. Its user-friendly interface is perfect for smaller teams or machine learning groups that don’t have a cloud engineer on hand. Just deploy your functions and applications straight to the cloud—no headaches, no fuss.
 
-Check out 🔗 {{< external-link link="https://genezio.com/" >}}DeployApps’s{{< /external-link >}} Function-as-a-Service (FaaS) platform simplifies infrastructure management and accelerates development.
+Check out 🔗 {{< external-link link="https://deployapps.dev/" >}}DeployApps’s{{< /external-link >}} Function-as-a-Service (FaaS) platform simplifies infrastructure management and accelerates development.
 
 ## How client collaboration drives successful AI projects
 
 **Small feedback loops** in AI outsourcing are a game-changer. They keep clients in the loop about their projects, so it doesn't feel like they’re investing in a “black box.” Instead, clients can see visible progress, stay aligned with their goals, and build trust along the way. These loops also help catch issues early and ensure expectations are met, making project delivery smoother and clients happier.
 
-That’s where {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} comes in. Think of it as a more user-friendly version of AWS Lambda. This Function-as-a-Service (FaaS) platform makes deploying AI applications a breeze. It takes care of the heavy lifting with infrastructure, so machine learning teams can focus on being creative and innovative. Plus, {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} supports real-time client interactions with proofs-of-concept and makes local testing easy, minimizing post-deployment headaches. The result? More efficient projects and happier teams.
+That’s where {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} comes in. Think of it as a more user-friendly version of AWS Lambda. This Function-as-a-Service (FaaS) platform makes deploying AI applications a breeze. It takes care of the heavy lifting with infrastructure, so machine learning teams can focus on being creative and innovative. Plus, {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} supports real-time client interactions with proofs-of-concept and makes local testing easy, minimizing post-deployment headaches. The result? More efficient projects and happier teams.
 
 ## How to Deploy a RAG System with DeployApps: A Step-by-Step Guide
 
@@ -114,7 +114,7 @@ The **synthesizer** transforms retrieved results into meaningful, query-specific
 
 And here comes DeployApps onto the battlefield.
 
-For this setup, we needed a vector database. Our natural choice, considered the de-facto standard in the industry, was **QDrant**. While {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} currently integrates with PostgreSQL and MongoDB — excellent options that meet the needs of most solutions — we opted to stick with QDrant to maintain consistency with the RAG systems we’ve developed in the past. However, it’s worth noting that you can seamlessly integrate an external managed database with **DeployApps**, making it adaptable to a wide range of use cases without altering the core setup.
+For this setup, we needed a vector database. Our natural choice, considered the de-facto standard in the industry, was **QDrant**. While {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} currently integrates with PostgreSQL and MongoDB — excellent options that meet the needs of most solutions — we opted to stick with QDrant to maintain consistency with the RAG systems we’ve developed in the past. However, it’s worth noting that you can seamlessly integrate an external managed database with **DeployApps**, making it adaptable to a wide range of use cases without altering the core setup.
 
 ![alt_text](/posts/rag7.webp)
 
@@ -126,7 +126,7 @@ The system architecture consists of three main components:
 
 3. **Vector Database:** The backbone of the system, storing the vectors produced during the indexing process. This component ensures efficient retrieval of relevant data to support accurate and context-aware generation
 
-By leveraging {{< external-link link="https://genezio.com/" >}}DeployApps's{{< /external-link >}} modularity, each major component of your system is deployed as a single function on the platform. Combined with **DeployApps’s out-of-the-box elastic scaling**, the system can seamlessly adapt to fluctuating user demands, whether you’re experiencing a surge in interactions or testing new features.
+By leveraging {{< external-link link="https://deployapps.dev/" >}}DeployApps's{{< /external-link >}} modularity, each major component of your system is deployed as a single function on the platform. Combined with **DeployApps’s out-of-the-box elastic scaling**, the system can seamlessly adapt to fluctuating user demands, whether you’re experiencing a surge in interactions or testing new features.
 
 This robust, scalable architecture empowers teams to focus on building and innovating rather than being bogged down by infrastructure complexities. With DeployApps, you can accelerate development from concept to production while maintaining a clean and maintainable system architecture.
 
@@ -166,7 +166,7 @@ From the **DeployApps** dashboard, you can seamlessly manage, test, update, and 
 
 ## Real-World Scenario
 
-One of the best ways to use {{< external-link link="https://genezio.com/" >}}DeployApps's{{< /external-link >}} RAG deployment is by building a **Knowledge Intelligence Search Tool** — a smart system that turns internal or public data into a powerful, easy-to-use knowledge base.
+One of the best ways to use {{< external-link link="https://deployapps.dev/" >}}DeployApps's{{< /external-link >}} RAG deployment is by building a **Knowledge Intelligence Search Tool** — a smart system that turns internal or public data into a powerful, easy-to-use knowledge base.
 
 Companies generate tons of information daily — internal documents, training manuals, reports, support tickets, and emails. But this data is often scattered across systems, making it hard for employees to find what they need. And let’s face it, traditional keyword searches often fail because they don’t understand context.
 
@@ -184,7 +184,7 @@ That’s where DeployApps shines. It helps companies create a smart search tool 
 
 If you’re looking to simplify deployments, accelerate your development process, and reduce the complexities of infrastructure management,
 
-{{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} is the ideal Function-as-a-Service (FaaS) platform for you. Designed with engineering teams, **DeployApps** enables rapid deployment of proofs-of-concept, scalable applications, and advanced RAG (Retrieval-Augmented Generation) systems with ease.
+{{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} is the ideal Function-as-a-Service (FaaS) platform for you. Designed with engineering teams, **DeployApps** enables rapid deployment of proofs-of-concept, scalable applications, and advanced RAG (Retrieval-Augmented Generation) systems with ease.
 
 **Ready to get started?**
 Explore the 🔗 {{< external-link link="https://github.com/mlvanguards/deploy-hybrid-rag-genezio" >}}deploy-hybrid-rag-genezio{{< /external-link >}} repository to access code samples, configuration files, and step-by-step guides to help you hit the ground running.

@@ -6,11 +6,11 @@ tags:
 author: Radu Dumitrescu
 linkedIn: https://www.linkedin.com/in/radu-andrei-dumitrescu/
 thumbnail: /images/integrate_stripe_payments_with_a_genezio_backend_and_react.webp
-preview: This guide will walk you through integrating Stripe payments using a genezio backend and a React frontend. Integrating a web app with a payment gateway can be challenging, even if Stripe provides most of the functionality out of the box.
+preview: This guide will walk you through integrating Stripe payments using a DeployApps backend and a React frontend. Integrating a web app with a payment gateway can be challenging, even if Stripe provides most of the functionality out of the box.
 # meta data start
 description: "Learn how to integrate Stripe payments into your DeployApps backend with React. Follow our step-by-step guide for seamless payment integration."
-meta_og_url: "https://genezio.com/blog/integrate-stripe-payments/"
-meta_og_image: "https://genezio.com/images/integrate_stripe_payments_with_a_genezio_backend_and_react.webp"
+meta_og_url: "https://deployapps.dev/blog/integrate-stripe-payments/"
+meta_og_image: "https://deployapps.dev/images/integrate_stripe_payments_with_a_genezio_backend_and_react.webp"
 url: "/blog/integrate-stripe-payments/"
 # meta data end
 customHeader: "White header"
@@ -18,7 +18,7 @@ customFooter: "White footer"
 readTime: 20
 ---
 
-This guide will walk you through integrating Stripe payments using a genezio backend and a React frontend. Integrating a web app with a payment gateway can be challenging, even if Stripe provides most of the functionality out of the box.
+This guide will walk you through integrating Stripe payments using a DeployApps backend and a React frontend. Integrating a web app with a payment gateway can be challenging, even if Stripe provides most of the functionality out of the box.
 There are numerous approaches to managing Stripe API integration on the backend. In this tutorial, I'll share with you the method I believe to be most efficient and in line with Stripe API official recommendations.
 DeployApps significantly simplifies the process, freeing you from concerns about deployment and ensuring smooth communication between the backend and frontend.
 
@@ -39,7 +39,7 @@ DeployApps significantly simplifies the process, freeing you from concerns about
 
 If you don’t already have them, you’ll need to install the following tools:
 
-- {{< external-link link="https://genezio.com/docs/cli-tool/cli-commands/genezio-create/" >}}Node.js{{< /external-link >}}
+- {{< external-link link="https://deployapps.dev/docs/cli-tool/cli-commands/genezio-create/" >}}Node.js{{< /external-link >}}
 - {{< external-link link="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" >}}Npm{{< /external-link >}}
 
 **Note:** I recommend you use nvm to manage NodeJs and npm versions. After installing `nvm`, you can easily get any node version by running `nvm install <node_version>`.
@@ -48,22 +48,22 @@ If you don’t already have them, you’ll need to install the following tools:
 
 First, you’ll need to create a new project.
 
-To get started with a template, install genezio CLI using npm.
-You will also need to login to the genezio cloud.
-Later on, genezio comes in handy to deploy and host your web applications in the cloud.
+To get started with a template, install DeployApps CLI using npm.
+You will also need to login to the DeployApps cloud.
+Later on, DeployApps comes in handy to deploy and host your web applications in the cloud.
 
 ```bash
 npm install -g genezio
 genezio login
 ```
 
-After installing genezio, you can create a new genezio Node.js project by running the following command in an empty new folder:
+After installing DeployApps, you can create a new DeployApps Node.js project by running the following command in an empty new folder:
 
 ```bash
 genezio create fullstack --frontend=onboarding-react --backend=onboarding-ts --name=stripe-integration --region=us-east-1
 ```
 
-The genezio create command can be run as above or it can be run as a wizard through which you can configure your new project. More information can be found {{< external-link link="https://genezio.com/docs/cli-tool/cli-commands/genezio-create/" >}}here{{< /external-link >}}.
+The genezio create command can be run as above or it can be run as a wizard through which you can configure your new project. More information can be found {{< external-link link="https://deployapps.dev/docs/cli-tool/cli-commands/genezio-create/" >}}here{{< /external-link >}}.
 
 ## Install the Dependencies
 
@@ -119,7 +119,7 @@ export class StripeService {
 }
 ```
 
-First, we import the `GenezioDeploy` decorator. It will be added to the `StripeService` class to signal to genezio that the class needs to be deployed.
+First, we import the `GenezioDeploy` decorator. It will be added to the `StripeService` class to signal to DeployApps that the class needs to be deployed.
 
 The `GenezioMethod, GenezioHttpRequest, GenezioHttpResponse` will be used later on.
 
@@ -140,9 +140,9 @@ For the `success_url` and `cancel_url`, we'll leverage our frontend react applic
 
 ## Set up the webhook
 
-After a successful payment, Stripe notifies to the genezio backend so you can fulfill the order.
+After a successful payment, Stripe notifies to the DeployApps backend so you can fulfill the order.
 
-To do that, we will set up a {{< external-link link="https://docs.stripe.com/webhooks" >}}webhook{{< /external-link >}} function in our service. A webhook is an API call made between 2 servers. In our case between the Stripe backend and the genezio backend.
+To do that, we will set up a {{< external-link link="https://docs.stripe.com/webhooks" >}}webhook{{< /external-link >}} function in our service. A webhook is an API call made between 2 servers. In our case between the Stripe backend and the DeployApps backend.
 
 Add a new function in your **backend service class.**
 
@@ -174,7 +174,7 @@ async webhook(req: GenezioHttpRequest): Promise<GenezioHttpResponse> {
 }
 ```
 
-We use the Decorator `@GenezioMethod({ type: "http" })` to let genezio know we want this function to be a webhook.
+We use the Decorator `@GenezioMethod({ type: "http" })` to let DeployApps know we want this function to be a webhook.
 
 We use the `STRIPE_WEBHOOK_SECRET` from the Stripe Dashboard to check that the webhook is coming from Stripe and not from an attacker.
 
@@ -204,13 +204,13 @@ import { StripeService } from "@genezio-sdk/stripe-integration";
 const ProductDisplay = ({ handleSubmit }: { handleSubmit: () => void; }) => (
   <>
     <div>
-      <a href="https://genezio.com" target="_blank">
+      <a href="https://deployapps.dev" target="_blank">
         <img src="https://raw.githubusercontent.com/Genez-io/graphics/main/svg/Logo_Genezio_White.svg"
           className="logo genezio light"
-          alt="Genezio Logo"/>
+          alt="DeployApps Logo"/>
         <img src="https://raw.githubusercontent.com/Genez-io/graphics/main/svg/Logo_Genezio_Black.svg"
           className="logo genezio dark"
-          alt="Genezio Logo"/>
+          alt="DeployApps Logo"/>
       </a>
       <a href="https://react.dev" target="_blank">
         <img src={reactLogo} className="logo react" alt="React logo" />
@@ -269,12 +269,12 @@ export default function App() {
 }
 ```
 
-The function `handleSubmit` calls the backend through the genezio SDK imported on the top of the file
+The function `handleSubmit` calls the backend through the DeployApps SDK imported on the top of the file
 `import { StripeService } from "@genezio-sdk/stripe-integration";.`
 
 ## Deploy the application
 
-Now we have everything set up and it’s time to deploy the application to the genezio cloud with only one simple command.
+Now we have everything set up and it’s time to deploy the application to the DeployApps cloud with only one simple command.
 
 Run this command in the root folder on your project:
 
@@ -295,7 +295,7 @@ If you don’t already have a Stripe account, you can create one using {{< exter
 
 ## Setup the environment variables
 
-Open the {{< external-link link="https://app.genez.io/dashboard" >}}genezio dashboard{{< /external-link >}} and find your project from the projects list.
+Open the {{< external-link link="https://app.genez.io/dashboard" >}}DeployApps dashboard{{< /external-link >}} and find your project from the projects list.
 
 On the project page click the `Environment Variables` button and now let’s add them.
 
@@ -340,8 +340,8 @@ For the email, name, and CVC, feel free to enter any information you like, and f
 
 To wrap things up, integrating Stripe Payments securely might seem straightforward at first glance, yet it demands meticulous attention to detail to execute correctly.
 
-I hope you found this tutorial engaging, and I encourage you to dive into our other {{< external-link link="https://genezio.com/blog/" >}}tutorials{{< /external-link >}} for more in-depth advice and strategies tailored for software engineers. 🥷💻
+I hope you found this tutorial engaging, and I encourage you to dive into our other {{< external-link link="https://deployapps.dev/blog/" >}}tutorials{{< /external-link >}} for more in-depth advice and strategies tailored for software engineers. 🥷💻
 
 Additionally, I invite you to explore our examples on {{< external-link link="https://github.com/Genez-io/genezio-examples/tree/master/javascript/cron" >}}Github{{< /external-link >}}.
 
-Start tapping into the potential of the genezio framework and platform to enhance your application's capabilities and enrich your workflows with efficient payment solutions.
+Start tapping into the potential of the DeployApps framework and platform to enhance your application's capabilities and enrich your workflows with efficient payment solutions.

@@ -9,8 +9,8 @@ thumbnail: /images/introducing_yaml_v2.webp
 preview: Check out why we decide to revamp our YAML configuration format and what changes you should expect.
 # meta data start
 description: "DeployApps introduces an updated YAML configuration file format. Discover how to migrate and set up your projects with our detailed guide."
-meta_og_url: "https://genezio.com/blog/updated-config-file/"
-meta_og_image: "https://genezio.com/images/introducing_yaml_v2.webp"
+meta_og_url: "https://deployapps.dev/blog/updated-config-file/"
+meta_og_image: "https://deployapps.dev/images/introducing_yaml_v2.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -18,7 +18,7 @@ readTime: 5
 url: /blog/updated-config-file/
 ---
 
-Greetings to all! We're thrilled to share our inaugural major release with you. This significant update brings with it some changes that may affect existing projects. You can find more details about these changes and how to update your projects {{< external-link link="https://genezio.com/docs/learn-more/upgrading-to-v1" >}}here{{< /external-link >}}.
+Greetings to all! We're thrilled to share our inaugural major release with you. This significant update brings with it some changes that may affect existing projects. You can find more details about these changes and how to update your projects {{< external-link link="https://deployapps.dev/docs/learn-more/upgrading-to-v1" >}}here{{< /external-link >}}.
 
 A notable change in this release is the modification of our YAML configuration format.
 

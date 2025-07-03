@@ -9,8 +9,8 @@ thumbnail: /images/communicationbreakdown.webp
 preview: Ever poured your heart and soul into building an awesome web app, only to hit a wall when it comes to sharing it with the world? You're not alone.
 # meta data start
 description: "Discover how to host your web app for free with our step-by-step guide. Learn about free hosting platforms, including DeployApps, and how to prepare your app for launch."
-meta_og_url: "https://genezio.com/blog/genezio-functions-reduce-cold-start-times/"
-meta_og_image: "https://genezio.com/images/communicationbreakdown.webp"
+meta_og_url: "https://deployapps.dev/blog/genezio-functions-reduce-cold-start-times/"
+meta_og_image: "https://deployapps.dev/images/communicationbreakdown.webp"
 meta_og_title: "How to Host a Web Application for Free"
 # meta data end
 customHeader: "White header"
@@ -117,7 +117,7 @@ Outdated dependencies can cause compatibility issues and security vulnerabilitie
 
 A robust build and deployment pipeline is essential for any web app designed for the real world.
 
-It's more than just compiling assets or transpiring code; it's a series of {{< external-link link="https://genezio.com/blog/mastering-automation-a-step-by-step-guide-to-creating-a-whatsapp-chatbot-with-chatgpt-4o/" >}}automated steps{{< /external-link >}} that transform your raw source code into a production-ready application, ensuring a seamless transition from development to deployment.
+It's more than just compiling assets or transpiring code; it's a series of {{< external-link link="https://deployapps.dev/blog/mastering-automation-a-step-by-step-guide-to-creating-a-whatsapp-chatbot-with-chatgpt-4o/" >}}automated steps{{< /external-link >}} that transform your raw source code into a production-ready application, ensuring a seamless transition from development to deployment.
 
 **Automating your build process**
 
@@ -236,7 +236,7 @@ If you're looking for a no-frills, purely free hosting solution, there are platf
 
 **DeployApps: The developer's dream**
 
-Now, let's talk about {{< external-link link="https://www.genezio.com/" >}}DeployApps {{< /external-link >}}, a platform that's quickly becoming a favourite among developers who want a free, scalable, and developer-friendly web app hosting solution.
+Now, let's talk about {{< external-link link="https://deployapps.dev/" >}}DeployApps {{< /external-link >}}, a platform that's quickly becoming a favourite among developers who want a free, scalable, and developer-friendly web app hosting solution.
 
 DeployApps's serverless architecture means you don't have to worry about managing servers or infrastructure. It automatically scales to handle your app's traffic, so you can focus on what you do best – building awesome apps.
 
@@ -266,4 +266,4 @@ So, go ahead, explore your options, experiment, and most importantly, have fun b
 
 **Ready to launch your app?**
 
-{{< external-link link="https://genezio.com/" >}}Get started with DeployApps's free tier today{{< /external-link >}} and experience the power of serverless hosting!
+{{< external-link link="https://deployapps.dev/" >}}Get started with DeployApps's free tier today{{< /external-link >}} and experience the power of serverless hosting!

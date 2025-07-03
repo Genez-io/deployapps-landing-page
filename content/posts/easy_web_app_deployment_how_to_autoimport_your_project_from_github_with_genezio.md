@@ -10,9 +10,9 @@ thumbnail: /images/database-performance.webp
 preview: Deploying a web app can be more of a tedious job than a step forward. According to a December 2024 AWS blog post,developers report spending an average of just one hour per day on coding, with the rest of their time tied up in tasks like managing deployments, writing documentation, and troubleshooting issues.
 # meta data start
 description: Learn how DeployApps simplifies web app deployment with direct GitHub project integration. Save time and focus on building your app.
-meta_og_url: "https://genezio.com/blog/easy-web-app-deployment-with-genezio/"
+meta_og_url: "https://deployapps.dev/blog/easy-web-app-deployment-with-genezio/"
 # TODO:
-meta_og_image: "https://genezio.com/images/database-performance.webp"
+meta_og_image: "https://deployapps.dev/images/database-performance.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -34,7 +34,7 @@ Web apps are software pieces running on a browser. A solution like a PDF convert
 
 ## What is DeployApps?
 
-{{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} is a full-stack cloud platform designed to simplify web app deployment. Compared with traditional platforms that request for tons of wiring or DevOps know-how, DeployApps automates most of the setup. It connects directly to your GitHub repository, detects your framework, and deploys your app with very little input from you.
+{{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} is a full-stack cloud platform designed to simplify web app deployment. Compared with traditional platforms that request for tons of wiring or DevOps know-how, DeployApps automates most of the setup. It connects directly to your GitHub repository, detects your framework, and deploys your app with very little input from you.
 
 The platform will be interesting to developers who need quick and easy app deployment. DeployApps handles the heavy lifting and takes care of the servers, the security, and the scaling. It’s a serverless platform, meaning that a SaaS or MVP alike will automatically scale up when the demand dictates it.
 
@@ -76,4 +76,4 @@ SaaS developers will also appreciate how DeployApps keeps things simple with its
 
 Plus, DeployApps is **affordable**. The free plan is very generous.
 
-**If you’re ready to simplify your app deployment workflow, give DeployApps a try. Visit {{< external-link link="https://genezio.com" >}}DeployApps.com{{< /external-link >}} to connect your GitHub repository and deploy your project in just a few clicks. {{< external-link link="https://genezio.com/pricing/" >}}Signing up{{< /external-link >}} is quick, and you can start for free!**
+**If you’re ready to simplify your app deployment workflow, give DeployApps a try. Visit {{< external-link link="https://deployapps.dev" >}}DeployApps.dev{{< /external-link >}} to connect your GitHub repository and deploy your project in just a few clicks. {{< external-link link="https://deployapps.dev/pricing/" >}}Signing up{{< /external-link >}} is quick, and you can start for free!**

@@ -1,5 +1,5 @@
 ---
-title: Unlocking the potential of prompt engineering with genezio
+title: Unlocking the potential of prompt engineering with DeployApps
 date: 2023-06-06
 tags:
   - Tutorials
@@ -9,8 +9,8 @@ thumbnail: /images/fromPromptToCloud.webp
 preview: We are developing an application that generates a list of movies with summarized reviews
 # meta data start
 description: "Explore prompt engineering with DeployApps. Learn to create effective prompts and integrate OpenAI in your applications"
-meta_og_url: "https://genezio.com/blog/unlocking-the-potential-of-prompt-engineering-with-genezio/"
-meta_og_image: "https://genezio.com/images/fromPromptToCloud.webp"
+meta_og_url: "https://deployapps.dev/blog/unlocking-the-potential-of-prompt-engineering-with-genezio/"
+meta_og_image: "https://deployapps.dev/images/fromPromptToCloud.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -38,7 +38,7 @@ Conversion notes:
 
 * Docs to Markdown version 1.0β34
 * Fri Jun 16 2023 00:42:13 GMT-0700 (PDT)
-* Source doc: Unlocking the Potential of Prompt Engineering with genezio
+* Source doc: Unlocking the Potential of Prompt Engineering with DeployApps
 * Tables are currently converted to HTML tables.
 * This document has images: check for >>>>>  gd2md-html alert:  inline image link in generated source and store images to your server. NOTE: Images in exported zip file from Google Docs may not appear in  the same order as they do in your doc. Please check the images!
 
@@ -61,7 +61,7 @@ Welcome to this hands-on tutorial about creating advanced prompts and integratin
 
 Building effective prompts is like learning a new language - you’ve got to know how to ask the right questions. Crafting solid prompts is key to getting back the kind of answers you want from language models.
 
-So, get ready to sharpen your prompt creation skills, steer clear of common mistakes and even get your own full-stack application up and running on genezio.
+So, get ready to sharpen your prompt creation skills, steer clear of common mistakes and even get your own full-stack application up and running on DeployApps.
 
 ## Objectives
 
@@ -70,7 +70,7 @@ By the end of this tutorial you will be able to:
 - Create a prompt as a professional
 - Integrate OpenAI API programmatically using the OpenAI SDK
 - Avoid common mistakes of prompt engineering
-- Deploy a full-stack application on genezio
+- Deploy a full-stack application on DeployApps
 
 ## Tech Stack
 
@@ -80,7 +80,7 @@ By the end of this tutorial you will be able to:
 
 - React.js is a popular JavaScript library that forms a key component in many modern tech stacks. With its component-based architecture and efficient virtual DOM rendering, React.js enables developers to build dynamic and interactive user interfaces for web applications. You can learn more by looking at their documentation: {{< external-link link="https://legacy.reactjs.org/docs/getting-started.html" >}}legacy.reactjs.org/docs/getting-started.html{{< /external-link >}}
 
-- DeployApps is a platform that simplifies the process of developing serverless applications. With genezio, you can effortlessly create and host applications by writing clean and organized code in your preferred programming language (JS, TS and Dart) for both the frontend and backend. It offers typesafe APIs, auto generated class interfaces, and the ability to directly call functions in your code, streamlining your development workflow and saving you time. Take a look at the documentation: {{< external-link link="https://genezio.com/docs/" >}}https://genezio.com/docs/{{< /external-link >}}
+- DeployApps is a platform that simplifies the process of developing serverless applications. With DeployApps, you can effortlessly create and host applications by writing clean and organized code in your preferred programming language (JS, TS and Dart) for both the frontend and backend. It offers typesafe APIs, auto generated class interfaces, and the ability to directly call functions in your code, streamlining your development workflow and saving you time. Take a look at the documentation: {{< external-link link="https://deployapps.dev/docs/" >}}https://deployapps.dev/docs/{{< /external-link >}}
 
 ## Technical Tutorial
 
@@ -88,7 +88,7 @@ By the end of this tutorial you will be able to:
 
 - Install `node` and `npm` {{< external-link link="https://nodejs.org/en/download" >}}nodejs.org/en/download{{< /external-link >}}
 
-- Install genezio: `npm install genezio -g`
+- Install DeployApps CLI: `npm install genezio -g`
 - Get the API Key from {{< external-link link="https://openai.com/" >}}OpenAI{{< /external-link >}}
   :
 - Go to {{< external-link link="https://openai.com/" >}}openai.com{{< /external-link >}}
@@ -336,16 +336,16 @@ Now we have the backend set up, it’s time to test the frontend application.
 
 ### Deploy Your App
 
-If everything goes well you can now deploy your application on genezio’s infrastructure. In the root folder of your project:
+If everything goes well you can now deploy your application on DeployApps’s infrastructure. In the root folder of your project:
 
-- Login your CLI to the genezio cloud: `genezio login`
-- Deploy your app to the genezio cloud: `genezio deploy --env server\.env`
+- Login your CLI to the DeployApps cloud: `genezio login`
+- Deploy your app to the DeployApps cloud: `genezio deploy --env server\.env`
 
-This action might take up to 2 minutes and after that a random genezio subdomain will be provided for you with your deployed application.
+This action might take up to 2 minutes and after that a random DeployApps subdomain will be provided for you with your deployed application.
 
 ## Conclusion
 
-I hope this tutorial has equipped you with the necessary skills to create professional prompts, integrate OpenAI using the OpenAI SDK, avoid common prompt engineering mistakes, and deploy a full-stack application on genezio.
+I hope this tutorial has equipped you with the necessary skills to create professional prompts, integrate OpenAI using the OpenAI SDK, avoid common prompt engineering mistakes, and deploy a full-stack application on DeployApps.
 
 Now you can confidently leverage the power of OpenAI’s language models and unleash their potential in your projects.
 
@@ -353,5 +353,5 @@ Get ready to take your AI interactions to new heights!
 
 ## What’s Next?
 
-We at genezio aim to offer our users the best experience possible while having access to excellent time and money saving services. Stay tuned and join our {{< external-link link="https://discord.gg/uc9H5YKjXv" >}}Discord community{{< /external-link >}}
+We at DeployApps aim to offer our users the best experience possible while having access to excellent time and money saving services. Stay tuned and join our {{< external-link link="https://discord.gg/uc9H5YKjXv" >}}Discord community{{< /external-link >}}
 to be the first to hear about new tutorials and features.

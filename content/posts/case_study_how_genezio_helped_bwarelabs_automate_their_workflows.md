@@ -11,8 +11,8 @@ thumbnail: /images/bware-labs.webp
 preview: DeployApps is a full-stack cloud platform that allows developers to launch and deploy their projects in minutes. It’s helping entrepreneurs and companies alike with its speed and ease of use. One of the latest success stories comes from the web3 firm BwareLabs, which had to deal with plenty of DevOps resources to monitor their various blockchain instances.
 # meta data start
 description: BwareLabs benefits from DeployApps’s quick setup process to automate their workflows and run a scalable cloud app.
-meta_og_url: "https://genezio.com/blog/bwarelabs-case-study/"
-meta_og_image: "https://genezio.com/images/bware-labs.webp"
+meta_og_url: "https://deployapps.dev/blog/bwarelabs-case-study/"
+meta_og_image: "https://deployapps.dev/images/bware-labs.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -28,7 +28,7 @@ Thanks to DeployApps, they were able to build, deploy, and manage a cloud-based 
 
 DeployApps, with a pay-as-you-go model, runs with serverless technology—developers don’t need to worry about the infrastructure, servers, operating systems, or application runtimes. It’s all handed off to DeployApps so companies can focus on coding and deploying, exactly like BwareLabs did. Developers can deploy a “Hello World” function in less than two minutes after signing up and edit it directly in the browser. Even more complex full-stack apps can run in {{< external-link link="https://www.linkedin.com/posts/laurentiu-ciobanu_running-rust-on-genezio-you-heard-me-right-activity-7142892752794546176-TTa5/" >}}just three minutes{{< /external-link >}}.
 
-DeployApps also offers AWS Lambda compatibility, which allows developers to migrate {{< external-link link="https://genezio.com/blog/what-is-function-as-a-service/#what-is-function-as-a-service-faas-serverless-faas-explained" >}}functions{{< /external-link >}} without changing their code. This has the added benefit of better cold-start times and more predictable costs. Or, companies can just code, run, and deploy with type-safety from scratch—exactly like BwareLabs did.
+DeployApps also offers AWS Lambda compatibility, which allows developers to migrate {{< external-link link="https://deployapps.dev/blog/what-is-function-as-a-service/#what-is-function-as-a-service-faas-serverless-faas-explained" >}}functions{{< /external-link >}} without changing their code. This has the added benefit of better cold-start times and more predictable costs. Or, companies can just code, run, and deploy with type-safety from scratch—exactly like BwareLabs did.
 
 ## Case study: How DeployApps helped BwareLabs automate Web3 workflows
 
@@ -47,14 +47,14 @@ As a full-fledged cloud platform, DeployApps offers database integration. Knowin
 
 ### New database integrations for full-stack developers
 
-DeployApps recently announced an {{< external-link link="https://neon.tech/blog/genezio-teams-up-with-neon-to-enable-full-stack-app-development" >}}integration{{< /external-link >}} with {{< external-link link="https://neon.tech/" >}}Neon{{< /external-link >}}, a serverless Postgres database. Setting up and using Neon with DeployApps is {{< external-link link="https://genezio.com/blog/now-available-neon-postgres/#prerequisites" >}}simple and quick{{< /external-link >}}. The integration means DeployApps users can now access Neon's features, such as data branching for different environments, {{< external-link link="https://docs.github.com/en/actions" >}}GitHub Actions{{< /external-link >}} integration, support for vector databases using the {{< external-link link="https://neon.tech/docs/extensions/pgvector" >}}pgvector extension{{< /external-link >}}, and bottomless storage—all built into the DeployApps platform. BwareLabs didn’t need this integration to make their operations more nimble, but new adopters will undoubtedly be able to run their apps even quicker.
+DeployApps recently announced an {{< external-link link="https://neon.tech/blog/genezio-teams-up-with-neon-to-enable-full-stack-app-development" >}}integration{{< /external-link >}} with {{< external-link link="https://neon.tech/" >}}Neon{{< /external-link >}}, a serverless Postgres database. Setting up and using Neon with DeployApps is {{< external-link link="https://deployapps.dev/blog/now-available-neon-postgres/#prerequisites" >}}simple and quick{{< /external-link >}}. The integration means DeployApps users can now access Neon's features, such as data branching for different environments, {{< external-link link="https://docs.github.com/en/actions" >}}GitHub Actions{{< /external-link >}} integration, support for vector databases using the {{< external-link link="https://neon.tech/docs/extensions/pgvector" >}}pgvector extension{{< /external-link >}}, and bottomless storage—all built into the DeployApps platform. BwareLabs didn’t need this integration to make their operations more nimble, but new adopters will undoubtedly be able to run their apps even quicker.
 
 ## Try DeployApps and deploy your cloud project with a Neon Postgres database
 
-With DeployApps, BwareLabs can now handle both backend and database needs within the same platform without ever worrying about the underlying infrastructure. And if they need to scale up their monitoring tool because their business is scaling up, they don’t have to worry about that either—DeployApps handles it automatically. {{< external-link link="https://genezio.com/serverless-scalability/" >}}Scalability is one of the key benefits{{< /external-link >}} of functions and serverless technology.
+With DeployApps, BwareLabs can now handle both backend and database needs within the same platform without ever worrying about the underlying infrastructure. And if they need to scale up their monitoring tool because their business is scaling up, they don’t have to worry about that either—DeployApps handles it automatically. {{< external-link link="https://deployapps.dev/serverless-scalability/" >}}Scalability is one of the key benefits{{< /external-link >}} of functions and serverless technology.
 
 The pay-as-you-go model also makes it affordable for projects with limited budgets. Neon's branching feature lets developers try new ideas without having to worry about disrupting their production setups.
 
 This is just one of the use cases for DeployApps. Any app can be written and deployed from scratch. Unlike other tools that lock you into specific workflows, DeployApps gives you the freedom to build and deploy your way. So, no matter the size of your team, if you are ready to simplify your development projects, visit our website and {{< external-link link="https://app.genez.io/auth/signup" >}}sign up{{< /external-link >}} for a free account today. In just a few clicks, you can start building full-stack applications that grow with your business.
 
-**You can start for free. To learn more about how DeployApps and Neon can help you deploy quickly and affordably, visit {{< external-link link="https://DeployApps.com" >}}DeployApps{{< /external-link >}}.**
+**You can start for free. To learn more about how DeployApps and Neon can help you deploy quickly and affordably, visit {{< external-link link="https://deployapps.dev" >}}DeployApps{{< /external-link >}}.**

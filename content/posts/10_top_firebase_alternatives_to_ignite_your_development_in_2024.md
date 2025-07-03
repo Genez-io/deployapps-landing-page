@@ -9,8 +9,8 @@ thumbnail: /images/firebase-alternatives.webp
 preview: Firebase is awesome, no doubt. There's a reason it's used by over 2.5 million apps and games worldwide, but the truth is,  it's not always the perfect fit for every project.
 # meta data start
 description: Explore top Firebase alternatives in 2024. Find the perfect backend solution for your web and mobile apps.
-meta_og_url: "https://genezio.com/blog/firebase-alternatives/"
-meta_og_image: "https://genezio.com/images/firebase-alternatives.webp"
+meta_og_url: "https://deployapps.dev/blog/firebase-alternatives/"
+meta_og_image: "https://deployapps.dev/images/firebase-alternatives.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -52,9 +52,9 @@ So, let's explore what else is out there.
 
 ### 1. DeployApps: Your Framework-Agnostic Powerhouse
 
-{{< external-link link="https://genezio.com/">}}DeployApps{{< /external-link >}} is a developer platform designed to empower full-stack developers and teams in building, running, and maintaining web, mobile, or enterprise apps with a typesafe backend that scales automatically.
+{{< external-link link="https://deployapps/dev/">}}DeployApps{{< /external-link >}} is a developer platform designed to empower full-stack developers and teams in building, running, and maintaining web, mobile, or enterprise apps with a typesafe backend that scales automatically.
 
-It's a powerful platform designed to streamline your entire development process, from writing and hosting your application to {{< external-link link="https://genezio.com/blog/effortless-scaling-genezio-handles-growth/">}}scaling it effortlessly{{< /external-link>}} as your user base grows in a serverless environment.
+It's a powerful platform designed to streamline your entire development process, from writing and hosting your application to {{< external-link link="https://deployapps.dev/blog/effortless-scaling-genezio-handles-growth/">}}scaling it effortlessly{{< /external-link>}} as your user base grows in a serverless environment.
 
 **Who's it for?**
 
@@ -144,7 +144,7 @@ It's an easy option if you're looking to build on AWS Lambda. It allows for auto
 
 **Who's it for?**
 
-Serverless Framework is best for backend developers who want to focus on writing business logic rather than configuring cloud infrastructure. It simplifies the deployment and {{< external-link link="https://genezio.com/serverless-scalability/">}}management of serverless resources{{< /external-link>}}, making it easier to keep track of backend logic and spin up local development environments.
+Serverless Framework is best for backend developers who want to focus on writing business logic rather than configuring cloud infrastructure. It simplifies the deployment and {{< external-link link="https://deployapps.dev/serverless-scalability/">}}management of serverless resources{{< /external-link>}}, making it easier to keep track of backend logic and spin up local development environments.
 
 It's also flexible in terms of supported programming languages, allowing developers to use their preferred tools.
 
@@ -304,7 +304,7 @@ Notably, Encore takes the hassle out of cloud infrastructure management. It auto
 
 You get the peace of mind of knowing your infrastructure is solid without having to become a cloud expert yourself.
 
-Plus, Encore's simple dashboard lets you review and approve changes before each deployment, giving you full control and visibility. It's a powerful combination of {{< external-link link="https://genezio.com/blog/whatsapp-genezio-project/">}}automation and customization{{< /external-link>}}, making it an attractive option for teams who want to move fast without sacrificing security or scalability.
+Plus, Encore's simple dashboard lets you review and approve changes before each deployment, giving you full control and visibility. It's a powerful combination of {{< external-link link="https://deployapps.dev/blog/whatsapp-genezio-project/">}}automation and customization{{< /external-link>}}, making it an attractive option for teams who want to move fast without sacrificing security or scalability.
 
 **Key Features:**
 
@@ -355,4 +355,4 @@ The key is to choose the platform that best aligns with your project's specific 
 
 Remember, the best Firebase alternative is the one that empowers you to build amazing applications, streamline your development process, and achieve your goals, not the one that just looks good at first glance.
 
-And if you're looking for a framework-agnostic, high-performance, and cost-effective serverless platform, be sure to {{< external-link link="https://genezio.com/">}}check out DeployApps{{< /external-link>}}.
+And if you're looking for a framework-agnostic, high-performance, and cost-effective serverless platform, be sure to {{< external-link link="https://deployapps.dev/">}}check out DeployApps{{< /external-link>}}.

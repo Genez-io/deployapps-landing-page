@@ -13,9 +13,9 @@ preview: For platforms like MyBenefits—a flexible benefits marketplace where e
 # meta data start
 description: Learn how MyBenefits automated >90% of supplier order processing using DeployApps’s Cron jobs, queues, and TypeScript backend. 70% manual effort reduction. Insights for developers
 
-meta_og_url: "https://genezio.com/blog/mybenefits-genezio-supplier-automation-case-study/"
+meta_og_url: "https://deployapps.dev/blog/mybenefits-genezio-supplier-automation-case-study/"
 
-meta_og_image: "https://genezio.com/images/mybenefitsxgenezio.webp"
+meta_og_image: "https://deployapps.dev/images/mybenefitsxgenezio.webp"
 
 # meta data end
 customHeader: "White header"

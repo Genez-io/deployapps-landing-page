@@ -9,8 +9,8 @@ thumbnail: /images/template-tutorials.webp
 preview: Hello, I’m Cristi Miloiu and I will show you the process of deploying your app using DeployApps, a powerful platform designed to simplify app deployment.
 # meta data start
 description: Learn how to deploy your apps with DeployApps in this step-by-step guide. Perfect for frameworks like Flask, Django, FastAPI, Next.js, React, Angular, Vue, and more!
-meta_og_url: "https://genezio.com/blog/how-to-deploy-my-app/"
-meta_og_image: "https://genezio.com/images/template-tutorials.webp"
+meta_og_url: "https://deployapps.dev/blog/how-to-deploy-my-app/"
+meta_og_image: "https://deployapps.dev/images/template-tutorials.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"

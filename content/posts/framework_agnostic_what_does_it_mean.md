@@ -8,8 +8,8 @@ linkedIn: https://www.linkedin.com/in/luisminv/
 thumbnail: /images/what_is_serverless_scalability_and_how_does_it_work.webp
 preview: "Yeah, the development world moves at a breakneck pace, with terms and phrases coming and going, but every now and then, something pops up that sticks around and actually has a long-lasting impact."
 description: 'Learn what "framework agnostic" means, its benefits, and how to choose the right platform. A key component you need to succeed in your development ventures.'
-meta_og_url: "https://genezio.com/blog/what-is-framework-agnostic/"
-meta_og_image: "https://genez.io/images/what_is_serverless_scalability_and_how_does_it_work.webp"
+meta_og_url: "https://deployapps.dev/blog/what-is-framework-agnostic/"
+meta_og_image: "https://deployapps.dev/images/what_is_serverless_scalability_and_how_does_it_work.webp"
 customHeader: "White header"
 customFooter: "White footer"
 readTime: 10
@@ -28,7 +28,7 @@ What this is and how it can help you (if it's suitable for you) is what we're de
 
 **Framework agnostic** simply means that a tool, platform, or approach isn't tied to any specific software framework. The kind of tool you can use in any project or framework without being locked into just that setup.
 
-Let's say you're building and {{< external-link link="https://genezio.com/blog/how-to-host-a-web-app-host-application-hosting-an-app-application-server-hosting-web-application-hosting-server-free-application-hosting/" >}}hosting a web application{{< /external-link >}}.
+Let's say you're building and {{< external-link link="https://deployapps.dev/blog/how-to-host-a-web-app-host-application-hosting-an-app-application-server-hosting-web-application-hosting-server-free-application-hosting/" >}}hosting a web application{{< /external-link >}}.
 
 With a framework-agnostic approach, you're not locked into using React, Angular, or Vue.js exclusively. You have the flexibility to pick the framework that best suits your project's needs, or even mix and match different frameworks if that's what makes sense.
 
@@ -58,7 +58,7 @@ You could even argue that this approach is a great way to empower yourself or yo
 
 ### An example of when being framework agnostic would be a good idea
 
-Let's say you're creating a Google Docs-style application where multiple users can edit the same document simultaneously. This project demands {{< external-link link="https://genezio.com/blog/communication-breakdown-why-backend-to-frontend-communication-matters/" >}}a blend of frontend and backend technologies{{< /external-link >}}:
+Let's say you're creating a Google Docs-style application where multiple users can edit the same document simultaneously. This project demands {{< external-link link="https://deployapps.dev/blog/communication-breakdown-why-backend-to-frontend-communication-matters/" >}}a blend of frontend and backend technologies{{< /external-link >}}:
 
 - **Frontend:** You'll need a reactive framework like React or Vue.js to handle real-time updates and provide a smooth user experience as multiple cursors move and text changes.
 
@@ -118,7 +118,7 @@ There are options, but again, it comes down to choosing the solution that's righ
 
 - **Ease of Use:** Let's face it, nobody wants to wrestle with a complex platform. Look for one with intuitive tools, clear documentation, and a user-friendly interface that makes development a breeze.
 
-- **Scalability:** Your projects are going to grow, and your platform needs to be able to handle that growth gracefully. {{< external-link link="https://genezio.com/serverless-scalability/" >}}Make sure it can scale effortlessly{{< /external-link >}} to accommodate increased traffic and usage without sacrificing performance.
+- **Scalability:** Your projects are going to grow, and your platform needs to be able to handle that growth gracefully. {{< external-link link="https://deployapps.dev/serverless-scalability/" >}}Make sure it can scale effortlessly{{< /external-link >}} to accommodate increased traffic and usage without sacrificing performance.
 
 - **Integrations:** Chances are, you're already using a bunch of tools and services in your development workflow. Choose a platform that plays nicely with your existing tech stack and offers seamless integrations.
 
@@ -132,7 +132,7 @@ Remember, the right platform can make all the difference in your framework-agnos
 
 Want to look into what this might look like in the real world?
 
-{{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} is a top-notch framework-agnostic serverless platform designed from the ground up to empower developers like us with the freedom and flexibility we crave.
+{{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} is a top-notch framework-agnostic serverless platform designed from the ground up to empower developers like us with the freedom and flexibility we crave.
 
 DeployApps boasts a super smooth development experience, effortless scalability (so you can handle those traffic spikes like a champ), and rock-solid integrations that'll make your life easier. Plus, it lets you focus on what you do best – building awesome products – instead of getting bogged down in infrastructure management.
 
@@ -146,4 +146,4 @@ While there might be a slight learning curve and some initial complexity, the be
 
 What's more, when you take the time to work with the right tools, like DeployApps, you'll be well-equipped to navigate the ever-changing tech landscape and build remarkable applications that stand the test of time.
 
-{{< external-link link="https://genezio.com/" >}}Get started today!{{< /external-link >}}
+{{< external-link link="https://deployapps.dev/" >}}Get started today!{{< /external-link >}}

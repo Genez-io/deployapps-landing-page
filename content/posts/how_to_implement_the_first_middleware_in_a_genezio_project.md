@@ -9,8 +9,8 @@ thumbnail: /images/genezio_middleware.webp
 preview: Middleware is software that acts as an intermediary layer between different applications or between an application and the underlying operating system, network, or database.
 # meta data start
 description: "Middleware is software that acts as an intermediary layer between different applications or between an application and the underlying operating system, network, or database."
-meta_og_url: "https://genezio.com/blog/how_to_implement_the_first_middleware_in_a_genezio_project"
-meta_og_image: "https://genezio.com/images/genezio_middleware.webp"
+meta_og_url: "https://deployapps.dev/blog/how_to_implement_the_first_middleware_in_a_genezio_project"
+meta_og_image: "https://deployapps.dev/images/genezio_middleware.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -21,19 +21,19 @@ Hello, everyone. Today, we are talking about middleware integration in DeployApp
 
 ## What is middleware?
 
-Middleware is software that acts as an intermediary layer between different applications or between an application and the underlying operating system, network, or database. The term ‘middleware’ is very broad and can be applied to a lot of different specific software components such as logging, security, data validation and many more. The classic web architecture is usually composed of three major components, the frontend, the backend and the database. Between these components is where the middleware integration works its magic. For our {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} projects, we want to implement the middleware between the frontend and the backend.
+Middleware is software that acts as an intermediary layer between different applications or between an application and the underlying operating system, network, or database. The term ‘middleware’ is very broad and can be applied to a lot of different specific software components such as logging, security, data validation and many more. The classic web architecture is usually composed of three major components, the frontend, the backend and the database. Between these components is where the middleware integration works its magic. For our {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} projects, we want to implement the middleware between the frontend and the backend.
 
 ![alt_text](/posts/middlewareexplication.webp)
 
-Some common examples of middleware are {{< external-link link="https://genezio.com/docs/features/authentication/" >}}authentication{{< /external-link >}}, type validation, connection management, {{< external-link link="https://genezio.com/docs/genezio-typesafe/rate-limiter/" >}}rate limiting{{< /external-link >}} etc. The importance of middleware integration is paramount in any software development process to ensure that any cross-integration problems are solved seamlessly.
+Some common examples of middleware are {{< external-link link="https://deployapps.dev/docs/features/authentication/" >}}authentication{{< /external-link >}}, type validation, connection management, {{< external-link link="https://deployapps.dev/docs/genezio-typesafe/rate-limiter/" >}}rate limiting{{< /external-link >}} etc. The importance of middleware integration is paramount in any software development process to ensure that any cross-integration problems are solved seamlessly.
 
 ## DeployApps is designed for full-stack developers
 
-{{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} is a serverless platform for full-stack developers who want to build quickly and scale their apps automatically. As you probably know, it can be a pain trying to set up the right middleware between the frontend and the backend. That’s why we recommend building your app with DeployApps. It comes with-out-of-the-box middleware for authentication and rate limiting. You’ll also have full control over your middleware and can easily customize the middleware to suit your application needs. Let’s have a look at some of the common use cases of middleware for your existing DeployApps project. (If you’d like to use DeployApps for your next project, you can get started with this {{< external-link link="https://genezio.com/docs/" >}}documentation here{{< /external-link >}})
+{{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} is a serverless platform for full-stack developers who want to build quickly and scale their apps automatically. As you probably know, it can be a pain trying to set up the right middleware between the frontend and the backend. That’s why we recommend building your app with DeployApps. It comes with-out-of-the-box middleware for authentication and rate limiting. You’ll also have full control over your middleware and can easily customize the middleware to suit your application needs. Let’s have a look at some of the common use cases of middleware for your existing DeployApps project. (If you’d like to use DeployApps for your next project, you can get started with this {{< external-link link="https://deployapps.dev/docs/" >}}documentation here{{< /external-link >}})
 
 ## Middleware in DeployApps projects
 
-We will look at how DeployApps projects written in typescript support middleware. Decorators such as `@GenezioDeploy` and `@GenezioMethod` already work as a sort of middleware integrated with the genezio infrastructure. As such, custom-made middleware will also take advantage of typescript decorators.
+We will look at how DeployApps projects written in typescript support middleware. Decorators such as `@GenezioDeploy` and `@GenezioMethod` already work as a sort of middleware integrated with the DeployApps infrastructure. As such, custom-made middleware will also take advantage of typescript decorators.
 
 Let’s look at a simple example of a typescript decorator that just logs something before and after the execution of a function:
 

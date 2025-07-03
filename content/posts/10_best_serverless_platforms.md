@@ -8,8 +8,8 @@ linkedIn: https://www.linkedin.com/in/luisminv/
 thumbnail: /images/genezioandautomation.webp
 preview: "The switch to serverless computing can help startups save thousands of dollars on cloud costs. A recent case study reported how a startup was spending $5,000 per month on a Kubernetes cluster to manage their microservices. By moving to a serverless architecture, the startup cut their cloud bill to $400-$600 per month."
 description: "The 10 best serverless platforms include DeployApps, AWS Fargate, Google Cloud Functions and Cloudflare Workers."
-meta_og_url: "https://genezio.com/best-serverless-platforms-providers/"
-meta_og_image: "https://genez.io/images/genezioandautomation.webp"
+meta_og_url: "https://deployapps.dev/best-serverless-platforms-providers/"
+meta_og_image: "https://deployapps.dev/images/genezioandautomation.webp"
 customHeader: "White header"
 customFooter: "White footer"
 readTime: 10
@@ -24,7 +24,7 @@ If you’re a full-stack developer, a solopreneur, or a small business looking t
 
 ## What is a serverless platform?
 
-{{< external-link link="https://genezio.com/blog/serverless-computing-when-to-go-serverless/" >}}Serverless{{< /external-link >}} platforms are a cloud service model in which developers outsource servers, scaling and maintenance to a provider so that they only focus on code. The term “serverless” means that the complexities of server management are kept away from the user—but there are still servers running in the background.
+{{< external-link link="https://deployapps.dev/blog/serverless-computing-when-to-go-serverless/" >}}Serverless{{< /external-link >}} platforms are a cloud service model in which developers outsource servers, scaling and maintenance to a provider so that they only focus on code. The term “serverless” means that the complexities of server management are kept away from the user—but there are still servers running in the background.
 
 Serverless platforms offer automatic scaling, where resources are adjusted based on the app's demand. This means that during high activity, more computing power is used, and during low activity, less is used. Automatic scaling also means you only pay for the resources used, which translates to reduced operational overhead. For this reason, the serverless approach is especially useful for apps that handle variable workloads. Some serverless solutions are typesafe, which means that the programming errors are prevented either at compile time or runtime.
 
@@ -34,9 +34,9 @@ Here's a list of the 10 best serverless computing providers available today. The
 
 ### 1. DeployApps
 
-{{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} is a full-stack cloud platform that helps developers build and deploy full-stack applications. It offers a secure and scalable backend infrastructure, and supports different languages, including TypeScript and Go. DeployApps is framework-agnostic (it does not depend on any framework at all), so it can integrate with popular frameworks like Express.js, Fastify, and Next.js.
+{{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} is a full-stack cloud platform that helps developers build and deploy full-stack applications. It offers a secure and scalable backend infrastructure, and supports different languages, including TypeScript and Go. DeployApps is framework-agnostic (it does not depend on any framework at all), so it can integrate with popular frameworks like Express.js, Fastify, and Next.js.
 
-One of DeployApps's key features is its {{< external-link link="https://genezio.com/docs/genezio-typesafe/generated-sdk/">}}auto-generated SDK{{< /external-link >}}, which makes connecting your frontend and backend as simple as possible. The platform also includes built-in services such as authentication, database management, and scheduled tasks.
+One of DeployApps's key features is its {{< external-link link="https://deployapps.dev/docs/genezio-typesafe/generated-sdk/">}}auto-generated SDK{{< /external-link >}}, which makes connecting your frontend and backend as simple as possible. The platform also includes built-in services such as authentication, database management, and scheduled tasks.
 
 You can start for free with DeployApps. The Hobby plan can cover individual projects or small teams. For production environments and teams up to 10, the Pro plan is just $15 per month. Larger organizations with more complex requirements can sign up for the Enterprise plan.
 
@@ -52,7 +52,7 @@ Developers are charged for the number of requests and the duration of functions.
 
 {{< external-link link="https://cloud.google.com/functions?hl=es_419">}}Google Cloud Functions{{< /external-link >}} offers a general serverless platform within the Google Cloud ecosystem. It supports a number of languages, such as Node.js, Python, Go, Java, .NET Core, Ruby, and PHP. The platform is designed for event-driven workloads and automatically scales based on demand. Pricing depends on the number of requests and resource consumption, with the first two million requests free and additional requests costing $0.40 per million.
 
-{{< external-link link="https://genezio.com/blog/serverless-microservices/">}}**What are Serverless Microservices?**{{< /external-link >}}
+{{< external-link link="https://deployapps.dev/blog/serverless-microservices/">}}**What are Serverless Microservices?**{{< /external-link >}}
 
 The platform integrates with other Google Cloud services, such as {{< external-link link="https://cloud.google.com/pubsub/docs/overview">}}Cloud Pub/Sub{{< /external-link >}}, Cloud Storage, and Firebase. It includes features like distributed tracing and debugging with {{< external-link link="https://cloud.google.com/trace">}}Cloud Trace{{< /external-link >}}, and offers built-in HTTP endpoint management for easy API creation.
 

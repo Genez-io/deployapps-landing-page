@@ -9,8 +9,8 @@ thumbnail: /images/effortless.webp
 preview: When it comes to building apps, you’ll often hear about “full-stack” and, rightfully so, wonder if it includes “DevOps.” But not really. DevOps, the bit that would help a developer deploy their newly-coded app, is not part of the full-stack skill set.
 # meta data start
 description: “Full-stack” doesn’t include DevOps. And, to deploy their apps, developers can use platforms like DeployApps.
-meta_og_url: "https://genezio.com/blog/does-full-stack-include-devops/"
-meta_og_image: "https://genezio.com/images/effortless.webp"
+meta_og_url: "https://deployapps.dev/blog/does-full-stack-include-devops/"
+meta_og_image: "https://deployapps.dev/images/effortless.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -40,11 +40,11 @@ In simple terms, while full-stack developers focus on writing the code for the a
 
 No, full-stack doesn’t include DevOps. Full-stack development doesn’t address the deeper operational duties that DevOps covers. While full-stack developers may occasionally handle basic server configurations or troubleshoot infrastructure, tasks like deploying and maintaining production environments are usually outside their reach. Though the two roles supplement each other, trying to juggle both can make it really hard for developers to succeed in either.
 
-So, if full-stack development doesn’t typically include DevOps, how can you make deployment easier without becoming an expert in both fields? This is where specialized cloud platforms like {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} come in.
+So, if full-stack development doesn’t typically include DevOps, how can you make deployment easier without becoming an expert in both fields? This is where specialized cloud platforms like {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} come in.
 
 ## How DeployApps can help you with your app’s deployment
 
-DeployApps makes it possible to deploy full-stack projects without diving into DevOps. By connecting your GitHub repository to DeployApps, you can import, configure, and deploy your projects in just {{< external-link link="https://genezio.com/import-github-projects-genezio/#step-by-step-guide-to-importing-and-deploying-your-project" >}}a few steps{{< /external-link >}}. Here’s how it works:
+DeployApps makes it possible to deploy full-stack projects without diving into DevOps. By connecting your GitHub repository to DeployApps, you can import, configure, and deploy your projects in just {{< external-link link="https://deployapps.dev/import-github-projects-genezio/#step-by-step-guide-to-importing-and-deploying-your-project" >}}a few steps{{< /external-link >}}. Here’s how it works:
 
 ### 1. Import your repository
 
@@ -76,4 +76,4 @@ DeployApps is a full-stack cloud platform focused on making the deployment proce
 
 If you want to spend less time on deployment and more time building, DeployApps is the platform to explore. Whether you're an experienced developer or just getting started, DeployApps makes launching and deploying full-stack apps easy and quick.
 
-**You can {{< external-link link="https://app.genez.io/auth/login" >}}access DeployApps for free{{< /external-link >}} now — it takes seconds to sign up and get it running. Or, to learn more about how DeployApps can simplify deployment and help your projects scale, visit {{< external-link link="http://DeployApps.com" >}}Genezio.com{{< /external-link >}}.**
+**You can {{< external-link link="https://app.genez.io/auth/login" >}}access DeployApps for free{{< /external-link >}} now — it takes seconds to sign up and get it running. Or, to learn more about how DeployApps can simplify deployment and help your projects scale, visit {{< external-link link="http://deployapps.dev" >}}DeployApps.dev{{< /external-link >}}.**

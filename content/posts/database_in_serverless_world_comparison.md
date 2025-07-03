@@ -10,8 +10,8 @@ thumbnail: /images/database-performance.webp
 preview: Deciding on the right database is often a challenging task when starting a new project.
 # meta data start
 description: "Decide on the right database for your project based on this analysis of their performance in a Function as a Service serverless environment."
-meta_og_url: "https://genezio.com/blog/database_in_serverless_world_comparison"
-meta_og_image: "https://genezio.com/images/database-performance.webp"
+meta_og_url: "https://deployapps.dev/blog/database_in_serverless_world_comparison"
+meta_og_image: "https://deployapps.dev/images/database-performance.webp"
 # meta data end
 # svg = “xyz”
 customHeader: "White header"
@@ -53,7 +53,7 @@ I’ve picked the following databases since these are the NoSQL options that I'v
 - **DynamoDB:** an AWS based NoSQL database. You can obtain one from your AWS account. Amazon DynamoDB pricing is based on provisioned throughput, storage, data transfer, and additional features like backups, restore, and streams.
 - **MongoDB:** a popular NoSQL database used to store unstructured data. MongoDB can easily be hosted on the MongoDB Atlas Cloud Platform. They offer different pricing plans: a pay as you go serverless pricing tier, a dedicated server solution for production applications and also a free tier. For this test, I’ve used an M30 database. If you think about going with the serverless pricing tier, pay attention to the fact that you can’t have more than 500 concurrent connections which is quite low if you plan to use it in a FaaS.
 - **Atlas MongoDB Data API:** this is using the same MongoDB, the distinction lies in the connection protocol. Rather than using the MongoDB Wire Protocol, it employs a HTTP-based API. This is useful if managing a connection pool is not feasible or if a MongoDB driver isn't compatible with your client application. This feature could be especially beneficial in a FaaS system as it eliminates the need to establish a database connection during the 'cold start' phase.
-- **Firestore:** serverless NoSQL database provided by Google that is part of the {{< external-link link="https://genezio.com/blog/firebase-alternatives/">}}Firebase app development{{< /external-link >}} platform.
+- **Firestore:** serverless NoSQL database provided by Google that is part of the {{< external-link link="https://deployapps.dev/blog/firebase-alternatives/">}}Firebase app development{{< /external-link >}} platform.
 
 I wanted to see how these databases worked in a FaaS setup. My goal? To answer these key question:
 
@@ -64,11 +64,11 @@ I wanted to see how these databases worked in a FaaS setup. My goal? To answer t
 
 For each database, I did two tests: one simulating a 'cold start' scenario with an AWS Lambda function, and another where the AWS Lambda function was already 'warm’. This was important even for databases utilizing an HTTPS API, as they might still experience a 'cold start' during the first request. Before the query bytes are transmitted over the network, multiple steps need to occur including DNS lookup, TCP connection establishment, and TLS handshake. Because of multiple cache layers for these operations, later requests might be quicker.
 
-I used {{< external-link link="https://genez.io/">}}genezio{{< /external-link >}} to execute these tests. I’ve used the self hosted feature of genezio which allows me to deploy the backend on AWS Lambdas belonging to my own AWS account. To understand more about what genezio does, you can read more {{< external-link link="https://github.com/vladiulianbogdan/database-benchmarking">}}here{{< /external-link >}}. I designed a separate class for each database experiment. You can find the code {{< external-link link="https://github.com/Genez-io/database-benchmarking">}}here{{< /external-link >}}.
+I used {{< external-link link="https://deployapps.dev/">}}DeployApps{{< /external-link >}} to execute these tests. I’ve used the self hosted feature of DeployApps which allows me to deploy the backend on AWS Lambdas belonging to my own AWS account. To understand more about what DeployApps does, you can read more {{< external-link link="https://github.com/vladiulianbogdan/database-benchmarking">}}here{{< /external-link >}}. I designed a separate class for each database experiment. You can find the code {{< external-link link="https://github.com/Genez-io/database-benchmarking">}}here{{< /external-link >}}.
 
 The database structure is the same for all databases: I have a \`Task\` table (or collection) and I insert 10000 entries. The query that I perform doesn’t use any filtering and retrieves 10 tasks.
 
-Once I'd completed the code, I deployed the necessary AWS resources to my account by typing 'genezio deploy' into the terminal. This action created an AWS Lambda for each class, along with an API Gateway. Following this, I raised the default limits of the AWS Lambdas: I increased the number of reserved concurrent functions and extended the timeout to 30 seconds. The genezio application and the database are both hosted in the eu-central-1 region. If you want the fastest query time possible, you need to have the database as close as possible to where you hosted the application.
+Once I'd completed the code, I deployed the necessary AWS resources to my account by typing 'genezio deploy' into the terminal. This action created an AWS Lambda for each class, along with an API Gateway. Following this, I raised the default limits of the AWS Lambdas: I increased the number of reserved concurrent functions and extended the timeout to 30 seconds. The DeployApps application and the database are both hosted in the eu-central-1 region. If you want the fastest query time possible, you need to have the database as close as possible to where you hosted the application.
 
 With the classes successfully deployed on AWS, it's time to invoke them and obtain the measurement results.
 
@@ -88,7 +88,7 @@ When using the **Atlas MongoDB Data API**, we observe a notably favorable respon
 
 **DynamoDB** performs exceptionally well with a good query time during cold start (~70ms) and an excellent warm query time similar to Mongo DB with connection (~5ms).
 
-Furthermore, I conducted the same set of experiments with the genezio application, which was now hosted in a different region (us-east-1) than the database (eu-central-1). This aspect becomes useful when considering scenarios such as deploying a multi-region application while using a single database.
+Furthermore, I conducted the same set of experiments with the DeployApps application, which was now hosted in a different region (us-east-1) than the database (eu-central-1). This aspect becomes useful when considering scenarios such as deploying a multi-region application while using a single database.
 
 {{< svg file="/posts/dbchart2.svg" >}}
 

@@ -8,8 +8,8 @@ linkedIn: https://www.linkedin.com/in/andreia-irina-ocanoaia/
 thumbnail: /images/implement_shopping_cart_redis.webp
 preview: Learn how to build a shopping cart app with Typescript, Redis, and React.
 description: Implement a scalable, fast, and robust shopping cart using Redis, NodeJs, and React. This tutorial guides you step-by-step through building a cart feature.
-meta_og_url: "https://genezio.com/blog/implement-a-shopping-cart-using-typescript-redis-and-react/"
-meta_og_image: "https://genezio.com/images/implement_shopping_cart_redis.webp"
+meta_og_url: "https://deployapps.dev/blog/implement-a-shopping-cart-using-typescript-redis-and-react/"
+meta_og_image: "https://deployapps.dev/images/implement_shopping_cart_redis.webp"
 customHeader: "White header"
 customFooter: "White footer"
 readTime: 30
@@ -65,7 +65,7 @@ Redis is an open-source, in-memory database that stores key, value pairs. Redis 
 
 Upstash is a cutting-edge platform for modern developers seeking seamless data management in serverless and cloud-native applications. Offering Redis-compatible, in-memory database services, Upstash simplifies data storage and access, making it a natural fit for serverless functions, web apps, and cloud-native architectures.
 
-By partnering with Upstash, genezio provides an easy-to-use solution to add an Upstash Redis database to your project from the genezio dashboard.
+By partnering with Upstash, DeployApps provides an easy-to-use solution to add an Upstash Redis database to your project from the DeployApps dashboard.
 {{< /details >}}
 
 On the frontend side, we'll use React and Bootstrap to implement a minimal frontend for the online store.
@@ -79,7 +79,7 @@ Reactstrap is a library that brings Bootstrap components into React applications
 
 {{< /details >}}
 
-We will use `genezio` to help you scaffold the web app and deploy it to the cloud.
+We will use `DeployApps` to help you scaffold the web app and deploy it to the cloud.
 
 The result of this tutorial will be a web application that looks like this:
 
@@ -103,14 +103,14 @@ Firstly, you'll need to create a new project with a server and a client.
 The server will be responsible for communicating (storing, retrieving, updating, deleting) with the Redis database.
 The client will render the products available in the store and allow the user to add them to the shopping cart.
 
-To get started with a template, install `genezio` using `npm` and run it in your terminal.
-Later on, `genezio` comes in handy to deploy and host your web applications in the cloud.
+To get started with a template, install `DeployApps` using `npm` and run it in your terminal.
+Later on, `DeployApps` comes in handy to deploy and host your web applications in the cloud.
 
 ```bash
 npm install -g genezio
 ```
 
-After installing `genezio`, you can create a new genezio application by running the following command:
+After installing `genezio`, you can create a new DeployApps application by running the following command:
 
 ```bash
 genezio create fullstack --backend=ts --frontend=react-ts  --name=my-online-store --region=us-east-1
@@ -205,7 +205,7 @@ npm --save-dev install @types/node
 Right now, the backend won't work properly because there is no `UPSTASH_REDIS_URL` environment variable set in the `.env`.
 Let's create a Redis database and connect it to your web application using a `.env` file.
 
-Luckily, genezio makes it very easy to add an {{< external-link link="https://upstash.com/?utm_source=genezio+&utm_medium=blog&utm_campaign=post" >}}Upstash Redis{{< /external-link >}} integration to your project.
+Luckily, DeployApps makes it very easy to add an {{< external-link link="https://upstash.com/?utm_source=genezio+&utm_medium=blog&utm_campaign=post" >}}Upstash Redis{{< /external-link >}} integration to your project.
 We first need to deploy our project. We can do this by running the following command in the root directory of the project:
 
 ```bash
@@ -214,11 +214,11 @@ genezio deploy
 
 This will prompt you to log in to your DeployApps account. After the login is successful, the deployment will continue.
 
-When the deployment is complete, go to the {{< external-link link="https://app.genez.io" >}}genezio dashboard{{< /external-link >}} and add an Upstash Redis integration to your project.
+When the deployment is complete, go to the {{< external-link link="https://app.genez.io" >}}DeployApps dashboard{{< /external-link >}} and add an Upstash Redis integration to your project.
 
 ![Alt text](/posts/add_integration.webp)
 
-If you get stuck at this step, you can follow the {{< external-link link="https://genezio.com/docs/integrations/upstash-redis" >}}Upstash Redis integration tutorial{{< /external-link >}}.
+If you get stuck at this step, you can follow the {{< external-link link="https://deployapps.dev/docs/integrations/upstash-redis" >}}Upstash Redis integration tutorial{{< /external-link >}}.
 
 After adding the Upstash Redis integration, copy the environment variables from the `.env` section. Use the copy button to disclose the contents of the environment variables and copy them to your clipboard.
 Go back to your `server` directory, create a new file called `.env`, and paste the contents there.
@@ -232,14 +232,14 @@ This will start a fast local development server on your machine.
 genezio local
 ```
 
-You can test your application from the genezio dashboard by following the URL exposed in the terminal by `genezio local`.
+You can test your application from the DeployApps dashboard by following the URL exposed in the terminal by `genezio local`.
 
 ```
 ~ genezio local
 Test your code at http://localhost:8083/explore
 ```
 
-From the genezio dashboard, you can send requests to your backend classes and see the response.
+From the DeployApps dashboard, you can send requests to your backend classes and see the response.
 
 ![Alt text](/posts/test_backend.png)
 
@@ -295,7 +295,7 @@ Add the following methods to the `ShoppingCartService` class:
 
 Note: There is no need to restart `genezio local`. The process will detect any changes in your code and restart automatically.
 
-Now that your backend logic is ready, you can thoroughly test it by sending requests to it from the {{< external-link link="http://localhost:8083/explore" >}}genezio dashboard{{< /external-link >}}.
+Now that your backend logic is ready, you can thoroughly test it by sending requests to it from the {{< external-link link="http://localhost:8083/explore" >}}DeployApps dashboard{{< /external-link >}}.
 
 ## Setting up the frontend
 
@@ -630,7 +630,7 @@ genezio deploy
 
 This will deploy the whole project to the cloud and make it available to your users using the subdomain you specified in the `genezio.yaml` file.
 
-You can continue to manage, test, update and monitor your project from the genezio dashboard.
+You can continue to manage, test, update and monitor your project from the DeployApps dashboard.
 
 ## Improvements
 

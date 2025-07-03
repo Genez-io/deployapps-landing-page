@@ -8,8 +8,8 @@ linkedIn: https://www.linkedin.com/in/krsando/
 thumbnail: /images/effortless.webp
 preview: "The modern web thrives on efficiency and effectiveness – the difference between being somewhat efficient and very efficient can be fundamentally impactful to business success, with even small gaps adding to major business opportunities."
 description: "Unlock business success with DeployApps’s auto scaling solutions. The difference between somewhat efficient and very efficient can impact your business succes"
-meta_og_url: "https://genezio.com/blog/effortless-scaling-genezio-handles-growth/"
-meta_og_image: "https://genezio.com/images/effortless.webp"
+meta_og_url: "https://deployapps.dev/blog/effortless-scaling-genezio-handles-growth/"
+meta_og_image: "https://deployapps.dev/images/effortless.webp"
 customHeader: "White header"
 customFooter: "White footer"
 readTime: 5
@@ -58,7 +58,7 @@ DeployApps also lets you deploy your backend how you need it deployed. Have your
 
 ### The Serverless Puzzle Piece
 
-One of the main aspects of DeployApps that unlocks successful scaling is the fact that it is a fully {{< external-link link="https://genezio.com/blog/what-serverless-is/#genezio--serverless" >}}serverless solution{{< /external-link >}}. Serverless is a simple concept – you spin up servers only to fit the need instead of investing heavily in static resourcing. For the end developer, this means scaling resources to meet scaling demand, driving costs down through server automation, which brings major savings in resource and opportunity cost.
+One of the main aspects of DeployApps that unlocks successful scaling is the fact that it is a fully {{< external-link link="https://deployapps.dev/blog/what-serverless-is/#genezio--serverless" >}}serverless solution{{< /external-link >}}. Serverless is a simple concept – you spin up servers only to fit the need instead of investing heavily in static resourcing. For the end developer, this means scaling resources to meet scaling demand, driving costs down through server automation, which brings major savings in resource and opportunity cost.
 
 DeployApps not only provides a serverless framework, it does so with zero cold start penalty – in effect, you get to reap the rewards of a serverless approach without incurring the typical penalties of the approach at scale.
 

@@ -8,7 +8,7 @@ linkedIn: https://www.linkedin.com/in/luisminv/
 thumbnail: /images/full-stack-project-ideas.webp
 preview: "You want to be a full-stack developer, and that means building a portfolio that showcases your skills. It's not just about ticking boxes; it's about proving you can handle the entire development stack – from crafting sleek user interfaces to building robust backends."
 description: "Looking for full-stack project ideas to take or use as inspiration? Here are some of the best ideas to pack your portfolio, impress employers or make money."
-meta_og_url: "https://genezio.com/blog/full-stack-project-ideas/"
+meta_og_url: "https://deployapps.dev/blog/full-stack-project-ideas/"
 meta_og_image: "https://genez.io/images/full-stack-project-ideas.webp"
 customHeader: "White header"
 customFooter: "White footer"
@@ -150,10 +150,10 @@ As you embark on your full-stack development adventures, here are a few tips to 
 
 And when you're ready to launch your next project, consider using **DeployApps**.
 
-It's a powerful, framework-agnostic {{< external-link link="https://genezio.com/blog/serverless-computing-when-to-go-serverless/" >}}serverless platform{{< /external-link >}} perfect for full-stack developers. With its free tier, you can get started without any upfront costs, and its scalability ensures that your applications can grow alongside your ambitions.
+It's a powerful, framework-agnostic {{< external-link link="https://deployapps.dev/blog/serverless-computing-when-to-go-serverless/" >}}serverless platform{{< /external-link >}} perfect for full-stack developers. With its free tier, you can get started without any upfront costs, and its scalability ensures that your applications can grow alongside your ambitions.
 
 So, what are you waiting for?
 
 Start building, start learning, and start showcasing your full-stack brilliance with DeployApps.
 
-{{< external-link link="https://genezio.com/" >}}**Launch your next project on DeployApps today!**{{< /external-link >}}
+{{< external-link link="https://deployapps.dev/" >}}**Launch your next project on DeployApps today!**{{< /external-link >}}

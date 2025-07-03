@@ -8,8 +8,8 @@ linkedIn: https://www.linkedin.com/in/paula-cionca/
 thumbnail: /images/effortlessly-import-your-github-projects-with-genezio.webp
 preview: "At DeployApps, we’re all about making the deployment process as seamless as possible. Whether you're a seasoned developer or just getting started, deploying your projects should be quick, easy, and efficient."
 description: "Effortlessly import from Github and deploy your full-stack projects (Next.js, Express.js, React, Vue, Angular)"
-meta_og_url: "https://genezio.com/blog/import-github-projects-genezio/"
-meta_og_image: "https://genez.io/images/effortlessly-import-your-github-projects-with-genezio.webp"
+meta_og_url: "https://deployapps.dev/blog/import-github-projects-genezio/"
+meta_og_image: "https://deployapps.dev/images/effortlessly-import-your-github-projects-with-genezio.webp"
 customHeader: "White header"
 customFooter: "White footer"
 readTime: 5
@@ -18,7 +18,7 @@ url: /import-github-projects-genezio/
 
 At DeployApps, we’re all about making the deployment process as seamless as possible. Whether you're a seasoned developer or just getting started, deploying your projects should be quick, easy, and efficient. That’s why we’ve made it incredibly simple to import your existing projects into DeployApps.
 
-DeployApps provides a powerful platform that’s optimized for deploying full-stack projects, including frameworks like Next.js, Express.js, React, Vue, Angular. When you use one of DeployApps's {{< external-link link="https://genezio.com/docs/learn-more/supported-languages/" >}}supported frameworks{{< /external-link >}}, we’ll automatically detect your setup and apply the best build and deployment configurations for your project.
+DeployApps provides a powerful platform that’s optimized for deploying full-stack projects, including frameworks like Next.js, Express.js, React, Vue, Angular. When you use one of DeployApps's {{< external-link link="https://deployapps.dev/docs/learn-more/supported-languages/" >}}supported frameworks{{< /external-link >}}, we’ll automatically detect your setup and apply the best build and deployment configurations for your project.
 
 In this article, we'll guide you through the steps to bring your GitHub projects to DeployApps, so you can spend more time building and less time on deployment.
 
@@ -53,4 +53,4 @@ Now that your project is live, what’s next?
 - **Make Continuous Improvements:** After deployment, you’ll be redirected to DeployApps’s in-browser code editor, where you can view the structure of your project and make any necessary changes.
   Every time you push changes to your GitHub main branch, DeployApps automatically deploys the updates, keeping your live app up-to-date. Additionally, DeployApps creates a new environment for each pull request (PR), allowing you to test and review changes in isolation before merging.
 
-- **Add a Custom Domain:** Want your app to have a personalized web address? You can easily configure a custom domain for your project. {{< external-link link="https://genezio.com/docs/features/custom-domain-configuration/" >}}Learn how to set up a custom domain here{{< /external-link >}}.
+- **Add a Custom Domain:** Want your app to have a personalized web address? You can easily configure a custom domain for your project. {{< external-link link="https://deployapps.dev/docs/features/custom-domain-configuration/" >}}Learn how to set up a custom domain here{{< /external-link >}}.

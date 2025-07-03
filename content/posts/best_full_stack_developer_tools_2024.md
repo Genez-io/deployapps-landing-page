@@ -9,8 +9,8 @@ thumbnail: /images/full-stack-developer-tools.webp
 preview: Full-stack development is no walk in the park. It demands a broad skill set and the ability to navigate both frontend and backend technologies and the right tools for the job.
 # meta data start
 description: Master full-stack development with the essential tools for frontend, backend, databases, and more. Discover the toolkit you need to build amazing applications.
-meta_og_url: "https://genezio.com/blog/best-full-stack-developer-tools/"
-meta_og_image: "https://genezio.com/images/full-stack-developer-tools.webp"
+meta_og_url: "https://deployapps.dev/blog/best-full-stack-developer-tools/"
+meta_og_image: "https://deployapps.dev/images/full-stack-developer-tools.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -155,7 +155,7 @@ In today's world of on-demand everything, your applications need to be able to h
 
 They provide the infrastructure and resources you need to deploy, manage, and scale your applications without the hassle of maintaining your own servers.
 
-**What are they?** Imagine cloud hosting and {{< external-link link="https://genezio.com/serverless-scalability/">}}serverless computing{{< /external-link >}} as a magical, elastic infrastructure that expands and contracts to meet your application's needs. You no longer have to worry about provisioning servers, configuring load balancers, or dealing with complex infrastructure management. You simply deploy your code, and the platform takes care of the rest, scaling resources up or down as needed.
+**What are they?** Imagine cloud hosting and {{< external-link link="https://deployapps.dev/serverless-scalability/">}}serverless computing{{< /external-link >}} as a magical, elastic infrastructure that expands and contracts to meet your application's needs. You no longer have to worry about provisioning servers, configuring load balancers, or dealing with complex infrastructure management. You simply deploy your code, and the platform takes care of the rest, scaling resources up or down as needed.
 
 **Popular choices:**
 
@@ -167,13 +167,13 @@ They provide the infrastructure and resources you need to deploy, manage, and sc
 
 ## Highlighting DeployApps
 
-When it comes to serverless computing, {{< external-link link="https://genezio.com/">}}DeployApps{{< /external-link >}} is a rising star worth considering.
+When it comes to serverless computing, {{< external-link link="https://deployapps.dev/">}}DeployApps{{< /external-link >}} is a rising star worth considering.
 
-It's a framework-agnostic serverless platform that's designed for speed and cost-efficiency. DeployApps boasts {{< external-link link="https://genezio.com/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/">}}lightning-fast cold start times{{< /external-link >}} (up to 4x faster than AWS Lambda!) and a granular pay-per-execution pricing model that can save you serious money.
+It's a framework-agnostic serverless platform that's designed for speed and cost-efficiency. DeployApps boasts {{< external-link link="https://deployapps.dev/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/">}}lightning-fast cold start times{{< /external-link >}} (up to 4x faster than AWS Lambda!) and a granular pay-per-execution pricing model that can save you serious money.
 
 Plus, its framework-agnostic nature means you can use your favorite languages and tools without being locked into a specific ecosystem.
 
-Choosing the right cloud hosting or {{< external-link link="https://genezio.com/blog/what-serverless-is/">}}serverless platform{{< /external-link >}} depends on your application's requirements, scalability needs, and budget. Consider factors like performance, ease of use, pricing, and integration with other services when deciding.
+Choosing the right cloud hosting or {{< external-link link="https://deployapps.dev/blog/what-serverless-is/">}}serverless platform{{< /external-link >}} depends on your application's requirements, scalability needs, and budget. Consider factors like performance, ease of use, pricing, and integration with other services when deciding.
 
 ## Testing and Debugging Tools: Squashing Bugs Like a Pro
 
@@ -251,4 +251,4 @@ With its lightning-fast cold starts, granular cost control, and seamless scalabi
 
 Ready to supercharge your serverless development? Check out DeployApps today and see how it can elevate your full-stack toolkit.
 
-**{{< external-link link="https://genezio.com/">}}Explore DeployApps now!{{< /external-link >}}**
+**{{< external-link link="https://deployapps.dev/">}}Explore DeployApps now!{{< /external-link >}}**

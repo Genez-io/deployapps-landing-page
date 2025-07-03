@@ -1,16 +1,16 @@
 ---
-title: Exploring genezio and Express.js
+title: Exploring DeployApps and Express.js
 date: 2023-05-05
 tags:
   - Learning
 author: Stefan Iordache
 linkedIn: https://www.linkedin.com/in/stefan-d-iordache/
 thumbnail: /images/genezio_express.webp
-preview: Today we will compare genezio with one of the major players in the market, Express
+preview: Today we will compare DeployApps with one of the major players in the market, Express
 # meta data start
-description: "Compare genezio with Express.js. Find out about writing code, testing the code, calling the API from your client, and what it takes to deploy your code."
-meta_og_url: "https://genezio.com/exploring-the-differences-between-genezio-and-express-js/"
-meta_og_image: "https://genezio.com/images/genezio_express.webp"
+description: "Compare DeployApps with Express.js. Find out about writing code, testing the code, calling the API from your client, and what it takes to deploy your code."
+meta_og_url: "https://deployapps.dev/exploring-the-differences-between-genezio-and-express-js/"
+meta_og_image: "https://deployapps.dev/images/genezio_express.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -46,12 +46,12 @@ Conversion notes:
 
 ----->
 
-APIs are one of the most important tools in software technology and are used for building modern and reliable software products. There are many ways of developing and exposing an API. Over time, frameworks were built, and doing this became much easier and user-friendlier. Today we will compare {{< external-link link="http://genez.io" >}}genezio{{< /external-link >}}
+APIs are one of the most important tools in software technology and are used for building modern and reliable software products. There are many ways of developing and exposing an API. Over time, frameworks were built, and doing this became much easier and user-friendlier. Today we will compare {{< external-link link="http://deployapps.dev" >}}DeployApps{{< /external-link >}}
 with one of the major players in the market, Express. Let’s get started!
 
 Express is one of the most popular frameworks used for backend programming. Developed on top of Node, it provides a robust set of features for building RESTful APIs. It allows developers to set common web application settings and add additional “middleware” at any point in the request handling pipeline. It is easy to use, well maintained, and a great choice for building almost any kind of web application.
 
-{{< external-link link="http://genez.io" >}}genezio{{< /external-link >}}
+{{< external-link link="http://deployapps.dev" >}}DeployApps{{< /external-link >}}
 is a platform for developing serverless APIs. Compared with Express, or any other backend framework, it isn’t just a set of rules for writing server-side code, it is also a deployment mechanism for those who want to obtain performant and cost efficient serverless environments for their projects.
 
 This may sound a bit complicated, so let’s break down this comparison using some sample code. We will take a look at:
@@ -107,7 +107,7 @@ export class HelloWorld {
 
 Notice how the code sample is smaller and easier to read. The logic itself is unchanged, but we do not have to worry about setting up the server, parsing data or dealing with request/response objects.
 
-A genezio project is structured with classes and functions, rather than routes and endpoints, making it easy to maintain.
+A DeployApps project is structured with classes and functions, rather than routes and endpoints, making it easy to maintain.
 
 **Testing the Code**
 
@@ -116,7 +116,7 @@ We worked very hard on our masterpiece project and we want to make sure that it 
 The most common way of testing an Express application is by using an HTTP client such as {{< external-link link="https://www.postman.com" >}}Postman{{< /external-link >}}
 . You pass your endpoint, select the request type (GET, POST, PUT, DELETE, etc), send the request and receive the response.
 
-genezio comes with a custom tool for testing your projects locally, as well as after they are deployed. The interface is aware of your project’s structure and autocompletes your testing environment with the corresponding function and parameter names. You don’t have to manually add your endpoints, just select the function you want to test, input the parameters and click SEND.
+DeployApps comes with a custom tool for testing your projects locally, as well as after they are deployed. The interface is aware of your project’s structure and autocompletes your testing environment with the corresponding function and parameter names. You don’t have to manually add your endpoints, just select the function you want to test, input the parameters and click SEND.
 
 ![test interface](/posts/test_interface.webp "image_tooltip")
 
@@ -149,8 +149,8 @@ axios
   });
 ```
 
-With{{< external-link link="http://genez.io" >}} genezio{{< /external-link >}}
-, you will access your functions using the autogenerated SDK provided when you deployed your project or ran it locally. The SDK contains the custom types (enums, classes, unions) you defined in your server code in order to provide a type-safe API. It also takes care of serializing and deserializing your data. You can import this SDK in your client-side project and call the functions just as if they were local functions.{{< external-link link="http://genez.io" >}} genezio{{< /external-link >}}
+With{{< external-link link="http://deployapps.dev" >}} DeployApps{{< /external-link >}}
+, you will access your functions using the autogenerated SDK provided when you deployed your project or ran it locally. The SDK contains the custom types (enums, classes, unions) you defined in your server code in order to provide a type-safe API. It also takes care of serializing and deserializing your data. You can import this SDK in your client-side project and call the functions just as if they were local functions.{{< external-link link="http://deployapps.dev" >}} DeployApps{{< /external-link >}}
 takes care of accessing the server and providing you the response.
 
 For our 2 little functions, the generated SDK in JavaScript will look something like this:
@@ -158,7 +158,7 @@ For our 2 little functions, the generated SDK in JavaScript will look something 
 ```javascript
 /**
  * This is an auto generated code. This code should not be modified since the file can be overwritten
- * if new genezio commands are executed.
+ * if new DeployApps commands are executed.
  */
 
 import { Remote } from "./remote.js";
@@ -185,21 +185,21 @@ import { HelloWorld } from "./sdk/hello.sdk.js";
 console.log(HelloWorld.greetName("John"));
 ```
 
-A downside you may observe here is that the client application must be written in the same programming language as the generated SDK. Currently genezio supports JavaScript, TypeScript and Dart for backend programming, and JavaScript, TypeScript, Swift, Python and Dart for generating SDK. You can use any combination of these supported programming languages. Even though it may not have the complete language independence of HTTP, as time passes and genezio releases support for multiple programming languages, this barrier fades away.
+A downside you may observe here is that the client application must be written in the same programming language as the generated SDK. Currently DeployApps supports JavaScript, TypeScript and Dart for backend programming, and JavaScript, TypeScript, Swift, Python and Dart for generating SDK. You can use any combination of these supported programming languages. Even though it may not have the complete language independence of HTTP, as time passes and DeployApps releases support for multiple programming languages, this barrier fades away.
 
 **Deploying the Code**
 
 With Express being just a backend framework, the deployment of your beautiful application stands on your shoulders. This can be a good thing if you have DevOps knowledge and want to be in control of everything, but it can also be a burden if you just want to get your code up and running without dealing with choosing providers, server specifications or autoscaling. Luckily there are a ton of third party tools that make this process a bit easier.
 
-With{{< external-link link="http://genez.io" >}} genezio{{< /external-link >}}
+With{{< external-link link="http://deployapps.dev" >}} DeployApps{{< /external-link >}}
 , you are one command away from deploying your project to a serverless cloud. Type `genezio deploy` and we will automatically optimize your code and deploy each class on a separate, scalable and independently manageable cloud environment.
 
-You can use your personal dashboard in {{< external-link link="https://app.genez.io/" >}}The genezio WebApp{{< /external-link >}}
+You can use your personal dashboard in {{< external-link link="https://app.genez.io/" >}}The DeployApps WebApp{{< /external-link >}}
 to see all your projects, inspect logs, disable or activate individual classes, as well as test your deployed projects.
 
 **Conclusions**
 
-There are many key takeaways from this comparison. Express remains one of the best tools for building RESTful APIs, but if you are looking for a tool that automates a big part of your workflow and lets you focus on the logic of the code, then genezio might be a good fit for you.
+There are many key takeaways from this comparison. Express remains one of the best tools for building RESTful APIs, but if you are looking for a tool that automates a big part of your workflow and lets you focus on the logic of the code, then DeployApps might be a good fit for you.
 
 Advantages of Express:
 
@@ -207,7 +207,7 @@ Advantages of Express:
 - you can deploy your code anywhere you want
 - uses widely spread RESTful APIs
 
-Advantages of{{< external-link link="http://genez.io" >}} genezio{{< /external-link >}}
+Advantages of{{< external-link link="http://deployapps.dev" >}} DeployApps{{< /external-link >}}
 :
 
 - you write cleaner and easier to maintain code

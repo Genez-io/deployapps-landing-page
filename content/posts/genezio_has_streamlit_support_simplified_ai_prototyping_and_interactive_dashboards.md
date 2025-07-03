@@ -10,8 +10,8 @@ preview: Python developers and machine learning engineers asked for Streamlit su
 # meta data start
 description: DeployApps now supports Streamlit, enabling seamless AI prototyping and interactive dashboards with serverless Python deployment.
 
-meta_og_url: "https://genezio.com/blog/streamlit/"
-meta_og_image: "https://genezio.com/images/streamlit.webp"
+meta_og_url: "https://deployapps.dev/blog/streamlit/"
+meta_og_image: "https://deployapps.dev/images/streamlit.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -23,7 +23,7 @@ url: /blog/streamlit/
 
 Python developers and machine learning engineers asked for Streamlit support, and it is now live in production. Early access users have already tested the integration, validating its simplicity and efficiency. With DeployApps’s optimized deployment process, building and deploying AI prototypes and interactive dashboards is seamless.
 
-{{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} now offers full support for Streamlit, a widely used Python framework for creating interactive web applications with minimal coding. This integration enhances AI prototyping, allowing developers and ML engineers to deploy interactive dashboards effortlessly, without dealing with complex infrastructure.
+{{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} now offers full support for Streamlit, a widely used Python framework for creating interactive web applications with minimal coding. This integration enhances AI prototyping, allowing developers and ML engineers to deploy interactive dashboards effortlessly, without dealing with complex infrastructure.
 
 ## What is Streamlit?
 
@@ -86,7 +86,7 @@ Deploying Streamlit applications on DeployApps eliminates the need for Docker co
 
 Ready to deploy your Streamlit app? DeployApps provides step-by-step guides tailored for Streamlit applications:
 
-- **Streamlit Deployment Guide:** Learn how to deploy Streamlit applications with DeployApps’s one-click setup, optimized for rapid prototyping and AI applications. Access the guide {{< external-link link="https://genezio.com/docs/frameworks/streamlit/" >}}here{{< /external-link >}}.
+- **Streamlit Deployment Guide:** Learn how to deploy Streamlit applications with DeployApps’s one-click setup, optimized for rapid prototyping and AI applications. Access the guide {{< external-link link="https://deployapps.dev/docs/frameworks/streamlit/" >}}here{{< /external-link >}}.
 
 - **One-Click Deployment Template:** Kickstart your project with our ready-to-use Streamlit template. Deploy your own version with a single click {{< external-link link="https://app.genez.io/start/deploy?repository=https://github.com/Genez-io/streamlit-getting-started" >}}here{{< /external-link >}}.
 

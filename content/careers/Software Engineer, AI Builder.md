@@ -5,7 +5,7 @@ location: "Remote (San Francisco)"
 
 ## About DeployApps
 
-DeployApps(genezio.com) is at the forefront of revolutionizing how developers deploy and manage code, delivering next-level performance with AI-driven insights. We’re building the most efficient AI deploy agent—an intelligent tool that analyzes code, anticipates potential issues, and provides proactive suggestions for fixes. Join us in pushing the boundaries of AI and deployment automation, helping developers streamline their workflow like never before.
+DeployApps(deployapps.dev) is at the forefront of revolutionizing how developers deploy and manage code, delivering next-level performance with AI-driven insights. We’re building the most efficient AI deploy agent—an intelligent tool that analyzes code, anticipates potential issues, and provides proactive suggestions for fixes. Join us in pushing the boundaries of AI and deployment automation, helping developers streamline their workflow like never before.
 
 ---
 

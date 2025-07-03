@@ -9,8 +9,8 @@ thumbnail: /images/implementing_newsletter_section.webp
 preview: "In this blog, I'll take you through a practical solution for effortlessly integrating newsletter sections into your website."
 # meta data start
 description: "In this blog, I'll take you through a practical solution for effortlessly integrating newsletter sections into your website."
-meta_og_url: "https://genezio.com/blog/implement-newsletter-section/"
-meta_og_image: "https://genezio.com/images/implementing_newsletter_section.webp"
+meta_og_url: "https://deployapps.dev/blog/implement-newsletter-section/"
+meta_og_image: "https://deployapps.dev/images/implementing_newsletter_section.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -66,7 +66,7 @@ export class NewsLetterService {
 }
 ```
 
-In this example, we're creating a function and we expose an HTTP endpoint that we will later call from our static website. If you want to learn more about HTTP Calls with DeployApps check our {{< external-link link="https://genezio.com/docs/genezio-typesafe/http-methods-webhooks/" >}}docs{{< /external-link >}}.
+In this example, we're creating a function and we expose an HTTP endpoint that we will later call from our static website. If you want to learn more about HTTP Calls with DeployApps check our {{< external-link link="https://deployapps.dev/docs/genezio-typesafe/http-methods-webhooks/" >}}docs{{< /external-link >}}.
 
 ## Handle Mailchimp API
 
@@ -252,6 +252,6 @@ Congratulations! 🥳
 
 You've just seamlessly integrated newsletter functionality without the need to grapple with the complexities of setting up and hosting your backend.
 
-I hope you enjoyed this tutorial and I encourage you to check out our other [tutorials](https://genezio.com/tags/tutorials/) for more tips and tricks on improving your software engineering skills. 🥷 💻
+I hope you enjoyed this tutorial and I encourage you to check out our other [tutorials](https://deployapps.dev/tags/tutorials/) for more tips and tricks on improving your software engineering skills. 🥷 💻
 
 Also, I invite you to check our examples on {{< external-link link="https://github.com/Genez-io/genezio-examples/tree/master/">}}GitHub{{< /external-link >}}.

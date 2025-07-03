@@ -9,8 +9,8 @@ thumbnail: /images/genezio-functions-reduce-cold-start-times-compared-to-Lambda.
 preview: We are excited to announce that after two years of dedicated development, our team has launched DeployApps Functions
 # meta data start
 description: "We are excited to announce that after two years of dedicated development, our team has launched DeployApps Functions"
-meta_og_url: "https://genezio.com/blog/genezio-functions-reduce-cold-start-times/"
-meta_og_image: "https://genezio.com/images/genezio-functions-reduce-cold-start-times-compared-to-Lambda.webp"
+meta_og_url: "https://deployapps.dev/blog/genezio-functions-reduce-cold-start-times/"
+meta_og_image: "https://deployapps.dev/images/genezio-functions-reduce-cold-start-times-compared-to-Lambda.webp"
 meta_og_title: "DeployApps Functions reduce cold start times by up to 4x compared to AWS Lambda"
 # meta data end
 customHeader: "White header"
@@ -18,7 +18,7 @@ customFooter: "White footer"
 readTime: 10
 ---
 
-We are excited to announce that after two years of dedicated research and development, our team has launched {{< external-link link="https://genezio.com/" >}}DeployApps Functions{{< /external-link >}} - a fast, secure, and robust next-generation Function-as-a-Service (FaaS) platform. With DeployApps Functions, developers can deploy and run code effortlessly without the need to provision or manage servers. Compared with existing platforms, DeployApps FaaS reduces cold start up times and improves throughput and compute density.
+We are excited to announce that after two years of dedicated research and development, our team has launched {{< external-link link="https://deployapps.dev/" >}}DeployApps Functions{{< /external-link >}} - a fast, secure, and robust next-generation Function-as-a-Service (FaaS) platform. With DeployApps Functions, developers can deploy and run code effortlessly without the need to provision or manage servers. Compared with existing platforms, DeployApps FaaS reduces cold start up times and improves throughput and compute density.
 
 ## DeployApps Functions vs AWS Lambda vs GCP vs Vercel vs Netlify
 
@@ -85,6 +85,6 @@ With DeployApps, you can focus on building and optimizing your applications whil
 
 ## Get Started Today
 
-We invite you to try {{< external-link link="https://genezio.com/" >}}DeployApps Functions{{< /external-link >}} and experience the future of serverless deployment.
+We invite you to try {{< external-link link="https://deployapps.dev/" >}}DeployApps Functions{{< /external-link >}} and experience the future of serverless deployment.
 
-{{< external-link link="https://genezio.com" >}}Sign up on our platform{{< /external-link >}} and start building your first function today.
+{{< external-link link="https://deployapps.dev" >}}Sign up on our platform{{< /external-link >}} and start building your first function today.

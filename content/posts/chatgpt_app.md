@@ -8,9 +8,9 @@ linkedIn: https://www.linkedin.com/in/radu-andrei-dumitrescu/
 thumbnail: /images/chatgptapp.webp
 preview: In this tutorial, I will show you how to create an app called the Rephrasing App.
 # meta data start
-description: "Learn how to build your first ChatGPT app in this step-by-step tutorial. Rephrase text and improve your writing with React and genezio. Get started now!"
-meta_og_url: "https://genezio.com/blog/create-your-first-app-using-chatgpt/"
-meta_og_image: "https://genezio.com/images/chatgptapp.webp"
+description: "Learn how to build your first ChatGPT app in this step-by-step tutorial. Rephrase text and improve your writing with React and DeployApps. Get started now!"
+meta_og_url: "https://deployapps.dev/blog/create-your-first-app-using-chatgpt/"
+meta_og_image: "https://deployapps.dev/images/chatgptapp.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -52,7 +52,7 @@ Conversion notes:
 
 <p style="color: red; font-weight: bold">>>>>> PLEASE check and correct alert issues and delete this message and the inline alerts.<hr></p>
 
-In this tutorial, I will show you how to create an app called the Rephrasing App. The app that you are going to build has a simple UI written in React, uses the ChatGPT API and is deployed on genezio.
+In this tutorial, I will show you how to create an app called the Rephrasing App. The app that you are going to build has a simple UI written in React, uses the ChatGPT API and is deployed on DeployApps.
 
 It will have two main components: the frontend which will consist of a simple chat-like interface, and the backend which exposes a function meant to rephrase your input text. Once implemented, the Rephrasing App can be used to rephrase text, write better articles or even upgrade your CV.
 
@@ -66,11 +66,11 @@ It will have two main components: the frontend which will consist of a simple ch
 
 ## Introduction
 
-### **ChatGPT and genezio**
+### **ChatGPT and DeployApps**
 
 Since you are reading this, I assume you already know what ChatGPT is and how it works at its core. But how do you actually use it to build a working and useful app? Is it enough to call the API directly, or do you need to write other functions as well? How and where do you host it? I will work alongside you towards finding out the answers to most of these questions until the end of this article.
 
-When deciding where to make the calls from, you have to keep in mind how secure you want this to be. So, as it is smart not to do them from the frontend, you are going to use genezio to host the backend and to call the OpenAPI from the genezio functions. For you to create a clearer idea about how this works, take a look at this illustration:
+When deciding where to make the calls from, you have to keep in mind how secure you want this to be. So, as it is smart not to do them from the frontend, you are going to use DeployApps to host the backend and to call the OpenAPI from the DeployApps functions. For you to create a clearer idea about how this works, take a look at this illustration:
 
 ![Street Art Image](/posts/react-gen-chat.webp)
 
@@ -94,9 +94,9 @@ Now, let’s dive in! You can find the complete project {{< external-link link="
 
 4. To be able to use this API Key, you will need to have funds in your OpenAI account. Go to {{< external-link link="https://platform.openai.com/account/billing/overview/" >}}platform.openai.com/account/billing/overview{{< /external-link >}} and add some funds to your account.
 
-### **Set Up genezio**
+### **Set Up DeployApps**
 
-First, install genezio using npm:
+First, install DeployApps using npm:
 
 ```bash
 npm install genezio -g
@@ -368,7 +368,7 @@ function App() {
     <div className="App">
       <section className="msger">
         <header className="msger-header">
-          <h4>Rephrasing app using ChatGPT, genezio and React</h4>
+          <h4>Rephrasing app using ChatGPT, DeployApps and React</h4>
         </header>
 
         <main className="msger-chat">

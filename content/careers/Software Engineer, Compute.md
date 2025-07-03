@@ -5,7 +5,7 @@ location: "Remote (UK)"
 
 ## About DeployApps
 
-DeployApps (genezio.com) is pioneering the next generation of cloud computing, enabling developers to seamlessly deploy and scale their applications with powerful, intuitive infrastructure. Our mission is to create a frictionless developer experience while delivering fast, reliable, and scalable compute solutions. Trusted by developers around the globe, DeployApps is committed to revolutionizing how applications are built and managed in the cloud.
+DeployApps (deployapps.dev) is pioneering the next generation of cloud computing, enabling developers to seamlessly deploy and scale their applications with powerful, intuitive infrastructure. Our mission is to create a frictionless developer experience while delivering fast, reliable, and scalable compute solutions. Trusted by developers around the globe, DeployApps is committed to revolutionizing how applications are built and managed in the cloud.
 
 At DeployApps, we empower developers to build the future, and we strive to provide an environment where you can do the best work of your career. Join us as we build cutting-edge technology that shapes the future of cloud computing.
 

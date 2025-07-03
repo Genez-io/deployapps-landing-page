@@ -11,8 +11,8 @@ thumbnail: /images/genezioandautomation.webp
 preview: "Cloud hosting can be affordable—until it’s suddenly not. Sure thing: Its affordability (a nicer way of saying that it’s cheap, as in, it doesn’t cost much money) is built into how the providers pack and sell it."
 # meta data start
 description: The most affordable cloud hosting is DeployApps, a serverless platform for full-stack deployments.
-meta_og_url: "https://genezio.com/blog/affordable-cloud-hosting"
-meta_og_image: "https://genezio.com/images/genezioandautomation.webp"
+meta_og_url: "https://deployapps.dev/blog/affordable-cloud-hosting"
+meta_og_image: "https://deployapps.dev/images/genezioandautomation.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -28,7 +28,7 @@ Let’s check out if there are still any affordable cloud hosting solutions or p
 
 ## What is the most affordable cloud hosting in 2025?
 
-The most affordable cloud hosting is {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}}. The platform is designed with developers in mind, so keeping it affordable while guaranteeing peak performance is at the top of the list of priorities.
+The most affordable cloud hosting is {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}}. The platform is designed with developers in mind, so keeping it affordable while guaranteeing peak performance is at the top of the list of priorities.
 
 DeployApps is affordable because its starter plan is very generous. But also because it’s a serverless platform where developers don’t need to take care of the server-side of things. We’ll get into that later on.
 
@@ -62,7 +62,7 @@ Users must now opt for a paid plan, which can quickly become more costly dependi
 
 If you’re looking to scale, though, costs can add up. The Pro plan is $20 per month per team seat, so each team member adds $20 to the monthly bill, plus any additional resource usage. For example, a solo developer gets 1 TB of bandwidth for $20/month, but for a team of 10 developers working on the same project, it’s $200/month for the same 1 TB of bandwidth—not 10 TB.
 
-{{< external-link link="https://genezio.com/blog/firebase-alternatives/" >}}Want more affordability comparisons? Check our Alternatives to Firebase article →{{< /external-link >}}
+{{< external-link link="https://deployapps.dev/blog/firebase-alternatives/" >}}Want more affordability comparisons? Check our Alternatives to Firebase article →{{< /external-link >}}
 
 ## DeployApps is a budget-friendly cloud solution for full-stack apps
 

@@ -9,8 +9,8 @@ thumbnail: /images/ferretdb-genezio.webp
 preview: Discover how you can use FerretDB inside DeployApps Functions as a proxy that understands the MongoDB wire protocol and translates the requests to SQL queries executed on a PostgreSQL database provided by DeployApps.
 # meta data start
 description: Learn how to set up FerretDB with DeployApps Functions and connect to a PostgreSQL database provided by DeployApps.
-meta_og_url: "https://genezio.com/blog/use-ferretdb-with-genezio/"
-meta_og_image: "https://genezio.com/images/ferretdb-genezio.webp"
+meta_og_url: "https://deployapps.dev/blog/use-ferretdb-with-genezio/"
+meta_og_image: "https://deployapps.dev/images/ferretdb-genezio.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -41,7 +41,7 @@ There are two ways to deploy the FerretDB example:
   Deploy the code directly from browser with our [one-click deployment button](https://app.genez.io/start/deploy?repository=https://github.com/Genez-io/ferretdb-example&utm_source=genezio&utm_medium=blog&utm_campaign=ferretdb).
 
 - **Manual deployment** \
-  Clone the repository, install the genezio CLI and then run `genezio deploy` in the repository root.
+  Clone the repository, install the DeployApps CLI and then run `genezio deploy` in the repository root.
 
   ```bash
   git clone https://github.com/Genez-io/ferretdb-example.git && cd ferretdb-example

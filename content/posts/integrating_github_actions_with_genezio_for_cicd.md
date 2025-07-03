@@ -9,33 +9,33 @@ thumbnail: /images/genezio_cicd.webp
 preview: GitHub Actions provides a powerful and flexible way to set up CI/CD workflows.
 # meta data start
 description: "Learn to integrate GitHub Actions with DeployApps for CI/CD. Follow our guide for setting up automated workflows for seamless deployment."
-meta_og_url: "https://genezio.com/blog/how-to-add-a-mongodb-to-your-genezio-project/"
-meta_og_image: "https://genezio.com/images/genezio_mongodb.webp"
+meta_og_url: "https://deployapps.dev/blog/how-to-add-a-mongodb-to-your-genezio-project/"
+meta_og_image: "https://deployapps.dev/images/genezio_mongodb.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
 readTime: 5
 ---
 
-## Integrating GitHub Actions with genezio for CI/CD
+## Integrating GitHub Actions with DeployApps for CI/CD
 
 ## Introduction
 
-GitHub Actions provides a powerful and flexible way to set up CI/CD workflows. By integrating it with genezio, you ensure that your serverless applications are always up-to-date and deployed seamlessly. This enhances developer productivity and ensures a smoother delivery of features and updates to end-users.
+GitHub Actions provides a powerful and flexible way to set up CI/CD workflows. By integrating it with DeployApps, you ensure that your serverless applications are always up-to-date and deployed seamlessly. This enhances developer productivity and ensures a smoother delivery of features and updates to end-users.
 
 Let's dive into how you can set up this integration.
 
 ## Prerequisites:
 
-- A genezio account
-- A GitHub account and a repository with your genezio project
-- Familiarity with genezio’s CLI tools, especially the genezio deploy command
+- A DeployApps account
+- A GitHub account and a repository with your DeployApps project
+- Familiarity with DeployApps's CLI tools, especially the genezio deploy command
 
 ## Step-by-Step Guide:
 
 #### 1. Set up your GitHub repository
 
-If you haven’t already, push your genezio project to a GitHub repository.
+If you haven’t already, push your DeployApps project to a GitHub repository.
 
 #### 2. Setting up GitHub Actions:
 
@@ -68,7 +68,7 @@ jobs:
 
 #### 3. Store genezio Token securely:
 
-To use the _genezio deploy_ command, you need to authenticate to the genezio cloud. You should store your genezio token keys securely and not hard-code them in the workflow.
+To use the _genezio deploy_ command, you need to authenticate to the DeployApps cloud. You should store your DeployApps token keys securely and not hard-code them in the workflow.
 
 You can generate your token using this link: {{< external-link link="https://app.genez.io/settings/tokens" >}}app.genez.io/settings/tokens{{< /external-link >}}
 
@@ -84,8 +84,8 @@ By referring to it as `${{ secrets.GENEZIO_TOKEN }}` in your workflow file, GitH
 
 #### 4. Push your changes
 
-With the workflow file added to your repository, push the changes. Now, every time you or someone else pushes to the main branch, the GitHub Actions workflow will trigger and deploy your genezio application.
+With the workflow file added to your repository, push the changes. Now, every time you or someone else pushes to the main branch, the GitHub Actions workflow will trigger and deploy your DeployApps application.
 
 ## Conclusion
 
-GitHub Actions allows you to automate, customize, and execute software development workflows right in your GitHub repository. Integrating it with genezio, you can set up a CI/CD pipeline that seamlessly deploys your serverless applications on genezio’s infrastructure.
+GitHub Actions allows you to automate, customize, and execute software development workflows right in your GitHub repository. Integrating it with DeployApps, you can set up a CI/CD pipeline that seamlessly deploys your serverless applications on DeployApps's infrastructure.

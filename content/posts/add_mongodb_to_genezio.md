@@ -7,19 +7,19 @@ author: Radu Dumitrescu
 linkedIn: https://www.linkedin.com/in/radu-andrei-dumitrescu/
 thumbnail: /images/genezio_mongodb.webp
 
-preview: In this tutorial, I will show you the steps of integrating a Mongo database into your genezio project.
+preview: In this tutorial, I will show you the steps of integrating a Mongo database into your DeployApps project.
 # meta data start
 description: "Learn how to integrate MongoDB into your DeployApps project. Follow our tutorial for setting up a MongoDB Atlas cluster and connecting it with DeployApps."
 
-meta_og_url: "https://genezio.com/blog/how-to-add-a-mongodb-to-your-genezio-project"
-meta_og_image: "https://genezio.com/images/genezio_mongodb.webp"
+meta_og_url: "https://deployapps.dev/blog/how-to-add-a-mongodb-to-your-genezio-project"
+meta_og_image: "https://deployapps.dev/images/genezio_mongodb.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
 readTime: 10
 ---
 
-In this tutorial, I will show you the steps of integrating a Mongo database into your genezio {{< external-link link="https://github.com/Genez-io/genezio-examples/tree/master/typescript/getting-started" >}}Getting Started project{{< /external-link >}}
+In this tutorial, I will show you the steps of integrating a Mongo database into your DeployApps {{< external-link link="https://github.com/Genez-io/genezio-examples/tree/master/typescript/getting-started" >}}Getting Started project{{< /external-link >}}
 .
 
 Following this tutorial, you will be able to:
@@ -52,9 +52,9 @@ or write me an email at radu@genez.io. I am more than happy to help you 😄
 
 - Have `npm` installed on your machine
 - Have `mongoose` installed on your machine
-- Create a free genezio account {{< external-link link="https://genez.io" >}}here{{< /external-link >}}
+- Create a free DeployApps account {{< external-link link="https://genez.io" >}}here{{< /external-link >}}
 
-- Have `genezio` installed on your machine - you can install it with `npm install genezio -g`
+- Have `DeployApps` installed on your machine - you can install it with `npm install genezio -g`
 
 ## **Introduction**
 

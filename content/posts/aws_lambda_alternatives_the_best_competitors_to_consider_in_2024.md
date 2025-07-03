@@ -9,8 +9,8 @@ thumbnail: /images/aws-lambda-alternatives.webp
 preview: AWS Lambda is the undisputed heavyweight champ of serverless computing. It's powerful, scalable, and deeply integrated with the AWS ecosystem.
 # meta data start
 description: Explore top AWS Lambda alternatives in 2024, including DeployApps, Cloudflare Workers, and more, to help you find the best solution for your needs.
-meta_og_url: "https://genezio.com/blog/aws-lambda-alternatives/"
-meta_og_image: "https://genezio.com/images/aws-lambda-alternatives.webp"
+meta_og_url: "https://deployapps.dev/blog/aws-lambda-alternatives/"
+meta_og_image: "https://deployapps.dev/images/aws-lambda-alternatives.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -32,7 +32,7 @@ The good news is the serverless world is full of high-performance alternatives. 
 
 ## DeployApps
 
-{{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} offers a compelling alternative to AWS Lambda, focusing on a full-stack cloud experience with near-zero latency serverless functions.
+{{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} offers a compelling alternative to AWS Lambda, focusing on a full-stack cloud experience with near-zero latency serverless functions.
 
 Next.js, without sacrificing performance or having to rewrite your code significantly.
 
@@ -73,7 +73,7 @@ Next.js, without sacrificing performance or having to rewrite your code signific
 
 **Pricing**
 
-{{< external-link link="https://genezio.com/pricing/" >}}Free plan available{{< /external-link >}} up to Enterprise custom plans.
+{{< external-link link="https://deployapps.dev/pricing/" >}}Free plan available{{< /external-link >}} up to Enterprise custom plans.
 
 ## Cloudflare Workers
 
@@ -350,4 +350,4 @@ So, whether you're seeking a specific language, framework support, edge computin
 
 And if you want to get started in a powerful, reliable manner, check out DeployApps. As above, it offers all the severless functionality and features you need to get your project off the ground and done right the first time.
 
-{{< external-link link="https://genezio.com/" >}}**Click here to get started.**{{< /external-link >}}
+{{< external-link link="https://deployapps.dev/" >}}**Click here to get started.**{{< /external-link >}}
