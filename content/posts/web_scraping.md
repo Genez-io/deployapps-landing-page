@@ -9,8 +9,8 @@ thumbnail: /images/web_scrape.webp
 preview: In this article, I’ll show you how to track stars from a GitHub repository in under 10 minutes. However, this code can be easily adapted to track various other metrics like social media likes, followers numbers, or stock market prices.
 # meta data start
 description: "Build and deploy a web scraping app with DeployApps. Learn to extract real-time data from websites in our detailed guide."
-meta_og_url: "https://genezio.com/blog/web-scraping-app/"
-meta_og_image: "https://genezio.com/images/web_scrape.webp"
+meta_og_url: "https://deployapps.dev/blog/web-scraping-app/"
+meta_og_image: "https://deployapps.dev/images/web_scrape.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -197,6 +197,6 @@ You've just effortlessly built a small web app that scrapes data from other webs
 
 Keep in mind that we used GitHub stars as an example, and you can employ this logic to obtain any data. All you need to do is adjust the regex slightly to match your own use case.
 
-I hope you enjoyed this tutorial and I encourage you to check out our other [tutorials](https://genezio.com/tags/tutorials/) for more tips and tricks on improving your software engineering skills. 🥷 💻
+I hope you enjoyed this tutorial and I encourage you to check out our other [tutorials](https://deployapps.dev/tags/tutorials/) for more tips and tricks on improving your software engineering skills. 🥷 💻
 
 Also, I invite you to check our examples on {{< external-link link="https://github.com/Genez-io/genezio-examples/tree/master/" >}}GitHub{{< /external-link >}}.

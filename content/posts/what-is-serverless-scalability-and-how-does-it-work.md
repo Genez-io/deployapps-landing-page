@@ -8,7 +8,7 @@ linkedIn: https://www.linkedin.com/in/luisminv/
 thumbnail: /images/what_is_serverless_scalability_and_how_does_it_work.webp
 preview: "Serverless computing is a system of a cloud model that is used by more than 20,000 companies across every industry imaginable, including Netflix, Coca-Cola, and Nordstrom."
 description: "Serverless scalability is the ability of a serverless system to automatically adjust its size to match the workload."
-meta_og_url: "https://genezio.com/blog/serverless-scalability/"
+meta_og_url: "https://deployapps.dev/blog/serverless-scalability/"
 meta_og_image: "https://genez.io/images/what_is_serverless_scalability_and_how_does_it_work.webp"
 customHeader: "White header"
 customFooter: "White footer"
@@ -22,7 +22,7 @@ To make the most out of serverless scalability, it’s a good idea to understand
 
 ### What is serverless and — why does it feature servers?
 
-{{< external-link link="https://genezio.com/blog/serverless-computing-when-to-go-serverless/" >}}Serverless computing{{< /external-link >}} **is a cloud model that outsources the responsibility of managing servers and infrastructure from developers or IT specialists to cloud providers.** Instead of provisioning, scaling, and maintaining servers, developers can focus their efforts towards building their application.
+{{< external-link link="https://deployapps.dev/blog/serverless-computing-when-to-go-serverless/" >}}Serverless computing{{< /external-link >}} **is a cloud model that outsources the responsibility of managing servers and infrastructure from developers or IT specialists to cloud providers.** Instead of provisioning, scaling, and maintaining servers, developers can focus their efforts towards building their application.
 
 The serverless model generally operates on a pay-per-use basis, meaning you only pay when your code is actively running. So the cost is going to vary depending on how many people are using your application. While the name might suggest there are no servers involved, it’s a misconception. Servers still very much exist but instead of them being on premise (at your office, for example), you rent the use of a server from a third party who manages the infrastructure and the server maintenance. You are essentially using the third-party cloud system to host and run your application. Since developers have no direct interaction or management responsibilities over them, the industry calls it “serverless.”
 
@@ -32,7 +32,7 @@ The serverless model generally operates on a pay-per-use basis, meaning you only
 
 Serverless scalability is like having a restaurant ({{< external-link link="https://www.goodreads.com/quotes/622508-numbers-written-on-restaurant-bills-within-the-confines-of-restaurants" >}}Bistromathics{{< /external-link >}} come to mind) that can magically create and remove tables based on the number of people wanting to eat. (We use the word “magically” because, as we are talking about “serverless,” all this happens without the owner of the restaurant being aware of it — in other words, automagically). So, unlike traditional systems where you need to manually add or remove servers (or processing power if you're running on the cloud) depending on the rise or fall of the demand, serverless platforms do this automatically, which is equivalent to saying that serverless systems are inherently scalable—provided you choose the right partner who can help you set up the environment so that it doesn’t crash or leave you with an unexpected bill.
 
-{{< external-link link="https://genezio.com/blog/effortless-scaling-genezio-handles-growth/#understanding-scalability" >}}Auto Scaling — DeployApps Handles Growth →{{< /external-link >}}
+{{< external-link link="https://deployapps.dev/blog/effortless-scaling-genezio-handles-growth/#understanding-scalability" >}}Auto Scaling — DeployApps Handles Growth →{{< /external-link >}}
 
 Let's take another example. You've programmed by yourself a ticket-selling web app that has gone viral overnight, particularly because you cut a deal with an up-and-coming act that's doing {{< external-link link="https://www.nytimes.com/2024/06/21/business/taylor-swift-eras-tour-inflation-europe.html" >}}their first show{{< /external-link >}} in your town. With a normal server setup, your web app might probably crash because too many people are trying to use it at once. Even if you've set up your server to automatically add more power when it's necessary (called autoscaling in traditional setups), this doesn't happen instantly. It takes time for these extra servers to start up. Not to mention the bill — that also goes up.
 

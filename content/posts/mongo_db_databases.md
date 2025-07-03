@@ -9,8 +9,8 @@ thumbnail: /images/mongodb-genezio.webp
 preview: DeployApps users can now set up MongoDB databases! You can now easily manage your MongoDB databases alongside your serverless functions. Learn how to deploy scalable, secure NoSQL databases effortlessly!
 # meta data start
 description: Learn about the new MongoDB database feature in DeployApps. Easily set up and manage MongoDB databases alongside your serverless functions.
-meta_og_url: "https://genezio.com/blog/mongo_db_databases/"
-meta_og_image: "https://genezio.com/images/ferretdb-genezio.webp"
+meta_og_url: "https://deployapps.dev/blog/mongo_db_databases/"
+meta_og_image: "https://deployapps.dev/images/ferretdb-genezio.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -47,7 +47,7 @@ databases:
 
 By following these steps, you’ll have a fully operational, scalable, and secure NoSQL database powering your serverless apps, without any complex setup or manual configurations.
 
-Explore more about the database feature in our [documentation](https://genezio.com/docs/features/databases/) and get started today.
+Explore more about the database feature in our [documentation](https://deployapps.dev/docs/features/databases/) and get started today.
 
 ## Need an API? We’ve Got You Covered
 

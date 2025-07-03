@@ -8,7 +8,7 @@ linkedIn: https://www.linkedin.com/in/cristi-miloiu-3a174a267
 thumbnail: /images/whatsapp.webp
 preview: "This is a crucial step towards leveraging automation, covering the essentials to get you started on your journey to building more complex bots like natural language processing chatbots, e-commerce assistants, customer service bots, and more."
 description: "DeployApps blog: Step-by-step tutorial on creating a WhatsApp bot. Integrate the bot with WhatsApp API and automate responses."
-meta_og_url: "https://genezio.com/blog/whatsapp-genezio-project/"
+meta_og_url: "https://deployapps.dev/blog/whatsapp-genezio-project/"
 meta_og_image: "https://genez.io/images/whatsapp.webp"
 customHeader: "White header"
 customFooter: "White footer"
@@ -178,7 +178,7 @@ This structure defines the following components:
 
 This method serves as the main logic for handling incoming api requests from WhatsApp Business API, verifying the webhook, processing messages, and responding accordingly.
 
-The method uses `GenezioHttpRequest and  GenezioHttpResponse` types to answer and receive the message more easily. If you want to read more about this, I recommend you to look at the {{< external-link link="https://genezio.com/docs/genezio-typesafe/http-methods-webhooks/" >}} documentation{{< /external-link >}}.
+The method uses `GenezioHttpRequest and  GenezioHttpResponse` types to answer and receive the message more easily. If you want to read more about this, I recommend you to look at the {{< external-link link="https://deployapps.dev/docs/genezio-typesafe/http-methods-webhooks/" >}} documentation{{< /external-link >}}.
 
 10. Implement the sendMessage method
 

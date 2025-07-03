@@ -9,8 +9,8 @@ thumbnail: /images/express-frontend-genezio.webp
 preview: In this short guide, you’ll learn how to add a frontend to your Express.js app with DeployApps Cloud in a few easy steps.
 # meta data start
 description: Learn how to seamlessly add a frontend to your Express.js app with DeployApps Cloud in a few easy steps, simplifying full-stack development and deployment
-meta_og_url: "https://genezio.com/blog/add-frontend-express/"
-meta_og_image: "https://genezio.com/images/express-frontend-genezio.webp"
+meta_og_url: "https://deployapps.dev/blog/add-frontend-express/"
+meta_og_image: "https://deployapps.dev/images/express-frontend-genezio.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -20,7 +20,7 @@ url: /blog/add-frontend-express/
 
 In this short guide, you’ll learn how to add a frontend to your Express.js app with DeployApps Cloud in a few easy steps.
 
-**Express.js** is widely used by developers for building APIs and backend services due to its simplicity and flexibility. However, as applications grow, managing servers and scaling them efficiently becomes a challenge. This is where {{< external-link link="https://genezio.com/blog/serverless-computing-when-to-go-serverless/?deviceId=1422989e-eae9-44b0-88a7-39985fd9edde" >}}serverless architecture{{< /external-link >}} shines—by offloading server management to the cloud, it allows you to focus on building features while platforms like **DeployApps** handle scalability, performance, and costs automatically.
+**Express.js** is widely used by developers for building APIs and backend services due to its simplicity and flexibility. However, as applications grow, managing servers and scaling them efficiently becomes a challenge. This is where {{< external-link link="https://deployapps.dev/blog/serverless-computing-when-to-go-serverless/?deviceId=1422989e-eae9-44b0-88a7-39985fd9edde" >}}serverless architecture{{< /external-link >}} shines—by offloading server management to the cloud, it allows you to focus on building features while platforms like **DeployApps** handle scalability, performance, and costs automatically.
 
 When it comes to adding a frontend, the traditional approach can be tricky. Setting up separate servers for backend and frontend, managing CORS policies, and coordinating deployment pipelines can slow you down. But with **DeployApps**, you can easily deploy both the frontend and backend as part of the same project. This seamless integration improves your development workflow, making it easier to focus on building features rather than managing infrastructure.
 
@@ -76,7 +76,7 @@ This will generate a TypeScript-based React `frontend` in a frontend directory.
 
 We need to modify the `genezio.yaml` file - add the frontend application and update the path to the backend application.
 
-{{< external-link link="https://genezio.com/docs/project-structure/genezio-configuration-file/">}}Learn more about the DeployApps Configuration File.{{< /external-link >}}
+{{< external-link link="https://deployapps.dev/docs/project-structure/genezio-configuration-file/">}}Learn more about the DeployApps Configuration File.{{< /external-link >}}
 
 After the changes, your configuration should look like this:
 

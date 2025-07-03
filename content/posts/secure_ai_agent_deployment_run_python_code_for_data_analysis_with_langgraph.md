@@ -9,8 +9,8 @@ thumbnail: /images/langgraph.webp
 preview: Today, we’re building a Data Analyst Agent—an AI-powered system that helps you make sense of your data. For example, it can generate visualizations from a CSV file or run complex analyses on structured datasets.
 # meta data start
 description: Learn how to deploy a secure AI-powered Data Analyst Agent using LangGraph and DeployApps, ensuring privacy and control over your data.
-meta_og_url: "https://genezio.com/blog/data-analyst-agent-langgraph-genezio/"
-meta_og_image: "https://genezio.com/images/langgraph.webp"
+meta_og_url: "https://deployapps.dev/blog/data-analyst-agent-langgraph-genezio/"
+meta_og_image: "https://deployapps.dev/images/langgraph.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"

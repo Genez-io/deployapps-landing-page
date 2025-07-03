@@ -9,8 +9,8 @@ thumbnail: /images/communicationbreakdown.webp
 preview: One of the most difficult parts of developing a service is managing the sheer number of connected parts.
 # meta data start
 description: "Explore the importance of backend-to-frontend communication and learn how to manage it effectively in full-stack development."
-meta_og_url: "https://genezio.com/blog/communication-breakdown-why-backend-to-frontend-communication-matters/"
-meta_og_image: "https://genezio.com/images/communicationbreakdown.webp"
+meta_og_url: "https://deployapps.dev/blog/communication-breakdown-why-backend-to-frontend-communication-matters/"
+meta_og_image: "https://deployapps.dev/images/communicationbreakdown.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -74,4 +74,4 @@ But don’t just take our word for it! Here are some thoughts from some of the w
 
 ### Getting Started with DeployApps
 
-It is incredibly easy to get started with DeployApps – most users can be set up in mere minutes! You can {{< external-link link="https://app.genez.io/auth/signup" >}}sign up for free{{< /external-link >}} and {{< external-link link="https://genezio.com/docs/getting-started/" >}}leverage our world-class documentation{{< /external-link >}} to get started on your project today. We also {{< external-link link="https://genezio.com/blog/" >}}publish educational material via our blog{{< /external-link >}} that can help you understand how to harness the power of DeployApps to make your applications better, faster, and more resilient.
+It is incredibly easy to get started with DeployApps – most users can be set up in mere minutes! You can {{< external-link link="https://app.genez.io/auth/signup" >}}sign up for free{{< /external-link >}} and {{< external-link link="https://deployapps.dev/docs/getting-started/" >}}leverage our world-class documentation{{< /external-link >}} to get started on your project today. We also {{< external-link link="https://deployapps.dev/blog/" >}}publish educational material via our blog{{< /external-link >}} that can help you understand how to harness the power of DeployApps to make your applications better, faster, and more resilient.

@@ -8,7 +8,7 @@ linkedIn: https://www.linkedin.com/in/luisminv/
 thumbnail: /images/what_are_microservices.webp
 preview: "As companies and the world become increasingly digital, many organisations — corporations or small businesses — are relying on cloud services to run their operations because the cloud is quick, effortless, affordable, and doesn’t require a huge upfront fee."
 description: "Serverless microservices are small, independent units of code that perform specific tasks within an application"
-meta_og_url: "https://genezio.com/blog/serverless-microservices/"
+meta_og_url: "https://deployapps.dev/blog/serverless-microservices/"
 meta_og_image: "https://genez.io/images/what_are_microservices.webp"
 customHeader: "White header"
 customFooter: "White footer"
@@ -24,7 +24,7 @@ We’ll explain the characteristics, benefits, and challenges of serverless micr
 
 **Serverless computing is a cloud-based model for running applications without taking care of servers or server maintenance.** It allows developers to avoid managing servers, hardware, infrastructure, middleware, or any other requirement a full-stack application has because the provider does it for them. In short, you are renting computing power and the whole platform management on a server that is maintained and managed by someone else. The main benefit of serverless computing is the cost and ease of use, you can launch your application without the need for an IT department.
 
-Instead of provisioning, scaling, and maintaining infrastructure, developers focus solely on writing code. Cloud providers {{< external-link link="https://genezio.com/blog/serverless-computing-when-to-go-serverless/" >}}handle the underlying server management{{< /external-link >}} and automatically scale resources based on application demand. This pay-per-use model means users only pay for the actual processing time used.
+Instead of provisioning, scaling, and maintaining infrastructure, developers focus solely on writing code. Cloud providers {{< external-link link="https://deployapps.dev/blog/serverless-computing-when-to-go-serverless/" >}}handle the underlying server management{{< /external-link >}} and automatically scale resources based on application demand. This pay-per-use model means users only pay for the actual processing time used.
 
 The term “serverless” can give the wrong impression to a beginner; however, servers are still very much involved in a serverless architecture. But since the servers are out of sight and out of mind, we can say that applications are hosted in something else than servers (although that’s the case, strictly speaking).
 
@@ -70,7 +70,7 @@ An e-commerce platform can be a good example of how microservices help a shopper
 
 In serverless, these microservices are just small, independent pieces of code called functions. They only snap into action when something specific happens, like a customer adding an item to their cart, a payment being processed, or a product running out of stock. Instead of running all the time, these apps only run when needed, which saves money on processing power. If the e-commerce platform only operates in one country with a single time zone, they’ll surely be cutting down on processing power during the wee hours (drunk shoppers who spend almost {{< external-link link="https://www.digitaltrends.com/news/drunk-shoppers-spend-48-billion-per-year-mostly-on-amazon/" >}}$50 billion a year{{< /external-link >}} are a good excuse to keep the site running all night long).
 
-If a competitor wanted to start their site and {{< external-link link="https://genezio.com/blog/how-to-host-a-web-app-host-application-hosting-an-app-application-server-hosting-web-application-hosting-server-free-application-hosting/#conclusion-your-free-hosting-journey-begins-now" >}}launch a web application{{< /external-link >}} for selling items to drunk buyers, they could use pre-built microservices for features like user authentication or payment processing to get a head start. Some of these services can be found on platforms like {{< external-link link="https://genezio.com/genezio-typesafe/" >}}DeployApps{{< /external-link >}}. DeployApps is a serverless platform for building applications, and it also offers pre-built, typesafe microservices.
+If a competitor wanted to start their site and {{< external-link link="https://deployapps.dev/blog/how-to-host-a-web-app-host-application-hosting-an-app-application-server-hosting-web-application-hosting-server-free-application-hosting/#conclusion-your-free-hosting-journey-begins-now" >}}launch a web application{{< /external-link >}} for selling items to drunk buyers, they could use pre-built microservices for features like user authentication or payment processing to get a head start. Some of these services can be found on platforms like {{< external-link link="https://deployapps.dev/genezio-typesafe/" >}}DeployApps{{< /external-link >}}. DeployApps is a serverless platform for building applications, and it also offers pre-built, typesafe microservices.
 
 ![alt_text](/posts/serverlessMicroservices1.webp)
 
@@ -126,7 +126,7 @@ Figuring out which tests to run and when to run them is tough. Some developers c
 
 ### 3. Cold starts (unless you plan ahead)
 
-Serverless environments usually have to deal with latency and cold starts when code hasn’t been running for a while. The best way to counter this disadvantage is to partner up with a tech company that has developed a workaround to them. {{< external-link link="https://genezio.com/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/#genezio-functions-vs-aws-lambda-vs-gcp-vs-vercel-vs-netlify" >}}DeployApps Functions{{< /external-link >}}, for example, are designed to prevent cold starts for any serverless app and starts up to 4x faster than AWS Lambda.
+Serverless environments usually have to deal with latency and cold starts when code hasn’t been running for a while. The best way to counter this disadvantage is to partner up with a tech company that has developed a workaround to them. {{< external-link link="https://deployapps.dev/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/#genezio-functions-vs-aws-lambda-vs-gcp-vs-vercel-vs-netlify" >}}DeployApps Functions{{< /external-link >}}, for example, are designed to prevent cold starts for any serverless app and starts up to 4x faster than AWS Lambda.
 
 ### 4. Low visibility
 

@@ -9,8 +9,8 @@ thumbnail: /images/optimize_expressjs_apps.webp
 preview: "Discover best practices for optimizing Express.js development with serverless architecture and CDN deployment on DeployApps"
 # meta data start
 description: "Learn how to optimize your Express.js development by implementing serverless architecture and CDN deployment. Explore how DeployApps’s platform enhances performance, scalability, and cost-efficiency, making it easier to build and deploy modern web applications"
-meta_og_url: "https://genezio.com/blog/optimize-expressjs-apps"
-meta_og_image: "https://genezio.com/images/optimize_expressjs_apps.webp"
+meta_og_url: "https://deployapps.dev/blog/optimize-expressjs-apps"
+meta_og_image: "https://deployapps.dev/images/optimize_expressjs_apps.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -43,7 +43,7 @@ Docker containers offer isolated environments for running applications, improvin
 
 Serverless computing is the most efficient and cost-effective solution among these options. Functions are executed on-demand, meaning resources are only consumed when needed. This results in significant cost savings. Serverless architectures also scale automatically, spawning new function instances as required. The primary challenge has been "cold starts," where invoking a function after a period of inactivity introduces delays. However, advancements in serverless technology, such as those by DeployApps, have minimized cold start times to as low as 50 milliseconds, making serverless an increasingly viable option.
 
-For more insights on how DeployApps has optimized cold start times, explore the {{< external-link link="https://genezio.com/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/">}}blog post on reducing cold start delays{{< /external-link >}}.
+For more insights on how DeployApps has optimized cold start times, explore the {{< external-link link="https://deployapps.dev/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/">}}blog post on reducing cold start delays{{< /external-link >}}.
 
 ## Cost-Efficiency: Weighing the Options
 

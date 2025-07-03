@@ -9,8 +9,8 @@ thumbnail: /images/geneziov1.webp
 preview: "Just launched: DeployApps V1.0! This update is all about simplifying your development process with improved CLI output, a new configuration file, straightforward project testing, and improved user authentication."
 # meta data start
 description: "Explore the new features in DeployApps v1.0, including improved authentication, easier project testing, and enhanced CLI error handling."
-meta_og_url: "https://genezio.com/blog/genezio-v1.0/"
-meta_og_image: "https://genezio.com/images/geneziov1.webp"
+meta_og_url: "https://deployapps.dev/blog/genezio-v1.0/"
+meta_og_image: "https://deployapps.dev/images/geneziov1.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -32,7 +32,7 @@ We’ve made some improvements to our built-in authentication module. It’s mor
 
 Testing is an integral part of the development process, and with DeployApps V1.0, it's getting easier. Now, you can test your project locally using the Test interface on the DeployApps Dashboard.
 
-Find more about it {{< external-link link="https://genezio.com/docs/features/testing#testing-in-a-cli-environment" >}}here{{< /external-link >}}.
+Find more about it {{< external-link link="https://deployapps.dev/docs/features/testing#testing-in-a-cli-environment" >}}here{{< /external-link >}}.
 
 ## Enhanced CLI Error Output
 
@@ -42,7 +42,7 @@ Error handling in the CLI has been vastly improved. With clearer messages and gu
 
 This isn't just an update; it's a complete transformation designed to enhance configuration management, making it more powerful and flexible.
 
-We are introducing a new format for the `.yaml` configuration file to simplify configuring your next deployments, but don’t worry, we’ll update existing projects semi-automatically. Curious about the changes? You can find more details about them and how to update your projects {{< external-link link="https://genezio.com/docs/learn-more/upgrading-to-v1" >}}here{{< /external-link >}}.
+We are introducing a new format for the `.yaml` configuration file to simplify configuring your next deployments, but don’t worry, we’ll update existing projects semi-automatically. Curious about the changes? You can find more details about them and how to update your projects {{< external-link link="https://deployapps.dev/docs/learn-more/upgrading-to-v1" >}}here{{< /external-link >}}.
 
 ## What’s next?
 

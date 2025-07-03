@@ -9,8 +9,8 @@ thumbnail: /images/nextj-hosting-provider.webp
 preview: AI agent tools make possible the creation of autonomous AI agents—software entities that can and act on their own and undertake some step-by-step tasks, like researching for a paper. The AI agent market, which is estimated at $5.4 billion in 2024, is being pushed by use cases such as self-service customer experiences, or even crypto trading agents
 # meta data start
 description: The best AI agent tools are LangChain, Mirascope, AutoGen, CrewAI, and DeployApps. With them, you’re all set for your next AI agent project.
-meta_og_url: "https://genezio.com/blog/ai-agent-tools/"
-meta_og_image: "https://genezio.com/images/nextj-hosting-provider.webp"
+meta_og_url: "https://deployapps.dev/blog/ai-agent-tools/"
+meta_og_image: "https://deployapps.dev/images/nextj-hosting-provider.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -36,7 +36,7 @@ Many open-source networks have sprung up to help out as agent-based AI framework
 
 But developers are also questioning how much they really need LangChain to run AI agents. Some are claiming that they can get far enough with {{< external-link link="https://github.com/langchain-ai/langsmith-sdk" >}}LangSmith{{< /external-link >}}, which, for example, is not free. Developers who argue for it say LangChain is actually good for chaining actions and workflows, especially since you can figure out their wrapper patterns. Others say it works well for a standard use case, but if you need something a little different, you have to go through plenty of layers of abstraction just to change a small detail. Also, these layers of abstraction mean you won't understand every step in the process, so if there is a problem, you will start from scratch.
 
-So if you’re looking for the ideal AI agent tool, you should maybe check other entries before opting for LangChain. Or, as plenty of developers recommend, you could get straight into LangSmith or other modules. You can also jump straight to a tutorial and learn {{< external-link link="https://genezio.com/blog/data-analyst-agent-langgraph-genezio/#introduction" >}}how to deploy an AI agent with LangGraph{{< /external-link >}}, a LangChain module.
+So if you’re looking for the ideal AI agent tool, you should maybe check other entries before opting for LangChain. Or, as plenty of developers recommend, you could get straight into LangSmith or other modules. You can also jump straight to a tutorial and learn {{< external-link link="https://deployapps.dev/blog/data-analyst-agent-langgraph-genezio/#introduction" >}}how to deploy an AI agent with LangGraph{{< /external-link >}}, a LangChain module.
 
 {{< tweet "https://twitter.com/aidenybai/status/1895218891586224488" >}}
 
@@ -60,9 +60,9 @@ So if you’re looking for the ideal AI agent tool, you should maybe check other
 
 This entry is a bit different. It’s an AI agent tool because it’s one of the best ways to run yours.
 
-Well, building an AI agent is only one part of the battle, because deploying it and operating it is just as important. As your AI projects grow, performance constraints like cost, speed, and concurrency—along with security concerns—could make you lose your sleep (or leave you paying a huge invoice). That’s why you need to carefully choose a platform that will let you deploy an AI agent in an affordable environment. That’s where {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} comes in.
+Well, building an AI agent is only one part of the battle, because deploying it and operating it is just as important. As your AI projects grow, performance constraints like cost, speed, and concurrency—along with security concerns—could make you lose your sleep (or leave you paying a huge invoice). That’s why you need to carefully choose a platform that will let you deploy an AI agent in an affordable environment. That’s where {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} comes in.
 
-DeployApps is a serverless cloud platform that provides all the infrastructure needed to deploy and run AI agents at scale. You only pay for the compute if your agent requires it, which means you won’t over- or underprovision. The serverless cloud hosting is specially useful for event-driven agents or agents with intermittent workloads, since the platform automatically scales your app. And DeployApps also allows you to import your projects from {{< external-link link="https://genezio.com/import-github-projects-genezio/" >}}GitHub{{< /external-link >}} and automate your deployment.
+DeployApps is a serverless cloud platform that provides all the infrastructure needed to deploy and run AI agents at scale. You only pay for the compute if your agent requires it, which means you won’t over- or underprovision. The serverless cloud hosting is specially useful for event-driven agents or agents with intermittent workloads, since the platform automatically scales your app. And DeployApps also allows you to import your projects from {{< external-link link="https://deployapps.dev/import-github-projects-genezio/" >}}GitHub{{< /external-link >}} and automate your deployment.
 
 ## Deploy your AI Agents with DeployApps
 

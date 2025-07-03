@@ -81,7 +81,7 @@ genezio deploy
 
 ## Documentation
 
-For a complete list of configuration options and examples, refer to the [DeployApps documentation](https://genezio.com/docs/project-structure/genezio-configuration-file/).
+For a complete list of configuration options and examples, refer to the [DeployApps documentation](https://deployapps.dev/docs/project-structure/genezio-configuration-file/).
 
 DeployApps will automatically provide the necessary resources, deploy your backend and frontend, and set up databases and authentication as defined in the configuration file.
 

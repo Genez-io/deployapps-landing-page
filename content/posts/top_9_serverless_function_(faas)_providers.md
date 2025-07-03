@@ -8,7 +8,7 @@ linkedIn: https://www.linkedin.com/in/luisminv/
 thumbnail: /images/top_9_serverless_function_faas_providers.webp
 preview: "Startups choose serverless or FaaS because it’s affordable, it’s easy to set up, and it scales. Yet, unfortunately, choosing the wrong serverless provider can be expensive and nerve-wracking. "
 description: "The 9 best serverless functions (FaaS) providers include DeployApps, AWS, Google, Azure, and Cloudflare."
-meta_og_url: "https://genezio.com/blog/best-serverless-faas-providers/"
+meta_og_url: "https://deployapps.dev/blog/best-serverless-faas-providers/"
 meta_og_image: "https://genez.io/images/top_9_serverless_function_faas_providers.webp"
 customHeader: "White header"
 customFooter: "White footer"
@@ -28,7 +28,7 @@ A FaaS provider is a vendor offering a Function-as-a-Service computing service t
 
 FaaS belongs to the serverless model of cloud computing. On FaaS, the provider handles resource allocation and scaling automatically based on demand. This model is ideal for applications with unpredictable workloads or in early development stages, as it supports scalable and affordable solutions for event-driven tasks and microservices architectures. It’s also an excellent alternative to the usual monolithic app model. With the right FaaS providers, developers can add features to a full-stack webapp without compromising the main codebase.
 
-{{< external-link link="https://genezio.com/blog/faas-vs-paas/" >}}What Is the Difference Between PaaS And FaaS?→{{< /external-link >}}
+{{< external-link link="https://deployapps.dev/blog/faas-vs-paas/" >}}What Is the Difference Between PaaS And FaaS?→{{< /external-link >}}
 
 ## The best FaaS providers for developers and companies
 
@@ -36,17 +36,17 @@ Discover the top 9 serverless function (FaaS) providers available today. Each pl
 
 ## DeployApps
 
-{{< external-link link="https://genezio.com/docs/#:~:text=DeployApps%20Functions%E2%80%8B,to%20events%20without%20managing%20servers." >}}DeployApps Functions{{< /external-link >}} is a Function-as-a-Service (FaaS) solution that streamlines the deployment and management of full-stack applications. As a FaaS platform, DeployApps eliminates the need for developers to manage servers, and allows them to focus instead on writing and deploying code. This makes it a {{< external-link link="https://github.com/Genez-io/genezio" >}}reliable choice{{< /external-link >}} for small projects, MVPs, and enterprise demos. DeployApps’s type safe backend delivers a simple and secure application development experience, while automatic SDK generation gives developers a simple frontend-backend integration.
+{{< external-link link="https://deployapps.dev/docs/#:~:text=DeployApps%20Functions%E2%80%8B,to%20events%20without%20managing%20servers." >}}DeployApps Functions{{< /external-link >}} is a Function-as-a-Service (FaaS) solution that streamlines the deployment and management of full-stack applications. As a FaaS platform, DeployApps eliminates the need for developers to manage servers, and allows them to focus instead on writing and deploying code. This makes it a {{< external-link link="https://github.com/Genez-io/genezio" >}}reliable choice{{< /external-link >}} for small projects, MVPs, and enterprise demos. DeployApps’s type safe backend delivers a simple and secure application development experience, while automatic SDK generation gives developers a simple frontend-backend integration.
 
-The platform’s DeployApps.Cloud module automates the development, testing, and deployment of serverless functions, and provides up to {{< external-link link="https://genezio.com/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/" >}}four times faster{{< /external-link >}} cold start times than AWS Lambda, with a median cold start response time of around 54ms.
+The platform’s DeployApps.Cloud module automates the development, testing, and deployment of serverless functions, and provides up to {{< external-link link="https://deployapps.dev/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/" >}}four times faster{{< /external-link >}} cold start times than AWS Lambda, with a median cold start response time of around 54ms.
 
-DeployApps is framework-agnostic, which means it supports popular stacks like React, Vue, Angular, and Svelte. It integrates easily with tools like {{< external-link link="https://upstash.com/" >}}Upstash Redis{{< /external-link >}} and {{< external-link link="https://neon.tech/" >}}Neon Postgres{{< /external-link >}}, and offers in this way flexible database management. The platform stands out for having {{< external-link link="https://genezio.com/blog/what-is-type-safety/">}}typesafe{{< /external-link >}} environment. Type safety means that the compiler will verify types during compilation and report an error if an incorrect type is assigned to a variable. It also gets mentioned for its ease of use and great cold start times.
+DeployApps is framework-agnostic, which means it supports popular stacks like React, Vue, Angular, and Svelte. It integrates easily with tools like {{< external-link link="https://upstash.com/" >}}Upstash Redis{{< /external-link >}} and {{< external-link link="https://neon.tech/" >}}Neon Postgres{{< /external-link >}}, and offers in this way flexible database management. The platform stands out for having {{< external-link link="https://deployapps.dev/blog/what-is-type-safety/">}}typesafe{{< /external-link >}} environment. Type safety means that the compiler will verify types during compilation and report an error if an incorrect type is assigned to a variable. It also gets mentioned for its ease of use and great cold start times.
 
 ### Which FaaS providers are the quickest to set up?
 
 DeployApps is also remarkably easy to use—and quick to get started with. Developers can deploy a “Hello World” function in under two minutes after signing up, and then edit it directly in the browser. Some developers have already deployed a slightly more complex full-stack webapp {{< external-link link="https://www.linkedin.com/posts/laurentiu-ciobanu_running-rust-on-genezio-you-heard-me-right-activity-7142892752794546176-TTa5/">}}in three minutes{{< /external-link >}}.
 
-DeployApps features AWS Lambda compatibility. This means that developers can migrate {{< external-link link="https://genezio.com/blog/what-is-function-as-a-service/#disadvantages-of-function-as-a-service-faas">}}functions{{< /external-link >}} to DeployApps without any code changes—and with considerably better cold-start times and more predicable costs.
+DeployApps features AWS Lambda compatibility. This means that developers can migrate {{< external-link link="https://deployapps.dev/blog/what-is-function-as-a-service/#disadvantages-of-function-as-a-service-faas">}}functions{{< /external-link >}} to DeployApps without any code changes—and with considerably better cold-start times and more predicable costs.
 
 Below, you can see two ways to get started: {{< external-link link="https://app.genez.io/import">}}importing a project{{< /external-link >}} directly from GitHub or starting with a {{< external-link link="https://app.genez.io/fork?repository=https://github.com/Genez-io/faas-getting-started">}}“Hello World” function template:{{< /external-link >}}
 

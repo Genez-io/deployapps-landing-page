@@ -9,8 +9,8 @@ thumbnail: /images/release0.8.webp
 preview: "We've rolled out new features including a user-friendly authentication module, direct PostgreSQL database provision, and beta support for Golang, making your development process smoother."
 # meta data start
 description: "Explore the new features in DeployApps v0.8, including easy authentication, Postgres support, and beta Golang integration."
-meta_og_url: "https://genezio.com/blog/out-of-the-box-auth-postgres-and-go-support-genezio-v0.8/"
-meta_og_image: "https://genezio.com/images/release0.8.webp"
+meta_og_url: "https://deployapps.dev/blog/out-of-the-box-auth-postgres-and-go-support-genezio-v0.8/"
+meta_og_image: "https://deployapps.dev/images/release0.8.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -26,7 +26,7 @@ Ever found yourself tangled in the web of authentication logic? We did, and it w
 
 Our authentication solution offers you the flexibility to choose between Postgres and Mongo databases for storing user data and access tokens.
 
-Learn more about how to integrate this into your project in our {{< external-link link="https://genezio.com/docs/features/authentication" >}}tutorial{{< /external-link >}}.
+Learn more about how to integrate this into your project in our {{< external-link link="https://deployapps.dev/docs/features/authentication" >}}tutorial{{< /external-link >}}.
 
 ## PostgreSQL Databases Right Here
 
@@ -34,13 +34,13 @@ Managing your PostgreSQL databases is now simpler with DeployApps. No more switc
 
 DeployApps provides databases on demand, set up quickly via our partners. This way, you can get your database up and running fast, without stressing over infrastructure, scaling, or maintenance.
 
-Follow our step-by-step {{< external-link link="https://genezio.com/docs/features/databases#how-to-create-a-database" >}}instructions{{< /external-link >}} to create and use a database.
+Follow our step-by-step {{< external-link link="https://deployapps.dev/docs/features/databases#how-to-create-a-database" >}}instructions{{< /external-link >}} to create and use a database.
 
 ## Golang Support in Beta
 
 And for the Go fans out there, we've got some good news. DeployApps now has beta support for Golang. That means you can start using all our cool features with Go, trying out new things and building faster, more reliable apps. It's still in beta, but we're eager to see what you'll create.
 
-Golang support has been temporarily suspended. However, you can explore examples for other {{< external-link link="https://genezio.com/docs/examples/" >}}supported languages here{{< /external-link >}}.
+Golang support has been temporarily suspended. However, you can explore examples for other {{< external-link link="https://deployapps.dev/docs/examples/" >}}supported languages here{{< /external-link >}}.
 
 ## Enhanced Developer Documentation in SDKs
 

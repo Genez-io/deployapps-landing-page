@@ -10,10 +10,10 @@ thumbnail: /images/send_email_with_typescript_genezio_email_service.webp
 
 preview: In this blog, I'll take you through a practical solution for building a backend that calls the genezio email service using TypeScript.
 description: "In this blog, I'll take you through a practical solution for building a backend that calls the genezio email service using TypeScript."
-meta_og_url: "https://genezio.com/blog/send-emails-with-genezio/"
+meta_og_url: "https://deployapps.dev/blog/send-emails-with-genezio/"
 url: "/blog/send-emails-with-genezio/"
 
-meta_og_image: "https://genezio.com/images/send_email_with_typescript_genezio_email_service.webp"
+meta_og_image: "https://deployapps.dev/images/send_email_with_typescript_genezio_email_service.webp"
 
 # meta data end
 customHeader: "White header"
@@ -75,7 +75,7 @@ genezio deploy
 
 The create command will create a new dummy backend project with everything set up for you to start focusing on your business logic, without having to write the boilerplate.
 
-The `genezio create` command can be run as above or it can be run as a wizard through which you can configure your new project. More information can be found {{< external-link link="https://genezio.com/docs/cli-tool/cli-commands/genezio-create" >}}here{{< /external-link >}}.
+The `genezio create` command can be run as above or it can be run as a wizard through which you can configure your new project. More information can be found {{< external-link link="https://deployapps.dev/docs/cli-tool/cli-commands/genezio-create" >}}here{{< /external-link >}}.
 
 We deploy our project to the cloud using genezio, and then gain access to the email service.
 
@@ -229,7 +229,7 @@ Attachments can be added as many as you want.
 
 **Send the email with a cron.**
 
-A use case for this can be sending a newsletter to your customer at a specific time of the day every day. More information about how to set up cron can be found in {{< external-link link="https://genezio.com/how-to-schedule-tasks-with-genezio/#deploy-your-scheduler" >}}this tutorial{{< /external-link >}}.
+A use case for this can be sending a newsletter to your customer at a specific time of the day every day. More information about how to set up cron can be found in {{< external-link link="https://deployapps.dev/how-to-schedule-tasks-with-genezio/#deploy-your-scheduler" >}}this tutorial{{< /external-link >}}.
 
 ## Conclusion
 

@@ -9,8 +9,8 @@ thumbnail: /images/business-logic-in-the-backend-the-why-and-how.webp
 preview: Serverless architectures are adaptable models of cloud deployment where software developers hand over their scaling and maintenance to a provider, so that every application can run with the optimal resources when the occasion demands it.
 # meta data start
 description: "Both FaaS and PaaS move towards a “serverless” approach by abstracting server management tasks from developers"
-meta_og_url: "https://genezio.com/blog/genezio-functions-reduce-cold-start-times/"
-meta_og_image: "https://genezio.com/images/business-logic-in-the-backend-the-why-and-how.webp"
+meta_og_url: "https://deployapps.dev/blog/genezio-functions-reduce-cold-start-times/"
+meta_og_image: "https://deployapps.dev/images/business-logic-in-the-backend-the-why-and-how.webp"
 meta_og_title: "What Is the Difference Between PaaS And FaaS?"
 # meta data end
 customHeader: "White header"
@@ -174,7 +174,7 @@ Heroku, a solution that probably runs on an AWS server, used to be a prototypica
 
 But Heroku fell from grace when it removed its free plans, with some commentators proclaiming it dead. What could help it revive its allure would be getting an elastic, easy-to-scale plan that could allow founders, entrepreneurs, and developers to lay back and not lose their time on DevOps… this is essentially what DeployApps offers. DeployApps goes beyond traditional PaaS platforms by letting you place your critical business logic in a secure backend environment. Unlike other PaaS offerings, DeployApps doesn’t require you to rewrite your existing code or migrate to a specific framework. It collects everything that made PaaS popular in the first place and offers it along with developer-friendly serverless models. The market for a PaaS could bounce back if providers add scalability, reliability, and affordability to the classical offering, and DeployApps is addressing those features with its product.
 
-{{< external-link link="https://genezio.com/how-to-schedule-tasks-with-genezio/#conclusion" >}}**Example: How to Run a PaaS on DeployApps →**{{< /external-link >}}
+{{< external-link link="https://deployapps.dev/how-to-schedule-tasks-with-genezio/#conclusion" >}}**Example: How to Run a PaaS on DeployApps →**{{< /external-link >}}
 
 ## FaaS vs PaaS: The Difference for Developers
 
@@ -188,7 +188,7 @@ So, choosing between FaaS and PaaS depends on what your project requires and wha
 
 Offering end-users a SaaS—like an enterprise application or a PDF converter—is easier with a PaaS or FaaS provider that can scale with typesafe code from the get-go.
 
-Both models serve different business and project needs. In any case, a niche, serverless provider like {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} is the quickest way to get onto each tech path. DeployApps can help you set up the right PaaS or FaaS solution for your current and future business needs and make sure it’s safe to use and as easy as possible to run.
+Both models serve different business and project needs. In any case, a niche, serverless provider like {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} is the quickest way to get onto each tech path. DeployApps can help you set up the right PaaS or FaaS solution for your current and future business needs and make sure it’s safe to use and as easy as possible to run.
 
 DeployApps offers a true pay-as-you-go serverless model with typesafe methods, so that users can focus on running their business or making sure their solution is better than the competition. And that’s precisely what investors and users will demand, but crashes and bugs won’t allow doing. {{< external-link link="https://app.genez.io/auth/signup" >}}Sign up{{< /external-link >}} now to try the platform and start deploying for free. It only takes a few clicks to get started building your serverless application, and you can build an unlimited number of projects with the Hobby account.
 

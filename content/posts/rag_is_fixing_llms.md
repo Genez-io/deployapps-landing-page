@@ -10,9 +10,9 @@ thumbnail: /posts/rag-is-fixing-llms-but-is-it-enough.webp
 preview: This comprehensive guide explores how RAG is transforming the capabilities of language models, its implementation, limitations, and whether it truly solves the fundamental problems faced by modern AI systems.
 # meta data start
 description: Learn how Retrieval-Augmented Generation (RAG) solves LLM hallucinations and outdated knowledge issues while enhancing AI accuracy and reliability
-meta_og_url: "https://genezio.com/blog/retrieval-augmented-generation-is-fixing-llm/"
+meta_og_url: "https://deployapps.dev/blog/retrieval-augmented-generation-is-fixing-llm/"
 
-meta_og_image: "https://genezio.com/posts/rag-is-fixing-llms-but-is-it-enough.webp"
+meta_og_image: "https://deployapps.dev/posts/rag-is-fixing-llms-but-is-it-enough.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"

@@ -9,8 +9,8 @@ thumbnail: /images/whentogoserverless.webp
 preview: Serverless has become a mainstay in cloud computing for a few years now. A 2022 report already showed how all major cloud providers were already seeing significant serverless adoption
 # meta data start
 description: "Serverless has become a mainstay in cloud computing for a few years now. A 2022 report already showed how all major cloud providers were already seeing significant serverless adoption"
-meta_og_url: "https://genezio.com/blog/serverless-computing-when-to-go-serverless/"
-meta_og_image: "https://genezio.com/images/whentogoserverless.webp"
+meta_og_url: "https://deployapps.dev/blog/serverless-computing-when-to-go-serverless/"
+meta_og_image: "https://deployapps.dev/images/whentogoserverless.webp"
 meta_og_title: "Serverless Computing: When to Go Serverless?"
 # meta data end
 customHeader: "White header"
@@ -27,7 +27,7 @@ This article will explain serverless computing and explore when and why it shoul
 
 ## What is serverless computing?
 
-Serverless computing is a cloud-based approach to building and deploying applications. As an alternative to managing your own servers and infrastructure, you sign up for backend services on a pay-per-use model. This means you're not charged for idle resources, just like you wouldn't pay for electricity when your light bulbs are off. While the term “serverless” might suggest no servers are involved, cloud providers still handle the underlying infrastructure. Serverless means that the developer can {{< external-link link="https://genezio.com/blog/what-serverless-is/#what-is-serverless-deployment" >}}focus on writing code{{< /external-link >}} and concentrate on growing their business without worrying about server management tasks.
+Serverless computing is a cloud-based approach to building and deploying applications. As an alternative to managing your own servers and infrastructure, you sign up for backend services on a pay-per-use model. This means you're not charged for idle resources, just like you wouldn't pay for electricity when your light bulbs are off. While the term “serverless” might suggest no servers are involved, cloud providers still handle the underlying infrastructure. Serverless means that the developer can {{< external-link link="https://deployapps.dev/blog/what-serverless-is/#what-is-serverless-deployment" >}}focus on writing code{{< /external-link >}} and concentrate on growing their business without worrying about server management tasks.
 
 ![alt_text](/posts/whentoserverless1.webp)
 
@@ -45,7 +45,7 @@ Depending on the use case, serverless has some shortcomings, especially if the p
 
 Cloud computing reshaped application hosting and web development by allowing users to rent fixed amounts of server space instead of buying physical hardware. This came with more flexibility and scalability, but it still required users to manage the servers themselves and estimate their resource needs. Often, companies over-provisioned servers to handle unexpected traffic peaks, leading to wasted resources and unnecessary costs. While auto-scaling features exist in cloud computing, they might not be reliable enough for sudden surges like {{< external-link link="https://www.radware.com/cyberpedia/ddospedia/ddos-meaning-what-is-ddos-attack/" >}}DDoS attacks{{< /external-link >}}, or, on the brighter side of things, a sudden increase in demand for your product (following a new feature launch or press release).
 
-Serverless computing takes the flexibility of cloud computing a step further. It also relies on the cloud for services, but it holds a key difference: Users don’t manage the servers at all. The serverless provider handles everything—infrastructure, hardware configuration, and even scaling. Businesses that go serverless {{< external-link link="https://genezio.com/blog/effortless-scaling-genezio-handles-growth/#understanding-scalability" >}}only pay for the time{{< /external-link >}} their code is actually running, without wasted resources.
+Serverless computing takes the flexibility of cloud computing a step further. It also relies on the cloud for services, but it holds a key difference: Users don’t manage the servers at all. The serverless provider handles everything—infrastructure, hardware configuration, and even scaling. Businesses that go serverless {{< external-link link="https://deployapps.dev/blog/effortless-scaling-genezio-handles-growth/#understanding-scalability" >}}only pay for the time{{< /external-link >}} their code is actually running, without wasted resources.
 
 ## Pros and cons of serverless computing
 
@@ -73,7 +73,7 @@ Going for type safe models, then, means fewer or no crashes when your app is run
 
 ## How does DeployApps help full-stack developers build serverless apps?
 
-Building serverless apps can be complex, but {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} helps full-stack developers get started fast. The solution simplifies things with a single command line for building entire serverless applications. This cuts through the usual setup concerns, letting developers focus on writing code and running their apps quickly. {{< external-link link="https://github.com/Genez-io/genezio-documentation" >}}DeployApps.Cloud{{< /external-link >}} takes it a step further by automating every stage, like creating serverless functions or testing and deploying. Plus, the cloud solution eliminates the performance lag—“cold starts”—often experienced with serverless functions.
+Building serverless apps can be complex, but {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} helps full-stack developers get started fast. The solution simplifies things with a single command line for building entire serverless applications. This cuts through the usual setup concerns, letting developers focus on writing code and running their apps quickly. {{< external-link link="https://github.com/Genez-io/genezio-documentation" >}}DeployApps.Cloud{{< /external-link >}} takes it a step further by automating every stage, like creating serverless functions or testing and deploying. Plus, the cloud solution eliminates the performance lag—“cold starts”—often experienced with serverless functions.
 
 Unlike some tools that force a specific approach, DeployApps lets you write code your way while still giving you autoscaling and future-proofing. Head over to our website and {{< external-link link="https://app.genez.io/auth/signup" >}}sign up{{< /external-link >}} for a free account. It only takes a few clicks to get started building your serverless application. Good luck!
 

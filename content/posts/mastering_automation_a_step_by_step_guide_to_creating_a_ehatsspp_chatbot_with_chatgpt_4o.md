@@ -16,7 +16,7 @@ readTime: 30
 ---
 
 Welcome, automation enthusiasts! My name is Cristi, and in this tutorial, I'll guide you through the process of creating an automated WhatsApp ChatBot and implementing a simple interaction with ChatGPT-4o.
-We’re also going to use {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} as the tool to manage and quickly deploy a customized API that can communicate with the WhatsApp API Cloud and OpenAI API without the need for the user to manage servers on their own. Before we dive into the tutorial, let’s discuss the type of WhatsApp bots and the potential ways you can use a bot for personal or business related tasks.
+We’re also going to use {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} as the tool to manage and quickly deploy a customized API that can communicate with the WhatsApp API Cloud and OpenAI API without the need for the user to manage servers on their own. Before we dive into the tutorial, let’s discuss the type of WhatsApp bots and the potential ways you can use a bot for personal or business related tasks.
 
 ## What is a WhatsApp bot?
 
@@ -185,9 +185,9 @@ This structure defines the following components:
 
 ## Why do we use DeployApps?
 
-{{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} plays a crucial role in this tutorial by managing and quickly deploying a customized API that communicates with the WhatsApp API Cloud and OpenAI API. DeployApps's platform simplifies the process of creating and maintaining scalable backends, ensuring that developers can focus on building the core features of their applications without worrying about server management. Its type-safe interface makes it particularly effective at connecting APIs reliably.
+{{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} plays a crucial role in this tutorial by managing and quickly deploying a customized API that communicates with the WhatsApp API Cloud and OpenAI API. DeployApps's platform simplifies the process of creating and maintaining scalable backends, ensuring that developers can focus on building the core features of their applications without worrying about server management. Its type-safe interface makes it particularly effective at connecting APIs reliably.
 
-By using DeployApps, you benefit from a streamlined, efficient setup, enabling robust and seamless interactions between your WhatsApp bot and various services. This tool is not only excellent for this specific use case but also versatile for event planning, daily reminders, and more, making it an essential addition to your development toolkit. To learn more about DeployApps and how you can use it for your next project, check out our {{< external-link link="https://genezio.com/docs/getting-started/" >}}starter guide{{< /external-link >}}.
+By using DeployApps, you benefit from a streamlined, efficient setup, enabling robust and seamless interactions between your WhatsApp bot and various services. This tool is not only excellent for this specific use case but also versatile for event planning, daily reminders, and more, making it an essential addition to your development toolkit. To learn more about DeployApps and how you can use it for your next project, check out our {{< external-link link="https://deployapps.dev/docs/getting-started/" >}}starter guide{{< /external-link >}}.
 
 ## How the WhatsApp API Works
 
@@ -407,6 +407,6 @@ The `Callback URL` is an endpoint that you provide to the WhatsApp API Cloud, wh
 
 I hope that you found this WhatsApp ChatBot tutorial helpful, and I encourage you to check out our other articles for more tips and tricks on mastering your craft.
 
-If you would like to train your bot on your own data, we’ve put together {{< external-link link="https://genezio.com/blog/langchain-genezio-project" >}}this tutorial{{< /external-link >}}, which has a detailed explanation of how you can set that up.
+If you would like to train your bot on your own data, we’ve put together {{< external-link link="https://deployapps.dev/blog/langchain-genezio-project" >}}this tutorial{{< /external-link >}}, which has a detailed explanation of how you can set that up.
 
-If you have any questions about this tutorial or the {{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}} platform, feel free to reach out to me on Discord or via my email (cristi@genezio.com). Good luck!
+If you have any questions about this tutorial or the {{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}} platform, feel free to reach out to me on Discord or via my email (cristi@genezio.com). Good luck!

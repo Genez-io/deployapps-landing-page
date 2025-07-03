@@ -11,9 +11,9 @@ thumbnail: /images/websockets-on-genezio.webp
 preview: "At DeployApps, we’ve solved one of the biggest challenges in serverless technology: deploying auto-scalable WebSocket applications on Function-as-a-Service (FaaS) platforms."
 # meta data start
 description: Run WebSocket apps on DeployApps’s serverless platform. Enjoy real-time capabilities, auto-scaling, and a streamlined approach to modern app deployment
-meta_og_url: "https://genezio.com/blog/websockets-on-genezio/"
+meta_og_url: "https://deployapps.dev/blog/websockets-on-genezio/"
 
-meta_og_image: "https://genezio.com/images/websockets-on-genezio.webp"
+meta_og_image: "https://deployapps.dev/images/websockets-on-genezio.webp"
 
 # meta data end
 customHeader: "White header"

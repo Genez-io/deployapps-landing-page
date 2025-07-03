@@ -8,7 +8,7 @@ linkedIn: https://www.linkedin.com/in/radu-andrei-dumitrescu/
 thumbnail: /images/express.webp
 preview: "In this short guide, you’ll learn how to migrate your Express.js app to DeployApps Cloud in a few simple steps. Before we get started with the tutorial, let’s briefly talk about why you should consider migrating your project to a FaaS platform like DeployApps in the first place. "
 description: "Learn how to migrate your Express.js app to DeployApps Cloud, optimize costs, scale easily, and reduce maintenance with this simple step-by-step guide"
-meta_og_url: "https://genezio.com/blog/migrate-express-app/"
+meta_og_url: "https://deployapps.dev/blog/migrate-express-app/"
 meta_og_image: "https://genez.io/images/express.webp"
 customHeader: "White header"
 customFooter: "White footer"
@@ -16,7 +16,7 @@ readTime: 20
 url: /blog/migrate-express-app/
 ---
 
-In this short guide, you’ll learn how to migrate your Express.js app to DeployApps Cloud in a few simple steps. Before we get started with the tutorial, let’s briefly talk about why you should consider migrating your project to a {{< external-link link="https://genezio.com/blog/what-is-function-as-a-service/" >}}FaaS{{< /external-link >}} platform like DeployApps in the first place.
+In this short guide, you’ll learn how to migrate your Express.js app to DeployApps Cloud in a few simple steps. Before we get started with the tutorial, let’s briefly talk about why you should consider migrating your project to a {{< external-link link="https://deployapps.dev/blog/what-is-function-as-a-service/" >}}FaaS{{< /external-link >}} platform like DeployApps in the first place.
 
 ## Why Migrate to a FaaS Platform like DeployApps?
 
@@ -158,6 +158,6 @@ If you have environment variables, you can add them from the project folder.
 
 ## Conclusion
 
-Migrating an Express app to DeployApps offers significant benefits, from cost savings to enhanced {{< external-link link="https://genezio.com/serverless-scalability/">}}scalability{{< /external-link >}}. While the process requires some adaptation, the payoff for reduced maintenance and operational efficiency can be substantial.
+Migrating an Express app to DeployApps offers significant benefits, from cost savings to enhanced {{< external-link link="https://deployapps.dev/serverless-scalability/">}}scalability{{< /external-link >}}. While the process requires some adaptation, the payoff for reduced maintenance and operational efficiency can be substantial.
 
 **Happy coding!**

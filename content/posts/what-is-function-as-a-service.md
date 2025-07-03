@@ -8,7 +8,7 @@ linkedIn: https://www.linkedin.com/in/luisminv/
 thumbnail: /images/genezio_what_is_function_as_a_service.webp
 preview: "FaaS allows developers to focus solely on writing code — they don’t have to manage servers or scaling."
 description: "FaaS allows developers to focus solely on writing code - they don’t have to manage servers or scaling."
-meta_og_url: "https://genezio.com/blog/what-is-function-as-a-service/"
+meta_og_url: "https://deployapps.dev/blog/what-is-function-as-a-service/"
 meta_og_image: "https://genez.io/images/genezio_xday.webp"
 customHeader: "White header"
 customFooter: "White footer"
@@ -28,7 +28,7 @@ Function-as-a-Service (FaaS) is a serverless model that allows developers to cre
 
 Instead of having to manage servers, operating systems, or even entire application runtimes, developers using a FaaS platform can focus solely on writing specific functions or pieces of code. These independent functions are designed to perform a particular task, such as processing a payment, sending an email, or resizing an image. Once written, these functions are deployed to a FaaS platform, where the cloud provider handles the hardware, middleware, security checks, operating systems, code execution, and everything else that running an app takes. The cloud provider automatically allocates and scales resources based on how often the application is used.
 
-Functions are a good representation of {{< external-link link="https://genezio.com/blog/serverless-computing-when-to-go-serverless/" >}}serverless computing{{< /external-link >}}, a model in which developers don't have to worry about managing servers. In fact, FaaS is a specialised form of serverless computing designed for running short code snippets triggered by specific events. This makes it particularly well-suited for building microservices architectures, where applications are composed of many independent, scalable services working together.
+Functions are a good representation of {{< external-link link="https://deployapps.dev/blog/serverless-computing-when-to-go-serverless/" >}}serverless computing{{< /external-link >}}, a model in which developers don't have to worry about managing servers. In fact, FaaS is a specialised form of serverless computing designed for running short code snippets triggered by specific events. This makes it particularly well-suited for building microservices architectures, where applications are composed of many independent, scalable services working together.
 
 ### When to use Function-as-a-Service (FaaS)
 
@@ -36,13 +36,13 @@ FaaS is particularly well-suited for applications with unpredictable workloads, 
 
 FaaS can run productive apps and thoughts-in-progress alike. Since it can integrate with multiple systems with easy, it’s suitable for mock-ups,{{< external-link link="https://www.linkedin.com/pulse/poc-vs-prototype-mvp-how-does-work-reenbit-dofve" >}}proof-of-concept{{< /external-link >}} projects and MVPs.
 
-{{< external-link link="https://genezio.com/blog/serverless-computing-when-to-go-serverless/#what-is-serverless-computing" >}}**Serverless Computing: When to Go Serverless? →**{{< /external-link >}}
+{{< external-link link="https://deployapps.dev/blog/serverless-computing-when-to-go-serverless/#what-is-serverless-computing" >}}**Serverless Computing: When to Go Serverless? →**{{< /external-link >}}
 
 ## What are microservices?
 
 As its name suggests it, microservices revolve around breaking down a software application into smaller, independent services. Instead of a single structure where everything is connected, and all parts work together, this model allows each service to focus on a specific part of the application and can be deployed separately.
 
-Microservices are very good for entrepreneurs or busy developers because they already provide out-of-the-box functionalities that tech workers can access and use. For example, a microservice that {{< external-link link="https://genezio.com/docs/features/authentication/#:~:text=Seamless%20Authentication%20Integration-,Authentication,as%20email%20and%20password%20or%20Google.%20This%20is%20an%20out%2Dof,-%2Dthe%2Dbox%20authentication" >}}solves authentication{{< /external-link >}} will mean that the developer won’t have to code it from scratch.
+Microservices are very good for entrepreneurs or busy developers because they already provide out-of-the-box functionalities that tech workers can access and use. For example, a microservice that {{< external-link link="https://deployapps.dev/docs/features/authentication/#:~:text=Seamless%20Authentication%20Integration-,Authentication,as%20email%20and%20password%20or%20Google.%20This%20is%20an%20out%2Dof,-%2Dthe%2Dbox%20authentication" >}}solves authentication{{< /external-link >}} will mean that the developer won’t have to code it from scratch.
 
 Microservices are also good for working with big development teams. By breaking the application up into smaller, manageable services, different teams can work independently without affecting each other's progress. Microservices often involve separate databases and deployments for each service, but the main purpose is to make units that can be developed and released independently.
 

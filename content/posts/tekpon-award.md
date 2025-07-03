@@ -9,8 +9,8 @@ thumbnail: /images/tekpon-awards-2024.webp
 preview: "We are thrilled to announce that DeployApps has been recognized at the prestigious Tekpon Awards 2024, securing two significant accolades: Top Innovator 2024 and Founder of the Year, received by our Founder and CEO, Andrei Pitiș. This recognition highlights our commitment to revolutionizing software development and our dedication to innovation as a core value of DeployApps."
 # meta data start
 description: "DeployApps is recognized at the Tekpon Awards 2024, winning Founders of the Year and Top Innovators awards. Discover our innovative platform."
-meta_og_url: "https://genezio.com/blog/nextj-hosting-provider/"
-meta_og_image: "https://genezio.com/images/tekpon-awards-2024.webp"
+meta_og_url: "https://deployapps.dev/blog/nextj-hosting-provider/"
+meta_og_image: "https://deployapps.dev/images/tekpon-awards-2024.webp"
 meta_og_title: "DeployApps at Tekpon Awards 2024"
 # meta data end
 customHeader: "White header"

@@ -8,7 +8,7 @@ linkedIn: https://www.linkedin.com/in/luisminv/
 thumbnail: /images/what_is_serverless_security.webp
 preview: "Research shows that fixing bugs is a developer’s top challenge, with 88% of developers complaining that traditional error monitoring falls short. Serverless and functions architecture help deal with some of these modern monitoring challenges. Serverless technology simplifies building software, and debugging its small instances is more convenient than debugging a cluttered monolithic app with a cumbersome codebase. It’s easier to find and debug a bottleneck in a simple function than in a gigantic block of code."
 description: "Serverless monitoring and observability report on serverless applications so they can perform better, even in production phase."
-meta_og_url: "https://genezio.com/blog/serverless-monitoring-observability/"
+meta_og_url: "https://deployapps.dev/blog/serverless-monitoring-observability/"
 meta_og_image: "https://genez.io/images/what_is_serverless_security.webp"
 customHeader: "White header"
 customFooter: "White footer"
@@ -52,7 +52,7 @@ Centralized logging and distributed tracing are very useful in this context. Cen
 
 Monitoring and observability are important because they help keep your application running well while using just the adequate resources. For example, with the right FaaS provider, you can cut back on functions that use too many resources. This action directly drives down your cloud subscription fee.
 
-{{< external-link link="https://genezio.com/blog/what-is-function-as-a-service/" >}}What is Function-as-a-Service (FaaS)? →{{< /external-link >}}
+{{< external-link link="https://deployapps.dev/blog/what-is-function-as-a-service/" >}}What is Function-as-a-Service (FaaS)? →{{< /external-link >}}
 
 ## What should and can be observed in serverless platforms?
 
@@ -60,7 +60,7 @@ There are different areas that can be monitored to keep serverless applications 
 
 With each, you can watch how your serverless functions are working first. With these metrics, developers can understand how long each function takes to run — **execution time** — or how much memory it uses, and how many instances of the function are running at once, known as **concurrency**. If there’s a function running too slowly, you can tell by monitoring it.
 
-{{< external-link link="https://genezio.com/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/" >}}Cold starts{{< /external-link >}}, a common issue in serverless environments, happen when a function is called after being idle for a while. Even though they may seem insignificant on their own, they can rapidly add up, especially for apps with low traffic, and have a long-term impact on user experience. A solution that has already dealt with cold starts from its design and that also includes monitoring tools should help developers stay on top of them.
+{{< external-link link="https://deployapps.dev/blog/genezio-functions-reduce-cold-start-times-by-up-to-4x-compared-to-aws-lambda/" >}}Cold starts{{< /external-link >}}, a common issue in serverless environments, happen when a function is called after being idle for a while. Even though they may seem insignificant on their own, they can rapidly add up, especially for apps with low traffic, and have a long-term impact on user experience. A solution that has already dealt with cold starts from its design and that also includes monitoring tools should help developers stay on top of them.
 
 Also, you need to keep track of the number and types of errors that come up in your functions. Counting how many times functions are called could provide some business insights — or give an idea on where to improve the codebase.
 
@@ -80,9 +80,9 @@ Several serverless platforms come with built-in monitoring and observability too
 
 ### DeployApps
 
-{{< external-link link="https://genezio.com/" >}}DeployApps{{< /external-link >}}, a serverless platform for deploying full-stack apps, records the performance of its functions through audit logs and function log retention tools. Unlike traditional monitoring tools that require licenses or, seldom, old-fashioned software installation on on-prem servers, the serverless monitoring solutions that are part of platforms like DeployApps work directly in the cloud environment. This means the platform gathers monitoring information and later sends it to a long-term storage system during invocation for debugging.
+{{< external-link link="https://deployapps.dev/" >}}DeployApps{{< /external-link >}}, a serverless platform for deploying full-stack apps, records the performance of its functions through audit logs and function log retention tools. Unlike traditional monitoring tools that require licenses or, seldom, old-fashioned software installation on on-prem servers, the serverless monitoring solutions that are part of platforms like DeployApps work directly in the cloud environment. This means the platform gathers monitoring information and later sends it to a long-term storage system during invocation for debugging.
 
-The agentless approach is better suited for serverless applications because these applications can {{< external-link link="https://genezio.com/blog/effortless-scaling-genezio-handles-growth/" >}}scale up or down{{< /external-link >}} automatically based on demand, which makes it challenging to deploy, configure, and manage agents on each new instance in time. DeployApps is also developing a website vulnerability scanner, which will add another layer of security and monitoring.
+The agentless approach is better suited for serverless applications because these applications can {{< external-link link="https://deployapps.dev/blog/effortless-scaling-genezio-handles-growth/" >}}scale up or down{{< /external-link >}} automatically based on demand, which makes it challenging to deploy, configure, and manage agents on each new instance in time. DeployApps is also developing a website vulnerability scanner, which will add another layer of security and monitoring.
 
 DeployApps features a dashboard in which developers can check on their projects and visualize metrics. It's also easy to add integrations to a project, so the platform supports third-party monitoring tools. This means you can even run a {{< external-link link="https://github.com/giusedroid/aws-serverless-monitoring" >}}serverless monitoring stack{{< /external-link >}} for your serveless app. From the dashboard, you can also monitor your project and check logs for each deployed class.
 
@@ -102,7 +102,7 @@ Google Cloud Functions is packed with {{< external-link link="https://cloud.goog
 
 Serverless monitoring and observability should work exclusively for a businesses’ health. Metrics and logs should easily lead to any bottleneck that’s impacting a SaaS or enterprise tool. If the login screen is triggering a slowdown, then a good monitoring tool should point out to the developer that something must debug it.
 
-DeployApps, a {{< external-link link="https://genezio.com/blog/what-is-type-safety/" >}}typesafe{{< /external-link >}} serverless platform, handles monitoring as part of the package. It focuses on audit logs and function log retention and presents unambiguous data about function activity. Thanks to resources like these, developers can improve productive, modular apps on the fly (possible thanks to microservices or functions). Being typesafe means that DeployApps won’t execute code that could mess the system's memory up, and that’s a precautionary way of only deploying functions that won’t break when there’s massive demand for them.
+DeployApps, a {{< external-link link="https://deployapps.dev/blog/what-is-type-safety/" >}}typesafe{{< /external-link >}} serverless platform, handles monitoring as part of the package. It focuses on audit logs and function log retention and presents unambiguous data about function activity. Thanks to resources like these, developers can improve productive, modular apps on the fly (possible thanks to microservices or functions). Being typesafe means that DeployApps won’t execute code that could mess the system's memory up, and that’s a precautionary way of only deploying functions that won’t break when there’s massive demand for them.
 
 Just as DeployApps makes sure that serverless applications scale to meet traffic demands, it also makes sure that developers, solopreneurs, small business owners, and IT technicians have the necessary data to keep app performance in check.
 

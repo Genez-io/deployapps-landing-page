@@ -8,7 +8,7 @@ linkedIn: https://www.linkedin.com/in/luisminv/
 thumbnail: /images/what_is_serverless_security.webp
 preview: "Security in the cloud is still a headache for CTOs and solopreneurs alike. Almost 60% of organisations that detect a cyberattack respond to it only after the damage has already been done."
 description: "Serverless security is a term to describe the implemention of a layer of security within the serverless application to protect the code from cyberattacks and bad actors."
-meta_og_url: "https://genezio.com/blog/serverless-security/"
+meta_og_url: "https://deployapps.dev/blog/serverless-security/"
 meta_og_image: "https://genez.io/images/what_is_serverless_security.webp"
 customHeader: "White header"
 customFooter: "White footer"
@@ -40,7 +40,7 @@ Serverless frameworks are platforms that are used to build and deploy serverless
 
 ### Side with serverless frameworks that have addressed privacy
 
-As we reported before, many companies are concerned with their data (or their customer data) and its safety. Some serverless frameworks have already taken measures to protect privacy and store information centrally. Some even allow developers or entrepreneurs to connect the newly-built serverless app with their existing databases. In any case, some providers also have functions that help in setting up an {{< external-link link="https://genezio.com/docs/features/databases/" >}}on-demand database{{< /external-link >}} in minutes.
+As we reported before, many companies are concerned with their data (or their customer data) and its safety. Some serverless frameworks have already taken measures to protect privacy and store information centrally. Some even allow developers or entrepreneurs to connect the newly-built serverless app with their existing databases. In any case, some providers also have functions that help in setting up an {{< external-link link="https://deployapps.dev/docs/features/databases/" >}}on-demand database{{< /external-link >}} in minutes.
 
 So… when choosing a trusted partner to run a serverless application, developers should first make sure their provider checks certain security boxes, like a concern for privacy, an updated security stack, and compliance with measures like GDPR. If the framework also supports typesafe development, then that’s a winner. Security is not just about setting up an antivirus or {{< external-link link="https://www.washingtonpost.com/business/2024/07/24/crowdstrike-microsoft-crash-bug-report/" >}}rolling out an update{{< /external-link >}} on a Friday morning.
 
@@ -72,7 +72,7 @@ Serverless computing makes security a lot simpler because developers don't have 
 
 1. Event data injection
 
-Event data injection is one of the biggest concerns for serverless computing. Exploits are carried out when unsafe data is sent directly to a program, which can alter code execution or data manipulation. Serverless systems make this risk worse because they can be triggered by many factors, like changes in cloud storage, databases, or even code updates. {{< external-link link="https://genezio.com/blog/web3-authentication-add-metamask-login-to-your-app/" >}}Strong auth{{< /external-link >}} and type safety don’t directly block data injection, but they play a part in downplaying it.
+Event data injection is one of the biggest concerns for serverless computing. Exploits are carried out when unsafe data is sent directly to a program, which can alter code execution or data manipulation. Serverless systems make this risk worse because they can be triggered by many factors, like changes in cloud storage, databases, or even code updates. {{< external-link link="https://deployapps.dev/blog/web3-authentication-add-metamask-login-to-your-app/" >}}Strong auth{{< /external-link >}} and type safety don’t directly block data injection, but they play a part in downplaying it.
 
 2. Over-privileged functions
 
@@ -100,6 +100,6 @@ These are all plausible possibilities because they're far removed from the busin
 
 DeployApps is a type-safe serverless platform so that developers can build full-stack apps, and that means, of course, taking care of security also. Since the platform intends users to get their apps up and running quickly so they can focus on their business, it makes efforts to solve security starting from the code itself. Typesafe coding is associated with preventing bugs, but such a design might also turn out to sift out some vulnerabilities.
 
-DeployApps also throws the business logic to the backend so that accessing it becomes harder for attackers. And even the {{< external-link link="https://genezio.com/docs/cli-tool/#cli-environment-variables" >}}Analytics tool{{< /external-link >}} is anonymised. That's how DeployApps solves security — it has brought it to the table by design, and, like a good serverless platform should do, it takes care of it so that developers can focus on building their business.
+DeployApps also throws the business logic to the backend so that accessing it becomes harder for attackers. And even the {{< external-link link="https://deployapps.dev/docs/cli-tool/#cli-environment-variables" >}}Analytics tool{{< /external-link >}} is anonymised. That's how DeployApps solves security — it has brought it to the table by design, and, like a good serverless platform should do, it takes care of it so that developers can focus on building their business.
 
 **Find out more about the benefits of serverless security and type-safe serverless development with multiple builds at {{< external-link link="https://deployapps.dev" >}}DeployApps.dev{{< /external-link >}}.**
