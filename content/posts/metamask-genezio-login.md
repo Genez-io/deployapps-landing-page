@@ -46,7 +46,7 @@ If you don't already have them, you'll need to install the following tools:
 
 - {{< external-link link="https://nodejs.org/en/download/current" >}}Node.js{{< /external-link >}}
 - {{< external-link link="https://docs.npmjs.com/downloading-and-installing-node-js-and-npm" >}}npm{{< /external-link >}}
-- {{< external-link link="https://genez.io" >}}DeployApps{{< /external-link >}}
+- {{< external-link link="https://app.genez.io/auth/login" >}}DeployApps{{< /external-link >}}
 
 Note: I recommend you to use {{< external-link link="https://github.com/nvm-sh/nvm#installing-and-updating" >}}nvm{{< /external-link >}} to manage NodeJs and npm versions.
 After installing `nvm`, you can easily get any version of `node` by running `nvm install <node_version>`.
