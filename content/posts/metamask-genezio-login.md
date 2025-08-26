@@ -40,7 +40,7 @@ Don't worry, you don't have to handle all these things since the DeployApps auth
 
 ## Implementation
 
-### Prerequisites 
+### Prerequisites
 
 If you don't already have them, you'll need to install the following tools:
 
