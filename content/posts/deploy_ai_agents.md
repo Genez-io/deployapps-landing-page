@@ -6,13 +6,13 @@ tags:
 author: Luis Minvielle
 linkedIn: https://www.linkedin.com/in/luisminv/
 
-thumbnail: /blog/posts/how-to-deploy-your-ai-agent-in-few-steps.webp
+thumbnail: /posts/how-to-deploy-your-ai-agent-in-few-steps.webp
 preview: In this article, we’ll walk you through the process of deploying AI agents with DeployApps and explain why regular testing is just as important as deployment to make sure your AI agents deliver in real-world interactions.
 # meta data start
 description: Deploy AI agents with DeployApps. Build, test, and monitor behavior in one place. No extra setup needed.
 meta_og_url: "https://deployapps.dev/blog/deploy-ai-agents/"
 
-meta_og_image: "https://deployapps.dev/blog/posts/how-to-deploy-your-ai-agent-in-few-steps.webp"
+meta_og_image: "https://deployapps.dev/posts/how-to-deploy-your-ai-agent-in-few-steps.webp"
 # meta data end
 customHeader: "White header"
 customFooter: "White footer"
@@ -26,7 +26,7 @@ For Customer Care experts and businesses, this shift is already happening. Now, 
 
 The first step is clear: deploy AI agents that can handle real customer interactions. But it doesn't end there. Once your agent is live, the focus shifts to making sure it works as expected. Proper testing is a necessary step to achieve this.
 
-![When running and deploying Al Agents](https://deployapps.dev/blog/posts/when-running-and-deploying-al-agents.webp)
+![When running and deploying Al Agents](https://deployapps.dev/posts/when-running-and-deploying-al-agents.webp)
 
 In this article, we'll walk you through the process of deploying AI agents with DeployApps and explain why regular testing is just as important as deployment to make sure your AI agents deliver in real-world interactions.
 
@@ -82,7 +82,7 @@ Real-world examples show how quickly things can go wrong. {{< external-link link
 
 The same risks apply across industries. In banking, a chatbot might misquote fees or expose personal data. In healthcare, it could offer unsafe advice. We all know how that might end—and it's not good.
 
-![How to test an Al Agent](https://deployapps.dev/blog/posts/how-to-test-an-al-agent.webp)
+![How to test an Al Agent](https://deployapps.dev/posts/how-to-test-an-al-agent.webp)
 
 This is why the right testing becomes a necessary part of the deployment process. DeployApps lets you test AI agents against realistic input, and flag issues like hallucinations, prompt injection, and off-policy responses. Customer Care executives can review how an agent responds in complex real-world scenarios, not only in controlled environments. And since DeployApps keeps monitoring after launch, any shift in behavior can be spotted sooner than later.
 
