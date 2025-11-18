@@ -73,4 +73,4 @@ frontend:
 
 ## Conclusion
 
-We hope you're as excited about this change as we are. We believe the new YAML format will make it easier for you to deploy your projects. We're looking forward to hearing your thoughts and feedback on the new format. If you have any questions or need assistance, please don't hesitate to reach out to us at [contact@genez.io](mailto:contact@genez.io)
+We hope you're as excited about this change as we are. We believe the new YAML format will make it easier for you to deploy your projects. We're looking forward to hearing your thoughts and feedback on the new format. If you have any questions or need assistance, please don't hesitate to reach out to us at [support@deployapps.dev](mailto:support@deployapps.dev)

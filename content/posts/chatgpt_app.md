@@ -448,4 +448,4 @@ You can find the complete project on our {{< external-link link="https://github.
 I hope that you found this tutorial informative and helpful, and I encourage you to check out our {{< external-link link="https://genez.io/blog/" >}}other articles{{< /external-link >}} for more tips and tricks on mastering your craft.
 
 Let me know if you need help by contacting me on {{< external-link link="https://discord.gg/XmpKD9ytxS" >}}Discord{{< /external-link >}}
-or write me an email at contact@genez.io.
+or write me an email at support@deployapps.dev.

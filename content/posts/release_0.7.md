@@ -33,4 +33,4 @@ We are happy to announce another integration: Upstash Qstash queues. Now you can
 
 ## What’s next?
 
-At DeployApps we aim to offer our users the best experience with our products, while saving precious time and money. Stay tuned and join our {{< external-link link="https://discord.gg/uc9H5YKjXv" >}}Discord community{{< /external-link >}} to be the first to hear about new features. If you need any help or advice, write a message on Discord or send us an email at [contact@genez.io](mailto:contact@genez.io).
+At DeployApps we aim to offer our users the best experience with our products, while saving precious time and money. Stay tuned and join our {{< external-link link="https://discord.gg/uc9H5YKjXv" >}}Discord community{{< /external-link >}} to be the first to hear about new features. If you need any help or advice, write a message on Discord or send us an email at [support@deployapps.dev](mailto:support@deployapps.dev).

@@ -47,13 +47,11 @@ Presenting the **Neon integration**! Now, you have the option to install Neon an
 export class PostgresService {
   pool = new Pool({
     connectionString: process.env.NEON_POSTGRES_URL,
-    ssl: true
+    ssl: true,
   });
 
   async getUser(name: string): Promise<string> {
-    const result = await this.pool.query(
-      `select * from users where name = ${name}`
-    );
+    const result = await this.pool.query(`select * from users where name = ${name}`);
 
     return result.rows;
   }
@@ -109,4 +107,4 @@ Create your project faster than ever with the new **genezio command**! With the 
 
 ## What’s next?
 
-At genezio we aim to offer our users the best experience with our product, while saving precious time and money. Stay tuned and join our {{< external-link link="https://discord.gg/uc9H5YKjXv" >}}Discord community{{< /external-link >}} to be the first to hear about new features. If you need any help or advice, write a message on Discord or send us an email at <contact@genez.io>.
+At genezio we aim to offer our users the best experience with our product, while saving precious time and money. Stay tuned and join our {{< external-link link="https://discord.gg/uc9H5YKjXv" >}}Discord community{{< /external-link >}} to be the first to hear about new features. If you need any help or advice, write a message on Discord or send us an email at <support@deployapps.dev>.

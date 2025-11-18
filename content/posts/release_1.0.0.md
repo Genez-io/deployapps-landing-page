@@ -48,4 +48,4 @@ We are introducing a new format for the `.yaml` configuration file to simplify c
 
 DeployApps V1.0 is all about making things easier for you, from fixing bugs to adding new parts to your projects. We’re here to help you save time and build better web applications.
 
-Got questions or need help? Join our {{< external-link link="https://discord.com/invite/uc9H5YKjXv" >}}Discord{{< /external-link >}} or send us an email at contact@genez.io. We’re excited to see what you’ll build with DeployApps V1.0!
+Got questions or need help? Join our {{< external-link link="https://discord.com/invite/uc9H5YKjXv" >}}Discord{{< /external-link >}} or send us an email at support@deployapps.dev. We’re excited to see what you’ll build with DeployApps V1.0!

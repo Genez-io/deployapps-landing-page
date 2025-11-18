@@ -111,7 +111,7 @@ By accepting this Agreement, You acknowledge that You hereby agree and consent t
 
 This Agreement shall remain in effect until terminated by You or the Company. The Company may, in its sole discretion, at any time and for any or no reason, suspend or terminate this Agreement with or without prior notice.
 
-This Agreement will terminate immediately, without prior notice from the Company, in the event that you fail to comply with any provision of this Agreement. You may also terminate this Agreement by sending an email at [contact@genez.io](mailto:contact@genez.io) and have your account deleted, by deleting the Application and all copies thereof from your Device or from your computer.
+This Agreement will terminate immediately, without prior notice from the Company, in the event that you fail to comply with any provision of this Agreement. You may also terminate this Agreement by sending an email at [support@deployapps.dev](mailto:support@deployapps.dev) and have your account deleted, by deleting the Application and all copies thereof from your Device or from your computer.
 
 Upon termination of this Agreement, You shall cease all use of the Application and delete all copies of the Application from your Device.
 
@@ -195,4 +195,4 @@ You may be subject to additional terms and conditions that apply when You use or
 
 If you have any questions about this Agreement, You can contact Us:
 
-- By email: [[contact@genez.io](mailto:contact@genez.io)]
+- By email: [support@deployapps.dev](mailto:support@deployapps.dev)

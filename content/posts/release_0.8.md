@@ -49,4 +49,4 @@ Simply hover over the SDK methods in your IDE to instantly check the method’s 
 
 ## What’s next?
 
-At DeployApps, we're dedicated to providing you with the best product experience, aiming to save you both time and money. Stay tuned and join our {{< external-link link="https://discord.gg/uc9H5YKjXv" >}}Discord community{{< /external-link >}} to be the first to hear about new features. If you need any help or advice, write a message on Discord or send us an email at contact@genez.io.
+At DeployApps, we're dedicated to providing you with the best product experience, aiming to save you both time and money. Stay tuned and join our {{< external-link link="https://discord.gg/uc9H5YKjXv" >}}Discord community{{< /external-link >}} to be the first to hear about new features. If you need any help or advice, write a message on Discord or send us an email at support@deployapps.dev.
