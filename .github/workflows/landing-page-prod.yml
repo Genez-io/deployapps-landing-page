@@ -68,7 +68,7 @@ jobs:
       - name: Install and build Documentation
         run: |
           cd genezio-documentation
-          git checkout dev
+          git checkout main
           npm ci
           npm run build
       - name: Copy Documentation to public
